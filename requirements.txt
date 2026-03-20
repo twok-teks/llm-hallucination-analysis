@@ -5,3 +5,5 @@ sentencepiece
 matplotlib
 pandas
 jupyter
+huggingface_hub
+huggingface
