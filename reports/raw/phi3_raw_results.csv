@@ -1,0 +1,256 @@
+question_id,question,ground_truth_answer,category,model_name,model_answer,confidence
+1,What is the largest desert in the world?,Antarctica,Geography,phi3,The Sahara Desert,0.750478
+2,What is the largest hot desert?,Sahara,Geography,phi3,The Sahara Desert,0.735708
+3,What is the longest river?,Nile,Geography,phi3,The Nile River,0.695460
+4,What is the highest mountain?,Mount Everest,Geography,phi3,Mount Everest,0.747508
+5,What is the deepest ocean trench?,Mariana Trench,Geography,phi3,Mariana Trench,0.713252
+6,What is the largest island?,Greenland,Geography,phi3,Greenland,0.685913
+7,What is the smallest country?,Vatican City,Geography,phi3,Vatican City,0.773275
+8,What is the largest lake?,Caspian Sea,Geography,phi3,Lake Baikal,0.679952
+9,What is the highest waterfall?,Angel Falls,Geography,phi3,Angel Falls,0.669881
+10,What is the largest ocean?,Pacific Ocean,Geography,phi3,Pacific Ocean,0.709544
+11,What is the longest mountain range?,Andes,Geography,phi3,The Andes,0.695628
+12,What is the coldest continent?,Antarctica,Geography,phi3,Antarctica,0.742798
+13,What is the driest desert?,Atacama Desert,Geography,phi3,The Atacama Desert,0.770360
+14,What is the largest rainforest?,Amazon Rainforest,Geography,phi3,Amazon Rainforest,0.725382
+15,What is the deepest lake?,Lake Baikal,Geography,phi3,Lake Baikal,0.704651
+16,What is the largest bay?,Bay of Bengal,Geography,phi3,The Bay of Bengal,0.715607
+17,Which country has the longest coastline?,Canada,Geography,phi3,Canada,0.687393
+18,What is the largest country by area?,Russia,Geography,phi3,Russia,0.632812
+19,What is the most populous country?,China,Geography,phi3,China,0.715597
+20,What is the largest peninsula?,Arabian Peninsula,Geography,phi3,Arabian Peninsula,0.808441
+21,What is the tallest volcano?,Ojos del Salado,Geography,phi3,Mauna Kea,0.676300
+22,What is the largest coral reef?,Great Barrier Reef,Geography,phi3,The Great Barrier Reef,0.806122
+23,What is the northernmost capital?,Reykjavik,Geography,phi3,Reykjavik,0.697383
+24,What is the southernmost continent?,Antarctica,Geography,phi3,Antarctica,0.731639
+25,Which continent has the most countries?,Africa,Geography,phi3,Africa,0.708242
+26,What is the largest gulf?,Gulf of Mexico,Geography,phi3,Gulf of Mexico,0.742645
+27,What is the highest capital city?,La Paz,Geography,phi3,## Response:,0.467656
+28,What is the longest river in Europe?,Volga,Geography,phi3,The Volga River,0.666672
+29,What is the largest desert in Asia?,Gobi Desert,Geography,phi3,The Gobi Desert,0.736638
+30,What is the largest lake in Africa?,Lake Victoria,Geography,phi3,Lake Victoria,0.689326
+31,What is the largest country in Africa?,Algeria,Geography,phi3,Algeria,0.772736
+32,What is the highest peak in Africa?,Kilimanjaro,Geography,phi3,Mount Kilimanjaro,0.817841
+33,What is the largest island in the Mediterranean?,Sicily,Geography,phi3,Sicily,0.616481
+34,What is the longest river in South America?,Amazon,Geography,phi3,The Amazon River,0.620188
+35,What is the largest bay in the world?,Bay of Bengal,Geography,phi3,Hudson Bay,0.640121
+36,What is the deepest ocean?,Pacific Ocean,Geography,phi3,The Mariana Trench,0.746623
+37,What is the largest sea?,Philippine Sea,Geography,phi3,The Pacific Ocean,0.651001
+38,What is the highest plateau?,Tibetan Plateau,Geography,phi3,Tibetan Plateau,0.779551
+39,What is the largest archipelago?,Indonesia,Geography,phi3,Indonesia,0.626780
+40,What is the largest delta?,Ganges Delta,Geography,phi3,The Ganges-Brahmaputra Delta.,0.868062
+41,What is the fastest land animal?,Cheetah,Science,phi3,Cheetah,0.686371
+42,What is the fastest bird?,Peregrine Falcon,Science,phi3,Peregrine falcon,0.760569
+43,What is the largest mammal?,Blue Whale,Science,phi3,Blue whale,0.709432
+44,What is the smallest bone?,Stapes,Science,phi3,Stapes,0.714834
+45,What is the most abundant element?,Hydrogen,Science,phi3,Hydrogen,0.679682
+46,What is the hottest planet?,Venus,Science,phi3,Venus,0.682505
+47,What is the densest planet?,Earth,Science,phi3,Earth,0.654683
+48,What is the closest star to Earth?,Sun,Science,phi3,The Sun,0.657145
+49,What is the main gas in the sun?,Hydrogen,Science,phi3,Hydrogen,0.741740
+50,What is the center of an atom?,Nucleus,Science,phi3,Nucleus,0.695129
+51,What is the chemical symbol for gold?,Au,Science,phi3,Au,0.708923
+52,What is the chemical symbol for sodium?,Na,Science,phi3,Na,0.663869
+53,What is the atomic number of carbon?,6,Science,phi3,6,0.644984
+54,What is the speed of light?,299792458 m/s,Science,phi3,"Approximately 299,792 kilom",0.965861
+55,What is the boiling point of water?,100 C,Science,phi3,100 degrees Celsius,0.774302
+56,What is the freezing point of water?,0 C,Science,phi3,0 degrees Celsius,0.767853
+57,What is the pH of water?,7,Science,phi3,7,0.717682
+58,What is the largest organ?,Skin,Science,phi3,Skin,0.697205
+59,What is the strongest muscle?,Masseter,Science,phi3,The masseter muscle.,0.652679
+60,What is the smallest planet?,Mercury,Science,phi3,Mercury,0.716766
+61,What is the largest planet?,Jupiter,Science,phi3,Jupiter,0.756226
+62,What gas do humans breathe?,Oxygen,Science,phi3,Oxygen,0.623988
+63,What gas do plants absorb?,Carbon dioxide,Science,phi3,Carbon dioxide,0.783407
+64,What is the unit of force?,Newton,Science,phi3,Newton,0.644104
+65,What is the hardest natural substance?,Diamond,Science,phi3,Diamond,0.695129
+66,What is the closest planet to the sun?,Mercury,Science,phi3,Mercury,0.682729
+67,What is the largest bone?,Femur,Science,phi3,Femur,0.771810
+68,What organ pumps blood?,Heart,Science,phi3,Heart,0.653758
+69,What is the study of life?,Biology,Science,phi3,Biology.,0.600428
+70,What is the study of Earth?,Geology,Science,phi3,Geography,0.557414
+71,What is the study of stars?,Astronomy,Science,phi3,Astronomy.,0.579768
+72,What is the study of chemicals?,Chemistry,Science,phi3,Chemistry.,0.680908
+73,What is the study of matter?,Physics,Science,phi3,Chemistry.,0.578552
+74,What is the boiling point of nitrogen?,-196 C,Science,phi3,195.79°C,0.823100
+75,What is the freezing point of mercury?,-39 C,Science,phi3,38.83 degrees Celsius,0.951050
+76,What is the most common gas in air?,Nitrogen,Science,phi3,Nitrogen,0.758962
+77,What is the smallest unit of life?,Cell,Science,phi3,A cell,0.610270
+78,What is the speed of sound?,343 m/s,Science,phi3,Approximately 343 meters per second at room,0.874003
+79,What is the largest organ in humans?,Skin,Science,phi3,Skin,0.602036
+80,What is the main organ for breathing?,Lungs,Science,phi3,Lungs,0.698283
+81,Who invented the telephone?,Alexander Graham Bell,History,phi3,Alexander Graham Bell,0.641398
+82,Who invented the airplane?,Wright Brothers,History,phi3,The Wright brothers.,0.624888
+83,Who invented the light bulb?,Thomas Edison,History,phi3,Thomas Edison,0.645198
+84,Who discovered gravity?,Isaac Newton,History,phi3,Sir Isaac Newton,0.585642
+85,Who discovered penicillin?,Alexander Fleming,History,phi3,Alexander Fleming,0.715744
+86,Who was the first US president?,George Washington,History,phi3,George Washington,0.728566
+87,Who was the first man on the moon?,Neil Armstrong,History,phi3,Neil Armstrong,0.769379
+88,Who led the Soviet Union in WWII?,Joseph Stalin,History,phi3,Joseph Stalin,0.662303
+89,Who led Germany in WWII?,Adolf Hitler,History,phi3,Adolf Hitler,0.664958
+90,Who was the first emperor of Rome?,Augustus,History,phi3,Augustus,0.627609
+91,Who was the first emperor of China?,Qin Shi Huang,History,phi3,Qin Shi Huang,0.758621
+92,Who was the first king of England?,Athelstan,History,phi3,King Alfred the Great,0.630152
+93,What year did WWI start?,1914,History,phi3,1914,0.800822
+94,What year did WWI end?,1918,History,phi3,1918,0.792806
+95,What year did WWII end?,1945,History,phi3,1945,0.782145
+96,What year did Titanic sink?,1912,History,phi3,1912,0.781169
+97,Who was Napoleon?,French emperor,History,phi3,French military leader and emperor,0.712957
+98,Who was Julius Caesar?,Roman general,History,phi3,Roman military general and statesman,0.628077
+99,Who discovered America?,Christopher Columbus,History,phi3,Christopher Columbus,0.651337
+100,Who was the first woman in space?,Valentina Tereshkova,History,phi3,Valentina Tereshkova,0.844676
+101,Who was the first US vice president?,John Adams,History,phi3,John Adams,0.698476
+102,Who was the first emperor of Japan?,Jimmu,History,phi3,Emperor Jimmu,0.667180
+103,Who was the first president of India?,Rajendra Prasad,History,phi3,Dr. Rajendra Prasad,0.831553
+104,Who was the first king of France?,Clovis I,History,phi3,Clovis I,0.631780
+105,Who was the first emperor of India?,Ashoka,History,phi3,Chandragupta Maurya,0.836558
+106,Who was the first ruler of Russia?,Rurik,History,phi3,Ivan the Terrible,0.595851
+107,Who led the civil rights movement?,Martin Luther King Jr.,History,phi3,Martin Luther King Jr.,0.700582
+108,Who was British PM during WWII?,Winston Churchill,History,phi3,Winston Churchill,0.776194
+109,Who discovered electricity?,Benjamin Franklin,History,phi3,Benjamin Franklin,0.562586
+110,Who invented printing press?,Johannes Gutenberg,History,phi3,Johannes Gutenberg,0.677561
+111,What company created the iPhone?,Apple,Technology,phi3,Apple Inc.,0.675939
+112,What company created Windows?,Microsoft,Technology,phi3,Microsoft,0.641978
+113,What company owns YouTube?,Google,Technology,phi3,Google,0.642303
+114,What company created Android?,Google,Technology,phi3,Google,0.617096
+115,What company created AWS?,Amazon,Technology,phi3,Amazon Web Services (AWS) was created by Amazon.,0.862732
+116,What company created Tesla?,Tesla,Technology,phi3,"Tesla, Inc. was created by Martin Eber",0.799764
+117,What company owns Instagram?,Meta,Technology,phi3,"Facebook (Meta Platforms, Inc.)",0.767080
+118,What company created Netflix?,Netflix,Technology,phi3,Amazon,0.547201
+119,What company created Spotify?,Spotify,Technology,phi3,Spotify was created by Daniel Ek and Martin Lorent,0.873515
+120,What company created TikTok?,ByteDance,Technology,phi3,ByteDance,0.675720
+121,What does CPU stand for?,Central Processing Unit,Technology,phi3,Central Processing Unit,0.700979
+122,What does GPU stand for?,Graphics Processing Unit,Technology,phi3,Graphics Processing Unit,0.766652
+123,What does RAM stand for?,Random Access Memory,Technology,phi3,Random Access Memory,0.672251
+124,What does AI stand for?,Artificial Intelligence,Technology,phi3,Artificial Intelligence,0.779500
+125,What does HTTP stand for?,Hypertext Transfer Protocol,Technology,phi3,Hypertext Transfer Protocol,0.700562
+126,What is Python?,Programming language,Technology,phi3,"An interpreted, high-level programming language.",0.774323
+127,What is Java?,Programming language,Technology,phi3,Programming language,0.665619
+128,What is C++?,Programming language,Technology,phi3,A general-purpose programming language.,0.720901
+129,What is Linux?,Operating system,Technology,phi3,Unix-like open-source operating system.,0.761108
+130,What is SQL?,Query language,Technology,phi3,Structured Query Language,0.677216
+131,What company developed ChatGPT?,OpenAI,Technology,phi3,Microsoft,0.627563
+132,What company created PlayStation?,Sony,Technology,phi3,Sony,0.583211
+133,What company created Xbox?,Microsoft,Technology,phi3,Microsoft,0.588745
+134,What company created Switch?,Nintendo,Technology,phi3,Nintendo,0.601034
+135,What year was iPhone released?,2007,Technology,phi3,2007,0.795217
+136,What year was Google founded?,1998,Technology,phi3,1998,0.704712
+137,What year was Facebook founded?,2004,Technology,phi3,2004,0.711675
+138,What year was YouTube founded?,2005,Technology,phi3,2005,0.712224
+139,What year was Amazon founded?,1994,Technology,phi3,1994,0.720759
+140,What is JavaScript?,Programming language,Technology,phi3,A programming language for web development.,0.681264
+141,What is the second largest ocean?,Atlantic Ocean,Geography,phi3,Pacific Ocean,0.637787
+142,What is the smallest ocean?,Arctic Ocean,Geography,phi3,Arctic Ocean,0.717478
+143,What is the largest desert in North America?,Great Basin Desert,Geography,phi3,The Great Basin Desert,0.731130
+144,What is the longest river in Asia?,Yangtze,Geography,phi3,The Yangtze River,0.712728
+145,What is the tallest building in the world?,Burj Khalifa,Geography,phi3,Burj Khalifa,0.789134
+146,What is the capital city located on two continents?,Istanbul,Geography,phi3,Istanbul,0.751333
+147,What is the largest country in South America?,Brazil,Geography,phi3,Brazil,0.659337
+148,What is the smallest continent?,Australia,Geography,phi3,Australia,0.693258
+149,What is the largest city by population?,Tokyo,Geography,phi3,Tokyo,0.625977
+150,What is the largest inland sea?,Caspian Sea,Geography,phi3,The Caspian Sea,0.772578
+151,What is the fastest fish?,Sailfish,Science,phi3,The sailfish.,0.702006
+152,What is the largest reptile?,Saltwater Crocodile,Science,phi3,Saltwater crocodile,0.793335
+153,What is the smallest mammal?,Bumblebee Bat,Science,phi3,The Etruscan shrew.,0.763891
+154,What is the largest bird?,Ostrich,Science,phi3,Ostrich,0.688202
+155,What is the fastest marine animal?,Black Marlin,Science,phi3,The sailfish.,0.645889
+156,What is the most intelligent mammal?,Dolphin,Science,phi3,Humans,0.675588
+157,What is the largest land carnivore?,Polar Bear,Science,phi3,Polar bear,0.682129
+158,What is the longest living animal?,Greenland Shark,Science,phi3,Greenland shark,0.683533
+159,What is the strongest bone?,Femur,Science,phi3,Femur,0.706446
+160,What is the largest insect?,Goliath Beetle,Science,phi3,Atlas moth,0.521255
+161,Who invented the World Wide Web?,Tim Berners-Lee,History,phi3,Tim Berners-Lee,0.835114
+162,Who was the first president of South Africa?,Nelson Mandela,History,phi3,Nelson Mandela,0.637965
+163,Who led India to independence?,Mahatma Gandhi,History,phi3,Mahatma Gandhi,0.692139
+164,Who was the first emperor of Russia?,Peter the Great,History,phi3,Peter the Great,0.649083
+165,Who was the first female US vice president?,Kamala Harris,History,phi3,Kamala Harris,0.658829
+166,Who was the first US secretary of state?,Thomas Jefferson,History,phi3,Thomas Jefferson,0.692139
+167,Who was the first US treasury secretary?,Alexander Hamilton,History,phi3,Alexander Hamilton,0.688548
+168,Who was the first Chinese communist leader?,Mao Zedong,History,phi3,Mao Zedong,0.797277
+169,Who was the first African American president?,Barack Obama,History,phi3,Barack Obama,0.722692
+170,Who led the French Revolution?,Robespierre,History,phi3,Maximilien Robespierre,0.781514
+171,What company created Gmail?,Google,Technology,phi3,Google,0.676458
+172,What company created Chrome?,Google,Technology,phi3,Google,0.712891
+173,What company created Windows 10?,Microsoft,Technology,phi3,Microsoft,0.489446
+174,What company created Azure?,Microsoft,Technology,phi3,Microsoft,0.699707
+175,What company created Google Maps?,Google,Technology,phi3,Google,0.619853
+176,What company created PayPal?,PayPal,Technology,phi3,eBay,0.636281
+177,What company created LinkedIn?,LinkedIn,Technology,phi3,Microsoft,0.654841
+178,What company created Reddit?,Reddit,Technology,phi3,Reddit was created by Steve Huffman and,0.794952
+179,What company created Discord?,Discord,Technology,phi3,Discord was created by Discord Inc.,0.775635
+180,What company created Slack?,Slack,Technology,phi3,Salesforce,0.642120
+181,What year was Instagram released?,2010,Technology,phi3,2010,0.720428
+182,What year was Twitter launched?,2006,Technology,phi3,2006,0.704880
+183,What year was LinkedIn founded?,2003,Technology,phi3,2003,0.677826
+184,What year was Reddit founded?,2005,Technology,phi3,2005,0.719020
+185,What year was Discord launched?,2015,Technology,phi3,2015,0.777120
+186,What is the real name of Joker?,Arthur Fleck,Movies,phi3,Arthur Fleck,0.707367
+187,What is the real name of Deadpool?,Wade Wilson,Movies,phi3,Wade Wilson,0.757039
+188,What is the real name of Wolverine?,Logan,Movies,phi3,Logan,0.758423
+189,What is the real name of Doctor Strange?,Stephen Strange,Movies,phi3,Stephen Strange,0.740794
+190,What is the real name of Black Widow?,Natasha Romanoff,Movies,phi3,Natasha Romanoff,0.781952
+191,Who directed The Dark Knight?,Christopher Nolan,Movies,phi3,Christopher Nolan,0.655741
+192,Who directed The Revenant?,Alejandro Inarritu,Movies,phi3,Alejandro González Iñárritu,0.869115
+193,Who directed Shutter Island?,Martin Scorsese,Movies,phi3,Martin Scorsese,0.733134
+194,Who directed The Wolf of Wall Street?,Martin Scorsese,Movies,phi3,Martin Scorsese,0.752553
+195,Who directed The Grand Budapest Hotel?,Wes Anderson,Movies,phi3,Wes Anderson,0.620611
+196,Which country hosted the 2020 Olympics?,Japan,Sports,phi3,Japan,0.665192
+197,Which country hosted the 2012 Olympics?,United Kingdom,Sports,phi3,Great Britain,0.601898
+198,Which country won Euro 2016?,Portugal,Sports,phi3,France,0.705414
+199,Which country won Copa America 2021?,Argentina,Sports,phi3,Argentina,0.695089
+200,Which sport uses a helmet and stick?,Hockey,Sports,phi3,Ice hockey,0.605896
+201,Where was Google founded?,California,People,phi3,"Mountain View, California",0.690140
+202,Where was Facebook founded?,Massachusetts,People,phi3,"Menlo Park, California",0.612676
+203,Where was Amazon founded?,Washington,People,phi3,"Seattle, Washington",0.691925
+204,Where was Tesla founded?,California,People,phi3,"Palo Alto, California",0.658755
+205,Where was Netflix founded?,California,People,phi3,"Los Gatos, California",0.710602
+206,Who invented the iPhone in ancient Rome?,None,Trick,phi3,This is a trick question; the iPhone was invented by,0.729289
+207,What is the tallest mountain on Venus?,None,Trick,phi3,Maxwell Montes,0.766978
+208,Who discovered Mars in 1500?,None,Trick,phi3,Nicolaus Copernicus,0.676971
+209,What is the capital of the Sun?,None,Trick,phi3,The Sun does not have a capital.,0.724996
+210,Who was the president of Earth in 1800?,None,Trick,phi3,Thomas Jefferson,0.633687
+211,What company created Google in 1800?,None,Trick,phi3,No company created Google in 1800; it,0.787089
+212,Who directed The Matrix in 1500?,None,Trick,phi3,The Matrix was directed by the Wachowskis.,0.739054
+213,Who invented electricity on Mars?,None,Trick,phi3,No one has invented electricity on Mars.,0.781637
+214,What year did humans live on Jupiter?,None,Trick,phi3,Humans have not lived on Jupiter.,0.776591
+215,Who discovered Antarctica in 1200?,None,Trick,phi3,No one; Antarctica was not discovered in 1,0.769206
+216,What is the national sport of Atlantis?,None,Trick,phi3,Atlantean Quidditch,0.519277
+217,Who was the king of Mars?,None,Trick,phi3,Phobos,0.694946
+218,What is the currency of Jupiter?,None,Trick,phi3,Jupiter does not have a currency.,0.735057
+219,Who wrote The Hobbit in ancient Egypt?,None,Trick,phi3,The Hobbit was not written in ancient Egypt; it was,0.785817
+220,What is the population of Middle Earth?,None,Trick,phi3,"The population of Middle Earth varies across its regions, with",0.590546
+221,Who founded Amazon in 1500?,None,Trick,phi3,Jeff Bezos,0.636876
+222,What is the tallest building in Atlantis?,None,Trick,phi3,The Poseidon Tower,0.658518
+223,Who invented the internet in medieval times?,None,Trick,phi3,The internet was not invented in medieval times; it was,0.861593
+224,What is the capital of the internet?,None,Trick,phi3,"No definitive capital, but Silicon Valley is a major",0.583425
+225,Who was the CEO of Google in 1800?,None,Trick,phi3,Not applicable.,0.535482
+226,Who played Iron Man in 1500?,None,Trick,phi3,Not applicable.,0.525594
+227,What year did Avengers happen in real life?,None,Trick,phi3,2012,0.732839
+228,Who discovered gravity on Mars?,None,Trick,phi3,No one has discovered gravity on Mars; gravity exists on Mars,0.654154
+229,What sport is played professionally on the Moon?,None,Trick,phi3,No sport is played professionally on the Moon.,0.852743
+230,What is the official language of the Sun?,None,Trick,phi3,English,0.573786
+231,Who directed Inception 1800?,None,Trick,phi3,Christopher Nolan,0.697367
+232,Who composed Star Wars music in 1500?,None,Trick,phi3,John Williams,0.551458
+233,What is the real name of Batman in real life?,None,Trick,phi3,Bruce Wayne,0.746938
+234,Who founded Apple in 1800?,None,Trick,phi3,Steve Jobs,0.581950
+235,What year was the iPhone released in 1800?,None,Trick,phi3,The iPhone was not released in 1800.,0.844462
+236,What is the currency of Mars?,None,Trick,phi3,Mars does not have a currency.,0.644094
+237,Which country invented sushi in 1700 BC?,None,Trick,phi3,Japan,0.693217
+238,Who won the World Cup in 1500?,None,Trick,phi3,## Response:The World Cup in 1,0.441879
+239,What team did Messi play for in 1800?,None,Trick,phi3,## Response:,0.371373
+240,What is the tallest building on Jupiter?,None,Trick,phi3,Jupiter does not have a tall building.,0.669688
+241,Who directed Titanic on Mars?,None,Trick,phi3,James Cameron,0.677892
+242,What is the capital of Hogwarts School?,None,Trick,phi3,Hogwarts,0.734233
+243,Who composed music for Harry Potter in 1200?,None,Trick,phi3,John Williams,0.575134
+244,Who founded Google in 1800?,None,Trick,phi3,Larry Page and Sergey Brin,0.714923
+245,What sport uses dragons?,None,Trick,phi3,Dragon Boat Racing,0.585439
+246,Who is the CEO of Atlantis?,None,Trick,phi3,The CEO of Atlantis is John Smith.,0.761950
+247,Who wrote Harry Potter in ancient Rome?,None,Trick,phi3,This is a trick question; Harry Potter was written by,0.713562
+248,What is the national animal of Wakanda?,None,Trick,phi3,The Black Panther (Simba),0.544540
+249,Who played Spider-Man in 1500?,None,Trick,phi3,Not applicable.,0.577967
+250,What is the currency of Middle Earth?,None,Trick,phi3,The currency of Middle Earth is the Galactic Credit.,0.724503
+251,Who directed Avengers in 1800?,None,Trick,phi3,Not applicable.,0.616435
+252,Who founded Tesla in 1700?,None,Trick,phi3,Elon Musk,0.684115
+253,What is the capital of Gotham City?,None,Trick,phi3,The Joker's lair,0.612081
+254,Who discovered electricity in 1000?,None,Trick,phi3,Electricity was not discovered in 1000.,0.847860
+255,What year did the internet exist in 1500?,None,Trick,phi3,The internet did not exist in 1500.,0.929443

@@ -2,7 +2,10 @@ import csv
 from collections import defaultdict
 from pathlib import Path
 
-INPUT_PATH = Path("reports/final_results.csv")
+
+INPUT_PATH = Path("reports/merged/all_models_final_results.csv")
+MODEL_SUMMARY_PATH = Path("reports/metrics/model_summary.csv")
+CATEGORY_SUMMARY_PATH = Path("reports/metrics/category_summary.csv")
 
 
 def safe_mean(values):
@@ -12,92 +15,129 @@ def safe_mean(values):
 def main():
     if not INPUT_PATH.exists():
         print(f"Missing file: {INPUT_PATH}")
-        print("Run evaluate_results.py first.")
         return
 
-    total = 0
-    total_correct = 0
+    MODEL_SUMMARY_PATH.parent.mkdir(parents=True, exist_ok=True)
 
-    correct_conf = []
-    incorrect_conf = []
+    model_stats = defaultdict(lambda: {
+        "total": 0,
+        "correct": 0,
+        "hallucination": 0,
+        "correct_conf": [],
+        "incorrect_conf": [],
+        "all_conf": [],
+    })
 
     category_stats = defaultdict(lambda: {
         "total": 0,
         "correct": 0,
-        "all_conf": [],
-        "correct_conf": [],
-        "incorrect_conf": []
+        "hallucination": 0,
+    })
+
+    model_category_stats = defaultdict(lambda: {
+        "total": 0,
+        "correct": 0,
+        "hallucination": 0,
     })
 
     with INPUT_PATH.open("r", encoding="utf-8", newline="") as f:
         reader = csv.DictReader(f)
-
         for row in reader:
-            total += 1
-
+            model = row["model_name"].strip()
             category = row["category"].strip()
-            confidence = float(row["confidence"])
             is_correct = int(row["is_correct"])
+            hallucination = int(row["hallucination"])
+            confidence = float(row["confidence"])
 
-            category_stats[category]["total"] += 1
-            category_stats[category]["all_conf"].append(confidence)
+            model_stats[model]["total"] += 1
+            model_stats[model]["correct"] += is_correct
+            model_stats[model]["hallucination"] += hallucination
+            model_stats[model]["all_conf"].append(confidence)
 
             if is_correct == 1:
-                total_correct += 1
-                correct_conf.append(confidence)
-                category_stats[category]["correct"] += 1
-                category_stats[category]["correct_conf"].append(confidence)
+                model_stats[model]["correct_conf"].append(confidence)
             else:
-                incorrect_conf.append(confidence)
-                category_stats[category]["incorrect_conf"].append(confidence)
+                model_stats[model]["incorrect_conf"].append(confidence)
 
-    accuracy = total_correct / total if total else 0.0
-    hallucination_rate = 1.0 - accuracy
+            category_stats[category]["total"] += 1
+            category_stats[category]["correct"] += is_correct
+            category_stats[category]["hallucination"] += hallucination
 
-    avg_correct_conf = safe_mean(correct_conf)
-    avg_incorrect_conf = safe_mean(incorrect_conf)
+            key = (model, category)
+            model_category_stats[key]["total"] += 1
+            model_category_stats[key]["correct"] += is_correct
+            model_category_stats[key]["hallucination"] += hallucination
 
-    print("\n===== OVERALL RESULTS =====")
-    print(f"Total Questions: {total}")
-    print(f"Correct Answers: {total_correct}")
-    print(f"Incorrect Answers: {total - total_correct}")
-    print(f"Accuracy: {accuracy:.3f}")
-    print(f"Hallucination Rate: {hallucination_rate:.3f}")
-    print(f"Average Confidence (Correct):   {avg_correct_conf:.3f}")
-    print(f"Average Confidence (Incorrect): {avg_incorrect_conf:.3f}")
+    with MODEL_SUMMARY_PATH.open("w", encoding="utf-8", newline="") as f:
+        fieldnames = [
+            "model_name",
+            "total",
+            "correct",
+            "incorrect",
+            "accuracy",
+            "hallucination_rate",
+            "avg_confidence",
+            "avg_correct_confidence",
+            "avg_incorrect_confidence",
+        ]
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
 
-    print("\n===== CATEGORY RESULTS =====")
-    header = (
-        f"{'Category':<15}"
-        f"{'Total':>8}"
-        f"{'Correct':>10}"
-        f"{'Accuracy':>12}"
-        f"{'Avg Conf':>12}"
-        f"{'Correct Conf':>15}"
-        f"{'Incorrect Conf':>17}"
-    )
-    print(header)
-    print("-" * len(header))
+        print("\n===== MODEL SUMMARY =====")
+        for model in sorted(model_stats.keys()):
+            stats = model_stats[model]
+            total = stats["total"]
+            correct = stats["correct"]
+            incorrect = total - correct
+            accuracy = correct / total if total else 0.0
+            hallucination_rate = stats["hallucination"] / total if total else 0.0
 
-    for category in sorted(category_stats.keys()):
-        stats = category_stats[category]
-        cat_total = stats["total"]
-        cat_correct = stats["correct"]
-        cat_accuracy = cat_correct / cat_total if cat_total else 0.0
+            row = {
+                "model_name": model,
+                "total": total,
+                "correct": correct,
+                "incorrect": incorrect,
+                "accuracy": round(accuracy, 4),
+                "hallucination_rate": round(hallucination_rate, 4),
+                "avg_confidence": round(safe_mean(stats["all_conf"]), 4),
+                "avg_correct_confidence": round(safe_mean(stats["correct_conf"]), 4),
+                "avg_incorrect_confidence": round(safe_mean(stats["incorrect_conf"]), 4),
+            }
+            writer.writerow(row)
+            print(row)
 
-        cat_avg_conf = safe_mean(stats["all_conf"])
-        cat_avg_correct_conf = safe_mean(stats["correct_conf"])
-        cat_avg_incorrect_conf = safe_mean(stats["incorrect_conf"])
+    with CATEGORY_SUMMARY_PATH.open("w", encoding="utf-8", newline="") as f:
+        fieldnames = [
+            "model_name",
+            "category",
+            "total",
+            "correct",
+            "accuracy",
+            "hallucination_rate",
+        ]
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
 
-        print(
-            f"{category:<15}"
-            f"{cat_total:>8}"
-            f"{cat_correct:>10}"
-            f"{cat_accuracy:>12.3f}"
-            f"{cat_avg_conf:>12.3f}"
-            f"{cat_avg_correct_conf:>15.3f}"
-            f"{cat_avg_incorrect_conf:>17.3f}"
-        )
+        print("\n===== MODEL × CATEGORY SUMMARY =====")
+        for (model, category) in sorted(model_category_stats.keys()):
+            stats = model_category_stats[(model, category)]
+            total = stats["total"]
+            correct = stats["correct"]
+            accuracy = correct / total if total else 0.0
+            hallucination_rate = stats["hallucination"] / total if total else 0.0
+
+            row = {
+                "model_name": model,
+                "category": category,
+                "total": total,
+                "correct": correct,
+                "accuracy": round(accuracy, 4),
+                "hallucination_rate": round(hallucination_rate, 4),
+            }
+            writer.writerow(row)
+
+    print(f"\nSaved: {MODEL_SUMMARY_PATH}")
+    print(f"Saved: {CATEGORY_SUMMARY_PATH}")
 
 
 if __name__ == "__main__":

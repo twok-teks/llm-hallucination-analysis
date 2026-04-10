@@ -1,0 +1,1021 @@
+question_id,question,ground_truth_answer,category,model_name,model_answer,confidence,is_correct,hallucination,question_length,answer_length
+1,What is the largest desert in the world?,Antarctica,Geography,llama3,Sahara Desert.,0.721883,0,1,8,2
+2,What is the largest hot desert?,Sahara,Geography,llama3,Sahara.,0.749227,1,0,6,1
+3,What is the longest river?,Nile,Geography,llama3,The Nile River.,0.720194,1,0,5,3
+4,What is the highest mountain?,Mount Everest,Geography,llama3,"Mount Everest, located in the Himalayas, is the highest",0.782572,1,0,5,9
+5,What is the deepest ocean trench?,Mariana Trench,Geography,llama3,Mariana Trench.,0.700948,1,0,6,2
+6,What is the largest island?,Greenland,Geography,llama3,Greenland.,0.675415,1,0,5,1
+7,What is the smallest country?,Vatican City,Geography,llama3,Vatican City.,0.73056,1,0,5,2
+8,What is the largest lake?,Caspian Sea,Geography,llama3,Caspian Sea.,0.729919,1,0,5,2
+9,What is the highest waterfall?,Angel Falls,Geography,llama3,"Victoria Falls, located in Zambia/Zimbabwe, Africa, has",0.631592,0,0,5,7
+10,What is the largest ocean?,Pacific Ocean,Geography,llama3,Pacific Ocean.,0.728699,1,0,5,2
+11,What is the longest mountain range?,Andes,Geography,llama3,The Himalayas.,0.70046,0,1,6,2
+12,What is the coldest continent?,Antarctica,Geography,llama3,Antarctica.,0.751241,1,0,5,1
+13,What is the driest desert?,Atacama Desert,Geography,llama3,Sahara Desert.,0.728841,0,1,5,2
+14,What is the largest rainforest?,Amazon Rainforest,Geography,llama3,The Amazon rainforest is the largest rainforest in the world,0.840027,1,0,5,10
+15,What is the deepest lake?,Lake Baikal,Geography,llama3,"Lake Baikal, located in southern Siberia, Russia,",0.827311,1,0,5,7
+16,What is the largest bay?,Bay of Bengal,Geography,llama3,The Gulf of Mexico is the largest bay in the United States,0.682739,0,1,5,12
+17,Which country has the longest coastline?,Canada,Geography,llama3,Canada.,0.375468,1,0,6,1
+18,What is the largest country by area?,Russia,Geography,llama3,Russia.,0.787069,1,0,7,1
+19,What is the most populous country?,China,Geography,llama3,China.,0.74646,1,0,6,1
+20,What is the largest peninsula?,Arabian Peninsula,Geography,llama3,Asia.,0.585114,0,0,5,1
+21,What is the tallest volcano?,Ojos del Salado,Geography,llama3,"Mauna Kea, located in Hawaii, is the tallest",0.783793,0,1,5,8
+22,What is the largest coral reef?,Great Barrier Reef,Geography,llama3,"The Great Barrier Reef, located off the coast of Australia,",0.806234,1,0,6,10
+23,What is the northernmost capital?,Reykjavik,Geography,llama3,Reykjavik.,0.795817,1,0,5,1
+24,What is the southernmost continent?,Antarctica,Geography,llama3,Africa.,0.567474,0,0,5,1
+25,Which continent has the most countries?,Africa,Geography,llama3,Asia.,0.661031,0,1,6,1
+26,What is the largest gulf?,Gulf of Mexico,Geography,llama3,The Gulf of Mexico is the largest gulf in the world,0.777222,1,0,5,11
+27,What is the highest capital city?,La Paz,Geography,llama3,Beijing.,0.489817,0,0,6,1
+28,What is the longest river in Europe?,Volga,Geography,llama3,The Volga River.,0.715291,1,0,7,3
+29,What is the largest desert in Asia?,Gobi Desert,Geography,llama3,Gobi Desert.,0.789205,1,0,7,2
+30,What is the largest lake in Africa?,Lake Victoria,Geography,llama3,Lake Victoria.,0.802104,1,0,7,2
+31,What is the largest country in Africa?,Algeria,Geography,llama3,Nigeria.,0.592041,0,0,7,1
+32,What is the highest peak in Africa?,Kilimanjaro,Geography,llama3,Mount Kilimanjaro.,0.758789,1,0,7,2
+33,What is the largest island in the Mediterranean?,Sicily,Geography,llama3,Sicily.,0.669871,1,0,8,1
+34,What is the longest river in South America?,Amazon,Geography,llama3,The Amazon River.,0.75824,1,0,8,3
+35,What is the largest bay in the world?,Bay of Bengal,Geography,llama3,The Gulf of Alaska is the largest bay in the world.,0.731547,0,1,8,11
+36,What is the deepest ocean?,Pacific Ocean,Geography,llama3,"The deepest ocean is the Pacific Ocean, with a maximum depth",0.765361,1,0,5,11
+37,What is the largest sea?,Philippine Sea,Geography,llama3,Pacific Ocean.,0.701579,0,1,5,2
+38,What is the highest plateau?,Tibetan Plateau,Geography,llama3,"The highest plateau is the Tibetan Plateau, which is located",0.679321,1,0,5,10
+39,What is the largest archipelago?,Indonesia,Geography,llama3,Indonesia.,0.622355,1,0,5,1
+40,What is the largest delta?,Ganges Delta,Geography,llama3,"The Amazon River Delta, located in Brazil, is the largest",0.732188,0,1,5,10
+41,What is the fastest land animal?,Cheetah,Science,llama3,The cheetah.,0.747325,1,0,6,2
+42,What is the fastest bird?,Peregrine Falcon,Science,llama3,Peregrine Falcon.,0.682536,1,0,5,2
+43,What is the largest mammal?,Blue Whale,Science,llama3,Blue whale.,0.755737,1,0,5,2
+44,What is the smallest bone?,Stapes,Science,llama3,The smallest bone is the stapes bone in the human ear,0.716268,1,0,5,11
+45,What is the most abundant element?,Hydrogen,Science,llama3,Oxygen (O).,0.691162,0,1,6,2
+46,What is the hottest planet?,Venus,Science,llama3,Venus.,0.638062,1,0,5,1
+47,What is the densest planet?,Earth,Science,llama3,Jupiter.,0.543925,0,0,5,1
+48,What is the closest star to Earth?,Sun,Science,llama3,Proxima Centauri.,0.788574,0,1,7,2
+49,What is the main gas in the sun?,Hydrogen,Science,llama3,Helium.,0.74231,0,1,8,1
+50,What is the center of an atom?,Nucleus,Science,llama3,The nucleus.,0.632477,1,0,7,2
+51,What is the chemical symbol for gold?,Au,Science,llama3,Au,0.778178,1,0,7,1
+52,What is the chemical symbol for sodium?,Na,Science,llama3,Na,0.76884,1,0,7,1
+53,What is the atomic number of carbon?,6,Science,llama3,6,0.803762,1,0,7,1
+54,What is the speed of light?,299792458 m/s,Science,llama3,"186,282 miles per second.",0.675293,0,1,6,4
+55,What is the boiling point of water?,100 C,Science,llama3,212 degrees Fahrenheit or 100 degrees Celsius.,0.758667,0,1,7,7
+56,What is the freezing point of water?,0 C,Science,llama3,0 degrees Celsius or 32 degrees Fahrenheit.,0.781352,0,1,7,7
+57,What is the pH of water?,7,Science,llama3,7.0,0.687195,1,0,6,1
+58,What is the largest organ?,Skin,Science,llama3,Skin.,0.730815,1,0,5,1
+59,What is the strongest muscle?,Masseter,Science,llama3,The biceps brachii.,0.715291,0,1,5,3
+60,What is the smallest planet?,Mercury,Science,llama3,Mercury.,0.484029,1,0,5,1
+61,What is the largest planet?,Jupiter,Science,llama3,Jupiter.,0.761973,1,0,5,1
+62,What gas do humans breathe?,Oxygen,Science,llama3,Oxygen.,0.784709,1,0,5,1
+63,What gas do plants absorb?,Carbon dioxide,Science,llama3,Carbon dioxide (CO2).,0.680237,1,0,5,3
+64,What is the unit of force?,Newton,Science,llama3,Newton.,0.645559,1,0,6,1
+65,What is the hardest natural substance?,Diamond,Science,llama3,Diamond.,0.756775,1,0,6,1
+66,What is the closest planet to the sun?,Mercury,Science,llama3,Mercury.,0.791097,1,0,8,1
+67,What is the largest bone?,Femur,Science,llama3,"The femur, or thigh bone.",0.626892,1,0,5,5
+68,What organ pumps blood?,Heart,Science,llama3,Heart.,0.764821,1,0,4,1
+69,What is the study of life?,Biology,Science,llama3,Biology.,0.794352,1,0,6,1
+70,What is the study of Earth?,Geology,Science,llama3,Geology.,0.830973,1,0,6,1
+71,What is the study of stars?,Astronomy,Science,llama3,Astronomy.,0.777791,1,0,6,1
+72,What is the study of chemicals?,Chemistry,Science,llama3,Chemistry.,0.805339,1,0,6,1
+73,What is the study of matter?,Physics,Science,llama3,Physics.,0.516744,1,0,6,1
+74,What is the boiling point of nitrogen?,-196 C,Science,llama3,77.2°C (171.8°F),0.534037,0,0,7,2
+75,What is the freezing point of mercury?,-39 C,Science,llama3,356.73°C (674.11°F).,0.483348,0,0,7,2
+76,What is the most common gas in air?,Nitrogen,Science,llama3,Nitrogen (N2).,0.624613,1,0,8,2
+77,What is the smallest unit of life?,Cell,Science,llama3,Bacteria.,0.468028,0,0,7,1
+78,What is the speed of sound?,343 m/s,Science,llama3,343 meters per second.,0.706136,0,1,6,4
+79,What is the largest organ in humans?,Skin,Science,llama3,Skin.,0.757182,1,0,7,1
+80,What is the main organ for breathing?,Lungs,Science,llama3,Lungs.,0.751109,1,0,7,1
+81,Who invented the telephone?,Alexander Graham Bell,History,llama3,Alexander Graham Bell.,0.763163,1,0,4,3
+82,Who invented the airplane?,Wright Brothers,History,llama3,"The Wright brothers, Orville and Wilbur Wright.",0.746358,1,0,4,7
+83,Who invented the light bulb?,Thomas Edison,History,llama3,Thomas Edison.,0.616435,1,0,5,2
+84,Who discovered gravity?,Isaac Newton,History,llama3,Sir Isaac Newton.,0.712484,1,0,3,3
+85,Who discovered penicillin?,Alexander Fleming,History,llama3,Alexander Fleming.,0.590505,1,0,3,2
+86,Who was the first US president?,George Washington,History,llama3,George Washington.,0.789602,1,0,6,2
+87,Who was the first man on the moon?,Neil Armstrong,History,llama3,Neil Armstrong.,0.659607,1,0,8,2
+88,Who led the Soviet Union in WWII?,Joseph Stalin,History,llama3,Joseph Stalin.,0.609283,1,0,7,2
+89,Who led Germany in WWII?,Adolf Hitler,History,llama3,Adolf Hitler.,0.782491,1,0,5,2
+90,Who was the first emperor of Rome?,Augustus,History,llama3,Augustus Caesar.,0.605194,1,0,7,2
+91,Who was the first emperor of China?,Qin Shi Huang,History,llama3,Qin Shi Huang.,0.73997,1,0,7,3
+92,Who was the first king of England?,Athelstan,History,llama3,"The first king of England was Athelstan, who ruled",0.717611,1,0,7,9
+93,What year did WWI start?,1914,History,llama3,1914.,0.490972,1,0,5,1
+94,What year did WWI end?,1918,History,llama3,1918.,0.687225,1,0,5,1
+95,What year did WWII end?,1945,History,llama3,1945.,0.540944,1,0,5,1
+96,What year did Titanic sink?,1912,History,llama3,1912.,0.712992,1,0,5,1
+97,Who was Napoleon?,French emperor,History,llama3,Napoleon Bonaparte was a French military leader and statesman,0.782166,0,1,3,9
+98,Who was Julius Caesar?,Roman general,History,llama3,Julius Caesar was a Roman general and statesman who rose to,0.829346,1,0,4,11
+99,Who discovered America?,Christopher Columbus,History,llama3,Christopher Columbus.,0.552775,1,0,3,2
+100,Who was the first woman in space?,Valentina Tereshkova,History,llama3,"Valentina Tereshkova, a Soviet cosmonaut,",0.876668,1,0,7,5
+101,Who was the first US vice president?,John Adams,History,llama3,John Adams.,0.714162,1,0,7,2
+102,Who was the first emperor of Japan?,Jimmu,History,llama3,Emperor Jimmu (also known as Jimmu-no-Mik,0.614237,1,0,7,6
+103,Who was the first president of India?,Rajendra Prasad,History,llama3,Jawaharlal Nehru.,0.82723,0,1,7,2
+104,Who was the first king of France?,Clovis I,History,llama3,Clovis I.,0.709056,1,0,7,2
+105,Who was the first emperor of India?,Ashoka,History,llama3,Ashoka the Great.,0.718618,1,0,7,3
+106,Who was the first ruler of Russia?,Rurik,History,llama3,Peter the Great.,0.638245,0,0,7,3
+107,Who led the civil rights movement?,Martin Luther King Jr.,History,llama3,Martin Luther King Jr.,0.660187,1,0,6,4
+108,Who was British PM during WWII?,Winston Churchill,History,llama3,Winston Churchill.,0.567495,1,0,6,2
+109,Who discovered electricity?,Benjamin Franklin,History,llama3,Benjamin Franklin.,0.745911,1,0,3,2
+110,Who invented printing press?,Johannes Gutenberg,History,llama3,Johannes Gutenberg.,0.737793,1,0,4,2
+111,What company created the iPhone?,Apple,Technology,llama3,Apple Inc.,0.775747,1,0,5,2
+112,What company created Windows?,Microsoft,Technology,llama3,Microsoft.,0.783661,1,0,4,1
+113,What company owns YouTube?,Google,Technology,llama3,Google Inc.,0.459747,1,0,4,2
+114,What company created Android?,Google,Technology,llama3,Google.,0.486094,1,0,4,1
+115,What company created AWS?,Amazon,Technology,llama3,Amazon Web Services (AWS),0.621358,1,0,4,4
+116,What company created Tesla?,Tesla,Technology,llama3,"Tesla, Inc.",0.617045,1,0,4,2
+117,What company owns Instagram?,Meta,Technology,llama3,"Meta Platforms, Inc. (previously known as Facebook,",0.813171,1,0,4,7
+118,What company created Netflix?,Netflix,Technology,llama3,Netflix was founded by Reed Hastings and Marc Randolph in 199,0.830526,1,0,4,11
+119,What company created Spotify?,Spotify,Technology,llama3,Spotify was created by Daniel Ek and Martin Lorentzon.,0.867818,1,0,4,9
+120,What company created TikTok?,ByteDance,Technology,llama3,ByteDance.,0.736745,1,0,4,1
+121,What does CPU stand for?,Central Processing Unit,Technology,llama3,Central Processing Unit.,0.647502,1,0,5,3
+122,What does GPU stand for?,Graphics Processing Unit,Technology,llama3,Graphics Processing Unit.,0.655741,1,0,5,3
+123,What does RAM stand for?,Random Access Memory,Technology,llama3,Random Access Memory.,0.706278,1,0,5,3
+124,What does AI stand for?,Artificial Intelligence,Technology,llama3,Artificial Intelligence.,0.77066,1,0,5,2
+125,What does HTTP stand for?,Hypertext Transfer Protocol,Technology,llama3,HyperText Transfer Protocol.,0.60437,1,0,5,3
+126,What is Python?,Programming language,Technology,llama3,"A high-level, interpreted, and object-oriented programming language.",0.659098,1,0,3,7
+127,What is Java?,Programming language,Technology,llama3,Java is a programming language and a popular open-source development environment,0.52121,1,0,3,11
+128,What is C++?,Programming language,Technology,llama3,"A high-level, object-oriented programming language.",0.667318,1,0,3,5
+129,What is Linux?,Operating system,Technology,llama3,An open-source operating system.,0.538645,1,0,3,4
+130,What is SQL?,Query language,Technology,llama3,Structured Query Language.,0.77122,1,0,3,3
+131,What company developed ChatGPT?,OpenAI,Technology,llama3,"LLaMA, developed by Meta.",0.591824,0,0,4,4
+132,What company created PlayStation?,Sony,Technology,llama3,Sony.,0.758301,1,0,4,1
+133,What company created Xbox?,Microsoft,Technology,llama3,Microsoft.,0.798899,1,0,4,1
+134,What company created Switch?,Nintendo,Technology,llama3,Nortel Networks.,0.491821,0,0,4,2
+135,What year was iPhone released?,2007,Technology,llama3,2007,0.587667,1,0,5,1
+136,What year was Google founded?,1998,Technology,llama3,1998.,0.552307,1,0,5,1
+137,What year was Facebook founded?,2004,Technology,llama3,2004.,0.788493,1,0,5,1
+138,What year was YouTube founded?,2005,Technology,llama3,2005.,0.651917,1,0,5,1
+139,What year was Amazon founded?,1994,Technology,llama3,1994.,0.626531,1,0,5,1
+140,What is JavaScript?,Programming language,Technology,llama3,"JavaScript is a high-level, interpreted programming language used for client",0.674438,1,0,3,10
+141,What is the second largest ocean?,Atlantic Ocean,Geography,llama3,Pacific Ocean.,0.732646,0,1,6,2
+142,What is the smallest ocean?,Arctic Ocean,Geography,llama3,The Pacific Ocean is the smallest of the world's five oceans,0.784261,0,1,5,11
+143,What is the largest desert in North America?,Great Basin Desert,Geography,llama3,The Mojave Desert.,0.724833,0,1,8,3
+144,What is the longest river in Asia?,Yangtze,Geography,llama3,The Yangtze River.,0.728109,1,0,7,3
+145,What is the tallest building in the world?,Burj Khalifa,Geography,llama3,"Burj Khalifa, located in Dubai, United Arab Emirates",0.858317,1,0,8,8
+146,What is the capital city located on two continents?,Istanbul,Geography,llama3,Berlin.,0.565837,0,0,9,1
+147,What is the largest country in South America?,Brazil,Geography,llama3,Brazil.,0.787577,1,0,8,1
+148,What is the smallest continent?,Australia,Geography,llama3,Africa.,0.732666,0,1,5,1
+149,What is the largest city by population?,Tokyo,Geography,llama3,New York City.,0.638194,0,0,7,3
+150,What is the largest inland sea?,Caspian Sea,Geography,llama3,Caspian Sea.,0.743123,1,0,6,2
+151,What is the fastest fish?,Sailfish,Science,llama3,"The sailfish is the fastest fish, reaching speeds of up",0.739797,1,0,5,10
+152,What is the largest reptile?,Saltwater Crocodile,Science,llama3,Saltwater crocodile.,0.729675,1,0,5,2
+153,What is the smallest mammal?,Bumblebee Bat,Science,llama3,The smallest mammal is the Etruscan shrew,0.844096,0,1,5,7
+154,What is the largest bird?,Ostrich,Science,llama3,The ostrich.,0.758698,1,0,5,2
+155,What is the fastest marine animal?,Black Marlin,Science,llama3,Sailfish.,0.762024,0,1,6,1
+156,What is the most intelligent mammal?,Dolphin,Science,llama3,The chimpanzee.,0.544484,0,0,6,2
+157,What is the largest land carnivore?,Polar Bear,Science,llama3,Lion.,0.77474,0,1,6,1
+158,What is the longest living animal?,Greenland Shark,Science,llama3,"Turritopsis dohrnii, also known as the",0.924072,0,1,6,6
+159,What is the strongest bone?,Femur,Science,llama3,"The strongest bone in the human body is the femur,",0.781169,1,0,5,10
+160,What is the largest insect?,Goliath Beetle,Science,llama3,The largest insect is the Goliath beetle.,0.695068,1,0,5,7
+161,Who invented the World Wide Web?,Tim Berners-Lee,History,llama3,Tim Berners-Lee.,0.732941,1,0,6,2
+162,Who was the first president of South Africa?,Nelson Mandela,History,llama3,Nelson Mandela.,0.411753,1,0,8,2
+163,Who led India to independence?,Mahatma Gandhi,History,llama3,Mahatma Gandhi.,0.823446,1,0,5,2
+164,Who was the first emperor of Russia?,Peter the Great,History,llama3,Peter the Great.,0.730469,1,0,7,3
+165,Who was the first female US vice president?,Kamala Harris,History,llama3,Kamala Harris.,0.719981,1,0,8,2
+166,Who was the first US secretary of state?,Thomas Jefferson,History,llama3,Thomas Jefferson.,0.772868,1,0,8,2
+167,Who was the first US treasury secretary?,Alexander Hamilton,History,llama3,Alexander Hamilton.,0.716512,1,0,7,2
+168,Who was the first Chinese communist leader?,Mao Zedong,History,llama3,Mao Zedong.,0.697734,1,0,7,2
+169,Who was the first African American president?,Barack Obama,History,llama3,Barack Obama.,0.787231,1,0,7,2
+170,Who led the French Revolution?,Robespierre,History,llama3,Maximilien Robespierre.,0.723501,1,0,5,2
+171,What company created Gmail?,Google,Technology,llama3,Google.,0.453746,1,0,4,1
+172,What company created Chrome?,Google,Technology,llama3,Google.,0.51619,1,0,4,1
+173,What company created Windows 10?,Microsoft,Technology,llama3,Microsoft.,0.78245,1,0,5,1
+174,What company created Azure?,Microsoft,Technology,llama3,Microsoft.,0.794627,1,0,4,1
+175,What company created Google Maps?,Google,Technology,llama3,Google Maps was created by Google Inc.,0.621446,1,0,5,7
+176,What company created PayPal?,PayPal,Technology,llama3,PayPal was created by Peter Thiel and Max Levchin.,0.843099,1,0,4,9
+177,What company created LinkedIn?,LinkedIn,Technology,llama3,Microsoft.,0.718221,0,1,4,1
+178,What company created Reddit?,Reddit,Technology,llama3,Reddit was created by Steve Huffman and Alexis Ohanian.,0.768458,1,0,4,9
+179,What company created Discord?,Discord,Technology,llama3,Discord was created by Jason Citron.,0.614583,1,0,4,6
+180,What company created Slack?,Slack,Technology,llama3,Slack Technologies.,0.741302,1,0,4,2
+181,What year was Instagram released?,2010,Technology,llama3,2010.,0.804769,1,0,5,1
+182,What year was Twitter launched?,2006,Technology,llama3,2006.,0.680033,1,0,5,1
+183,What year was LinkedIn founded?,2003,Technology,llama3,2002.,0.819482,0,1,5,1
+184,What year was Reddit founded?,2005,Technology,llama3,2005.,0.675873,1,0,5,1
+185,What year was Discord launched?,2015,Technology,llama3,2006.,0.515127,0,0,5,1
+186,What is the real name of Joker?,Arthur Fleck,Movies,llama3,Arthur Fleck.,0.475382,1,0,7,2
+187,What is the real name of Deadpool?,Wade Wilson,Movies,llama3,Wade Wilson.,0.607686,1,0,7,2
+188,What is the real name of Wolverine?,Logan,Movies,llama3,James Howlett.,0.571147,0,0,7,2
+189,What is the real name of Doctor Strange?,Stephen Strange,Movies,llama3,Stephen Strange.,0.502075,1,0,8,2
+190,What is the real name of Black Widow?,Natasha Romanoff,Movies,llama3,Natasha Romanoff.,0.677938,1,0,8,2
+191,Who directed The Dark Knight?,Christopher Nolan,Movies,llama3,Christopher Nolan.,0.68278,1,0,5,2
+192,Who directed The Revenant?,Alejandro Inarritu,Movies,llama3,Alejandro G. Iñárritu.,0.817393,0,1,4,3
+193,Who directed Shutter Island?,Martin Scorsese,Movies,llama3,Martin Scorsese.,0.716044,1,0,4,2
+194,Who directed The Wolf of Wall Street?,Martin Scorsese,Movies,llama3,Martin Scorsese.,0.738851,1,0,7,2
+195,Who directed The Grand Budapest Hotel?,Wes Anderson,Movies,llama3,Wes Anderson,0.732076,1,0,6,2
+196,Which country hosted the 2020 Olympics?,Japan,Sports,llama3,Japan.,0.571198,1,0,6,1
+197,Which country hosted the 2012 Olympics?,United Kingdom,Sports,llama3,United States.,0.589528,0,0,6,2
+198,Which country won Euro 2016?,Portugal,Sports,llama3,France.,0.585195,0,0,5,1
+199,Which country won Copa America 2021?,Argentina,Sports,llama3,Brazil.,0.489827,0,0,6,1
+200,Which sport uses a helmet and stick?,Hockey,Sports,llama3,Ice Hockey.,0.79539,1,0,7,2
+201,Where was Google founded?,California,People,llama3,"Mountain View, California, USA.",0.673991,1,0,4,4
+202,Where was Facebook founded?,Massachusetts,People,llama3,"Menlo Park, California.",0.798479,0,1,4,3
+203,Where was Amazon founded?,Washington,People,llama3,The Amazon River.,0.463481,0,0,4,3
+204,Where was Tesla founded?,California,People,llama3,"New York City, USA.",0.586243,0,0,4,4
+205,Where was Netflix founded?,California,People,llama3,"Los Angeles, California, USA.",0.552948,1,0,4,4
+206,Who invented the iPhone in ancient Rome?,None,Trick,llama3,"None, the iPhone was invented by Steve Jobs and Steve W",0.646484,1,0,7,11
+207,What is the tallest mountain on Venus?,None,Trick,llama3,"Maat Mons, with a height of approximately 5,",0.692485,0,1,7,8
+208,Who discovered Mars in 1500?,None,Trick,llama3,None of the above. Mars was discovered by Galileo Gal,0.657338,1,0,5,10
+209,What is the capital of the Sun?,None,Trick,llama3,"None of the above. The Sun is a star, not",0.660807,1,0,7,10
+210,Who was the president of Earth in 1800?,None,Trick,llama3,Napoleon Bonaparte.,0.527985,1,0,8,2
+211,What company created Google in 1800?,None,Trick,llama3,"None, Google was not created in 1800. Google",0.725037,1,0,6,8
+212,Who directed The Matrix in 1500?,None,Trick,llama3,"None, the film was actually directed by the Wachows",0.606669,1,0,6,9
+213,Who invented electricity on Mars?,None,Trick,llama3,"None, electricity is a natural phenomenon that occurs on Earth,",0.537577,1,0,5,10
+214,What year did humans live on Jupiter?,None,Trick,llama3,None. Humans have never lived on Jupiter. The planet is,0.66158,1,0,7,10
+215,Who discovered Antarctica in 1200?,None,Trick,llama3,The Vikings.,0.499532,0,0,5,2
+216,What is the national sport of Atlantis?,None,Trick,llama3,"None, Atlantis was a mythological place, so it doesn",0.479151,1,0,7,9
+217,Who was the king of Mars?,None,Trick,llama3,Tharsis.,0.548899,0,0,6,1
+218,What is the currency of Jupiter?,None,Trick,llama3,Hydrogen.,0.630412,0,0,6,1
+219,Who wrote The Hobbit in ancient Egypt?,None,Trick,llama3,"None, as J.R.R. Tolkien was not born until",0.602234,1,0,7,8
+220,What is the population of Middle Earth?,None,Trick,llama3,Approximately 140 million.,0.534246,0,0,7,3
+221,Who founded Amazon in 1500?,None,Trick,llama3,"The founder of Amazon was not a person, but a company",0.401382,1,0,5,11
+222,What is the tallest building in Atlantis?,None,Trick,llama3,"The Great Pyramid of Giza, which is located in Egypt",0.573069,0,0,7,10
+223,Who invented the internet in medieval times?,None,Trick,llama3,"None, the internet was invented in the 1960s",0.556819,1,0,7,8
+224,What is the capital of the internet?,None,Trick,llama3,None. The internet is a global network of interconnected computers and,0.635691,1,0,7,11
+225,Who was the CEO of Google in 1800?,None,Trick,llama3,"None, Google was founded in 1998.",0.625966,1,0,8,6
+226,Who played Iron Man in 1500?,None,Trick,llama3,Robert Downey Jr.,0.645772,0,0,6,3
+227,What year did Avengers happen in real life?,None,Trick,llama3,2012.,0.513692,0,0,8,1
+228,Who discovered gravity on Mars?,None,Trick,llama3,"None, gravity on Mars is a result of the planet's",0.599915,1,0,5,10
+229,What sport is played professionally on the Moon?,None,Trick,llama3,Lunar Horseshoes.,0.565577,1,0,8,2
+230,What is the official language of the Sun?,None,Trick,llama3,"None, as the Sun is a star and does not have",0.671417,1,0,8,11
+231,Who directed Inception 1800?,None,Trick,llama3,Christopher Nolan.,0.674988,1,0,4,2
+232,Who composed Star Wars music in 1500?,None,Trick,llama3,John Williams.,0.655212,0,1,7,2
+233,What is the real name of Batman in real life?,None,Trick,llama3,Bruce Wayne.,0.525787,0,0,10,2
+234,Who founded Apple in 1800?,None,Trick,llama3,None of the above. Apple was founded in 1976,0.754842,1,0,5,9
+235,What year was the iPhone released in 1800?,None,Trick,llama3,2007.,0.541107,0,0,8,1
+236,What is the currency of Mars?,None,Trick,llama3,Mars dollar.,0.483053,0,0,6,2
+237,Which country invented sushi in 1700 BC?,None,Trick,llama3,Japan.,0.783976,0,1,7,1
+238,Who won the World Cup in 1500?,None,Trick,llama3,None of the above. The World Cup is an international soccer,0.499725,1,0,7,11
+239,What team did Messi play for in 1800?,None,Trick,llama3,"None, as he was born in 1987 and therefore",0.533641,1,0,8,9
+240,What is the tallest building on Jupiter?,None,Trick,llama3,"The tallest building on Jupiter is the Great Red Spot, which",0.697459,0,1,7,11
+241,Who directed Titanic on Mars?,None,Trick,llama3,"None, the film was shot on Earth.",0.500224,1,0,5,7
+242,What is the capital of Hogwarts School?,None,Trick,llama3,"Hogwarts School is located in Scotland, UK. The capital of",0.52772,0,0,7,10
+243,Who composed music for Harry Potter in 1200?,None,Trick,llama3,John Williams.,0.517944,0,0,8,2
+244,Who founded Google in 1800?,None,Trick,llama3,None of the above. Google was founded in 1998,0.773071,1,0,5,9
+245,What sport uses dragons?,None,Trick,llama3,Dragon Boating.,0.699717,0,1,4,2
+246,Who is the CEO of Atlantis?,None,Trick,llama3,"None, Atlantis is a mythological place described by Plato as",0.539663,1,0,6,10
+247,Who wrote Harry Potter in ancient Rome?,None,Trick,llama3,J.K. Rowling.,0.534058,0,0,7,2
+248,What is the national animal of Wakanda?,None,Trick,llama3,The Black Panther.,0.700216,0,1,7,3
+249,Who played Spider-Man in 1500?,None,Trick,llama3,"None, as there is no record of a Spider-Man in",0.551849,1,0,5,10
+250,What is the currency of Middle Earth?,None,Trick,llama3,Silver.,0.723185,0,1,7,1
+251,Who directed Avengers in 1800?,None,Trick,llama3,"None, the film was released in 2012.",0.498433,1,0,5,7
+252,Who founded Tesla in 1700?,None,Trick,llama3,"None, Nikola Tesla was an inventor and engineer, but he",0.447378,1,0,5,10
+253,What is the capital of Gotham City?,None,Trick,llama3,"Gotham City is not a real city, so it does not",0.608805,1,0,7,11
+254,Who discovered electricity in 1000?,None,Trick,llama3,Benjamin Franklin.,0.672943,0,1,5,2
+255,What year did the internet exist in 1500?,None,Trick,llama3,1500.,0.646688,0,0,8,1
+1,What is the largest desert in the world?,Antarctica,Geography,mistral,The Sahara Desert is the largest desert in the,0.878337,0,1,8,9
+2,What is the largest hot desert?,Sahara,Geography,mistral,Sahara Desert,0.75178,1,0,6,2
+3,What is the longest river?,Nile,Geography,mistral,The Nile River is the longest river.,0.746338,1,0,5,7
+4,What is the highest mountain?,Mount Everest,Geography,mistral,Mount Everest,0.810791,1,0,5,2
+5,What is the deepest ocean trench?,Mariana Trench,Geography,mistral,Mariana Trench,0.848643,1,0,6,2
+6,What is the largest island?,Greenland,Geography,mistral,Greenland,0.693644,1,0,5,1
+7,What is the smallest country?,Vatican City,Geography,mistral,Vatican City,0.770742,1,0,5,2
+8,What is the largest lake?,Caspian Sea,Geography,mistral,Lake Superior is the largest lake.,0.773865,0,1,5,6
+9,What is the highest waterfall?,Angel Falls,Geography,mistral,Angel Falls in Venezuela is the highest waterfall.,0.798787,1,0,5,8
+10,What is the largest ocean?,Pacific Ocean,Geography,mistral,Pacific Ocean,0.689931,1,0,5,2
+11,What is the longest mountain range?,Andes,Geography,mistral,The Andes is the longest mountain range.,0.762614,1,0,6,7
+12,What is the coldest continent?,Antarctica,Geography,mistral,Antarctica,0.832825,1,0,5,1
+13,What is the driest desert?,Atacama Desert,Geography,mistral,Atacama Desert,0.805837,1,0,5,2
+14,What is the largest rainforest?,Amazon Rainforest,Geography,mistral,The Amazon Rainforest is the largest rainforest.,0.87382,1,0,5,7
+15,What is the deepest lake?,Lake Baikal,Geography,mistral,Lake Baikal,0.817383,1,0,5,2
+16,What is the largest bay?,Bay of Bengal,Geography,mistral,The largest bay is the Bay of Fundy.,0.785583,0,1,5,8
+17,Which country has the longest coastline?,Canada,Geography,mistral,Canada,0.753311,1,0,6,1
+18,What is the largest country by area?,Russia,Geography,mistral,Russia,0.822652,1,0,7,1
+19,What is the most populous country?,China,Geography,mistral,China,0.827311,1,0,6,1
+20,What is the largest peninsula?,Arabian Peninsula,Geography,mistral,The largest peninsula is the Arabian Peninsula.,0.840576,1,0,5,7
+21,What is the tallest volcano?,Ojos del Salado,Geography,mistral,Mauna Kea (in Hawaii),0.705424,0,1,5,4
+22,What is the largest coral reef?,Great Barrier Reef,Geography,mistral,The Great Barrier Reef is the largest coral re,0.934285,1,0,6,9
+23,What is the northernmost capital?,Reykjavik,Geography,mistral,"Reykjavik, Iceland is the northernmost",0.902201,1,0,5,5
+24,What is the southernmost continent?,Antarctica,Geography,mistral,Antarctica,0.831777,1,0,5,1
+25,Which continent has the most countries?,Africa,Geography,mistral,Africa,0.803975,1,0,6,1
+26,What is the largest gulf?,Gulf of Mexico,Geography,mistral,The Caspian Sea is the largest inland body of,0.827433,0,1,5,9
+27,What is the highest capital city?,La Paz,Geography,mistral,"La Paz, Bolivia is the highest capital city.",0.865845,1,0,6,8
+28,What is the longest river in Europe?,Volga,Geography,mistral,The Volga River is the longest river in Europe.,0.830119,1,0,7,9
+29,What is the largest desert in Asia?,Gobi Desert,Geography,mistral,Gobi Desert,0.729513,1,0,7,2
+30,What is the largest lake in Africa?,Lake Victoria,Geography,mistral,Lake Victoria,0.840302,1,0,7,2
+31,What is the largest country in Africa?,Algeria,Geography,mistral,Algeria,0.834951,1,0,7,1
+32,What is the highest peak in Africa?,Kilimanjaro,Geography,mistral,Mount Kilimanjaro,0.769572,1,0,7,2
+33,What is the largest island in the Mediterranean?,Sicily,Geography,mistral,Sicily,0.667084,1,0,8,1
+34,What is the longest river in South America?,Amazon,Geography,mistral,The Amazon River is the longest river in South America.,0.856038,1,0,8,10
+35,What is the largest bay in the world?,Bay of Bengal,Geography,mistral,The Bay of Fundy is the largest bay in the world,0.848429,0,1,8,11
+36,What is the deepest ocean?,Pacific Ocean,Geography,mistral,The Pacific Ocean is the deepest ocean.,0.755168,1,0,5,7
+37,What is the largest sea?,Philippine Sea,Geography,mistral,The Pacific Ocean is the largest sea.,0.784943,0,1,5,7
+38,What is the highest plateau?,Tibetan Plateau,Geography,mistral,Tibetan Plateau,0.760234,1,0,5,2
+39,What is the largest archipelago?,Indonesia,Geography,mistral,The largest archipelago is Indonesia.,0.781291,1,0,5,5
+40,What is the largest delta?,Ganges Delta,Geography,mistral,The largest delta is the Amazon Delta.,0.717906,0,1,5,7
+41,What is the fastest land animal?,Cheetah,Science,mistral,Cheetah,0.709147,1,0,6,1
+42,What is the fastest bird?,Peregrine Falcon,Science,mistral,Peregrine Falcon,0.821279,1,0,5,2
+43,What is the largest mammal?,Blue Whale,Science,mistral,Blue whale,0.7323,1,0,5,2
+44,What is the smallest bone?,Stapes,Science,mistral,"The stapes, a bone in the middle ear, is",0.731415,1,0,5,9
+45,What is the most abundant element?,Hydrogen,Science,mistral,Oxygen,0.662303,0,1,6,1
+46,What is the hottest planet?,Venus,Science,mistral,Venus is the hottest planet.,0.820882,1,0,5,5
+47,What is the densest planet?,Earth,Science,mistral,Neptune is the densest planet.,0.791128,0,1,5,5
+48,What is the closest star to Earth?,Sun,Science,mistral,Proxima Centauri,0.853261,0,1,7,2
+49,What is the main gas in the sun?,Hydrogen,Science,mistral,Hydrogen,0.72346,1,0,8,1
+50,What is the center of an atom?,Nucleus,Science,mistral,Nucleus,0.820801,1,0,7,1
+51,What is the chemical symbol for gold?,Au,Science,mistral,Au,0.740926,1,0,7,1
+52,What is the chemical symbol for sodium?,Na,Science,mistral,Na,0.760966,1,0,7,1
+53,What is the atomic number of carbon?,6,Science,mistral,6,0.75117,1,0,7,1
+54,What is the speed of light?,299792458 m/s,Science,mistral,"299,792 kilometers per second",0.922546,0,1,6,4
+55,What is the boiling point of water?,100 C,Science,mistral,100 degrees Celsius or 21,0.937195,0,1,7,5
+56,What is the freezing point of water?,0 C,Science,mistral,0 degrees Celsius or 32 degrees F,0.934611,0,1,7,7
+57,What is the pH of water?,7,Science,mistral,7.0 (neutral),0.690186,1,0,6,2
+58,What is the largest organ?,Skin,Science,mistral,The largest organ in the human body is the skin.,0.825907,1,0,5,10
+59,What is the strongest muscle?,Masseter,Science,mistral,The masseter muscle is the strongest muscle in the human body,0.819722,1,0,5,11
+60,What is the smallest planet?,Mercury,Science,mistral,Mercury,0.75533,1,0,5,1
+61,What is the largest planet?,Jupiter,Science,mistral,Jupiter is the largest planet.,0.793986,1,0,5,5
+62,What gas do humans breathe?,Oxygen,Science,mistral,Oxygen and Nitrogen,0.70933,1,0,5,3
+63,What gas do plants absorb?,Carbon dioxide,Science,mistral,Carbon Dioxide,0.770172,1,0,5,2
+64,What is the unit of force?,Newton,Science,mistral,Newton (N),0.781331,1,0,6,2
+65,What is the hardest natural substance?,Diamond,Science,mistral,Diamond,0.76531,1,0,6,1
+66,What is the closest planet to the sun?,Mercury,Science,mistral,Mercury,0.749898,1,0,8,1
+67,What is the largest bone?,Femur,Science,mistral,The femur is the largest bone in the human body.,0.864868,1,0,5,10
+68,What organ pumps blood?,Heart,Science,mistral,Heart,0.670858,1,0,4,1
+69,What is the study of life?,Biology,Science,mistral,Biology,0.767049,1,0,6,1
+70,What is the study of Earth?,Geology,Science,mistral,Geology,0.760824,1,0,6,1
+71,What is the study of stars?,Astronomy,Science,mistral,Astronomy,0.772176,1,0,6,1
+72,What is the study of chemicals?,Chemistry,Science,mistral,Chemistry,0.764058,1,0,6,1
+73,What is the study of matter?,Physics,Science,mistral,Physics,0.726501,1,0,6,1
+74,What is the boiling point of nitrogen?,-196 C,Science,mistral,195.8 degrees Celsius.,0.813497,0,1,7,3
+75,What is the freezing point of mercury?,-39 C,Science,mistral,39°C or 39°F,0.763245,0,1,7,3
+76,What is the most common gas in air?,Nitrogen,Science,mistral,Nitrogen,0.707743,1,0,8,1
+77,What is the smallest unit of life?,Cell,Science,mistral,Cell,0.696035,1,0,7,1
+78,What is the speed of sound?,343 m/s,Science,mistral,343 meters per second (at 20,0.826518,0,1,6,6
+79,What is the largest organ in humans?,Skin,Science,mistral,Skin,0.712301,1,0,7,1
+80,What is the main organ for breathing?,Lungs,Science,mistral,Lungs,0.750244,1,0,7,1
+81,Who invented the telephone?,Alexander Graham Bell,History,mistral,Alexander Graham Bell,0.692017,1,0,4,3
+82,Who invented the airplane?,Wright Brothers,History,mistral,The Wright Brothers,0.608877,1,0,4,3
+83,Who invented the light bulb?,Thomas Edison,History,mistral,Thomas Edison,0.686595,1,0,5,2
+84,Who discovered gravity?,Isaac Newton,History,mistral,Sir Isaac Newton,0.657074,1,0,3,3
+85,Who discovered penicillin?,Alexander Fleming,History,mistral,Alexander Fleming,0.747843,1,0,3,2
+86,Who was the first US president?,George Washington,History,mistral,George Washington,0.694845,1,0,6,2
+87,Who was the first man on the moon?,Neil Armstrong,History,mistral,Neil Armstrong,0.708639,1,0,8,2
+88,Who led the Soviet Union in WWII?,Joseph Stalin,History,mistral,Joseph Stalin,0.688588,1,0,7,2
+89,Who led Germany in WWII?,Adolf Hitler,History,mistral,Adolf Hitler,0.688304,1,0,5,2
+90,Who was the first emperor of Rome?,Augustus,History,mistral,Augustus Caesar,0.701884,1,0,7,2
+91,Who was the first emperor of China?,Qin Shi Huang,History,mistral,Qin Shi Huang,0.853414,1,0,7,3
+92,Who was the first king of England?,Athelstan,History,mistral,William the Conqueror (1066-1,0.837992,0,1,7,4
+93,What year did WWI start?,1914,History,mistral,1914,0.8538,1,0,5,1
+94,What year did WWI end?,1918,History,mistral,1918 (or 1919,0.886922,1,0,5,3
+95,What year did WWII end?,1945,History,mistral,1945,0.765605,1,0,5,1
+96,What year did Titanic sink?,1912,History,mistral,1912,0.797312,1,0,5,1
+97,Who was Napoleon?,French emperor,History,mistral,Napoleon Bonaparte was a French military and political leader.,0.88088,0,1,3,9
+98,Who was Julius Caesar?,Roman general,History,mistral,Julius Caesar was a Roman general and statesman.,0.871379,1,0,4,8
+99,Who discovered America?,Christopher Columbus,History,mistral,Christopher Columbus,0.669779,1,0,3,2
+100,Who was the first woman in space?,Valentina Tereshkova,History,mistral,Valentina Tereshkova,0.864726,1,0,7,2
+101,Who was the first US vice president?,John Adams,History,mistral,John Adams,0.737213,1,0,7,2
+102,Who was the first emperor of Japan?,Jimmu,History,mistral,Emperor Jimmu,0.698385,1,0,7,2
+103,Who was the first president of India?,Rajendra Prasad,History,mistral,Dr. Rajendra Prasad,0.850911,1,0,7,3
+104,Who was the first king of France?,Clovis I,History,mistral,Clovis I was the first king of France.,0.876689,1,0,7,8
+105,Who was the first emperor of India?,Ashoka,History,mistral,Chandragupta Maurya,0.86497,0,1,7,2
+106,Who was the first ruler of Russia?,Rurik,History,mistral,"Rurik, the first ruler of Russia, was",0.710551,1,0,7,7
+107,Who led the civil rights movement?,Martin Luther King Jr.,History,mistral,Martin Luther King Jr.,0.765737,1,0,6,4
+108,Who was British PM during WWII?,Winston Churchill,History,mistral,Winston Churchill,0.74236,1,0,6,2
+109,Who discovered electricity?,Benjamin Franklin,History,mistral,Benjamin Franklin,0.695231,1,0,3,2
+110,Who invented printing press?,Johannes Gutenberg,History,mistral,Johannes Gutenberg,0.717102,1,0,4,2
+111,What company created the iPhone?,Apple,Technology,mistral,Apple Inc.,0.653453,1,0,5,2
+112,What company created Windows?,Microsoft,Technology,mistral,Microsoft,0.689514,1,0,4,1
+113,What company owns YouTube?,Google,Technology,mistral,Google,0.681417,1,0,4,1
+114,What company created Android?,Google,Technology,mistral,Google,0.664154,1,0,4,1
+115,What company created AWS?,Amazon,Technology,mistral,Amazon,0.587972,1,0,4,1
+116,What company created Tesla?,Tesla,Technology,mistral,"Tesla, Inc. was founded by a group of engineers",0.779907,1,0,4,9
+117,What company owns Instagram?,Meta,Technology,mistral,Facebook Inc.,0.677979,0,1,4,2
+118,What company created Netflix?,Netflix,Technology,mistral,Reed Hastings and Marc Randolph created Netflix.,0.91215,1,0,4,7
+119,What company created Spotify?,Spotify,Technology,mistral,Spotify AB created Spotify.,0.788452,1,0,4,4
+120,What company created TikTok?,ByteDance,Technology,mistral,ByteDance,0.723206,1,0,4,1
+121,What does CPU stand for?,Central Processing Unit,Technology,mistral,Central Processing Unit,0.771525,1,0,5,3
+122,What does GPU stand for?,Graphics Processing Unit,Technology,mistral,Graphics Processing Unit,0.783142,1,0,5,3
+123,What does RAM stand for?,Random Access Memory,Technology,mistral,Random Access Memory,0.718811,1,0,5,3
+124,What does AI stand for?,Artificial Intelligence,Technology,mistral,Artificial Intelligence,0.825775,1,0,5,2
+125,What does HTTP stand for?,Hypertext Transfer Protocol,Technology,mistral,Hypertext Transfer Protocol,0.757792,1,0,5,3
+126,What is Python?,Programming language,Technology,mistral,"Python is a high-level, interpreted programming language.",0.901937,1,0,3,7
+127,What is Java?,Programming language,Technology,mistral,Java is a high-level programming language and computing platform.,0.816142,1,0,3,9
+128,What is C++?,Programming language,Technology,mistral,C++ is a high-level programming language.,0.843831,1,0,3,6
+129,What is Linux?,Operating system,Technology,mistral,Linux is an open-source operating system.,0.799774,1,0,3,6
+130,What is SQL?,Query language,Technology,mistral,Structured Query Language (SQL) is a programming language used,0.853495,1,0,3,9
+131,What company developed ChatGPT?,OpenAI,Technology,mistral,OpenAI developed ChatGPT.,0.852203,1,0,4,3
+132,What company created PlayStation?,Sony,Technology,mistral,Sony,0.663717,1,0,4,1
+133,What company created Xbox?,Microsoft,Technology,mistral,Microsoft,0.664001,1,0,4,1
+134,What company created Switch?,Nintendo,Technology,mistral,Nintendo created Switch.,0.6518,1,0,4,3
+135,What year was iPhone released?,2007,Technology,mistral,2007,0.84375,1,0,5,1
+136,What year was Google founded?,1998,Technology,mistral,1998,0.835388,1,0,5,1
+137,What year was Facebook founded?,2004,Technology,mistral,2004,0.84079,1,0,5,1
+138,What year was YouTube founded?,2005,Technology,mistral,2005,0.834513,1,0,5,1
+139,What year was Amazon founded?,1994,Technology,mistral,1994,0.832072,1,0,5,1
+140,What is JavaScript?,Programming language,Technology,mistral,"JavaScript is a high-level, interpreted programming language that is",0.822957,1,0,3,9
+141,What is the second largest ocean?,Atlantic Ocean,Geography,mistral,Pacific Ocean,0.799805,0,1,6,2
+142,What is the smallest ocean?,Arctic Ocean,Geography,mistral,The Arctic Ocean is the smallest ocean.,0.737101,1,0,5,7
+143,What is the largest desert in North America?,Great Basin Desert,Geography,mistral,The Sahara Desert is the largest desert in North,0.849976,0,1,8,9
+144,What is the longest river in Asia?,Yangtze,Geography,mistral,The longest river in Asia is the Yangtze River.,0.948812,1,0,7,9
+145,What is the tallest building in the world?,Burj Khalifa,Geography,mistral,Burj Khalifa in Dubai.,0.828247,1,0,8,4
+146,What is the capital city located on two continents?,Istanbul,Geography,mistral,"Rome (Italy) is located on two continents,",0.566945,0,0,9,7
+147,What is the largest country in South America?,Brazil,Geography,mistral,Brazil,0.725515,1,0,8,1
+148,What is the smallest continent?,Australia,Geography,mistral,Australia,0.719777,1,0,5,1
+149,What is the largest city by population?,Tokyo,Geography,mistral,"Tokyo, Japan",0.745076,1,0,7,2
+150,What is the largest inland sea?,Caspian Sea,Geography,mistral,Caspian Sea,0.850332,1,0,6,2
+151,What is the fastest fish?,Sailfish,Science,mistral,Sailfish,0.671763,1,0,5,1
+152,What is the largest reptile?,Saltwater Crocodile,Science,mistral,The largest reptile is the Saltwater Crocodile,0.918742,1,0,5,7
+153,What is the smallest mammal?,Bumblebee Bat,Science,mistral,Bumblebee Bat,0.681447,1,0,5,2
+154,What is the largest bird?,Ostrich,Science,mistral,The ostrich is the largest bird.,0.806051,1,0,5,6
+155,What is the fastest marine animal?,Black Marlin,Science,mistral,Sailfish,0.666473,0,1,6,1
+156,What is the most intelligent mammal?,Dolphin,Science,mistral,Dolphins are considered the most intelligent mammals.,0.757935,1,0,6,7
+157,What is the largest land carnivore?,Polar Bear,Science,mistral,African lion (male),0.619019,0,0,6,3
+158,What is the longest living animal?,Greenland Shark,Science,mistral,The Greenland shark is the longest living animal.,0.710887,1,0,6,8
+159,What is the strongest bone?,Femur,Science,mistral,Jawbone (Mandible),0.697449,0,1,5,2
+160,What is the largest insect?,Goliath Beetle,Science,mistral,The largest insect is the Giant Weta.,0.860962,0,1,5,7
+161,Who invented the World Wide Web?,Tim Berners-Lee,History,mistral,Tim Berners-Lee,0.814799,1,0,6,2
+162,Who was the first president of South Africa?,Nelson Mandela,History,mistral,Paul Kruger,0.787272,0,1,8,2
+163,Who led India to independence?,Mahatma Gandhi,History,mistral,Mahatma Gandhi,0.778147,1,0,5,2
+164,Who was the first emperor of Russia?,Peter the Great,History,mistral,Peter the Great,0.678833,1,0,7,3
+165,Who was the first female US vice president?,Kamala Harris,History,mistral,"Kamala Harris, who was sworn in on January",0.726908,1,0,8,8
+166,Who was the first US secretary of state?,Thomas Jefferson,History,mistral,Thomas Jefferson,0.724599,1,0,8,2
+167,Who was the first US treasury secretary?,Alexander Hamilton,History,mistral,Alexander Hamilton,0.698018,1,0,7,2
+168,Who was the first Chinese communist leader?,Mao Zedong,History,mistral,Mao Zedong,0.814636,1,0,7,2
+169,Who was the first African American president?,Barack Obama,History,mistral,Barack Obama,0.720296,1,0,7,2
+170,Who led the French Revolution?,Robespierre,History,mistral,"The French Revolution was not led by a single person, but",0.796997,0,1,5,11
+171,What company created Gmail?,Google,Technology,mistral,Google,0.67689,1,0,4,1
+172,What company created Chrome?,Google,Technology,mistral,Google,0.67392,1,0,4,1
+173,What company created Windows 10?,Microsoft,Technology,mistral,Microsoft,0.67367,1,0,5,1
+174,What company created Azure?,Microsoft,Technology,mistral,Microsoft created Azure.,0.640294,1,0,4,3
+175,What company created Google Maps?,Google,Technology,mistral,Google Inc.,0.650116,1,0,5,2
+176,What company created PayPal?,PayPal,Technology,mistral,"PayPal was created by Confinity, which later merged with",0.889669,1,0,4,9
+177,What company created LinkedIn?,LinkedIn,Technology,mistral,LinkedIn Corporation,0.750834,1,0,4,2
+178,What company created Reddit?,Reddit,Technology,mistral,Reddit was created by Steve Huffman and Alexis Oh,0.950684,1,0,4,9
+179,What company created Discord?,Discord,Technology,mistral,Discord was created by Discord Inc.,0.826599,1,0,4,6
+180,What company created Slack?,Slack,Technology,mistral,Slack was created by Slack Technologies.,0.860881,1,0,4,6
+181,What year was Instagram released?,2010,Technology,mistral,2010,0.83547,1,0,5,1
+182,What year was Twitter launched?,2006,Technology,mistral,2006,0.851288,1,0,5,1
+183,What year was LinkedIn founded?,2003,Technology,mistral,2003,0.799449,1,0,5,1
+184,What year was Reddit founded?,2005,Technology,mistral,Reddit was founded in 2005.,0.905924,1,0,5,5
+185,What year was Discord launched?,2015,Technology,mistral,2015,0.776703,1,0,5,1
+186,What is the real name of Joker?,Arthur Fleck,Movies,mistral,The Joker does not have a real name in the DC,0.806946,0,1,7,11
+187,What is the real name of Deadpool?,Wade Wilson,Movies,mistral,Wade Wilson,0.732524,1,0,7,2
+188,What is the real name of Wolverine?,Logan,Movies,mistral,Logan,0.634094,1,0,7,1
+189,What is the real name of Doctor Strange?,Stephen Strange,Movies,mistral,Stephen Strange,0.779622,1,0,8,2
+190,What is the real name of Black Widow?,Natasha Romanoff,Movies,mistral,Natasha Romanoff,0.674367,1,0,8,2
+191,Who directed The Dark Knight?,Christopher Nolan,Movies,mistral,Christopher Nolan,0.690887,1,0,5,2
+192,Who directed The Revenant?,Alejandro Inarritu,Movies,mistral,Alejandro González Iñárritu,0.955729,0,1,4,3
+193,Who directed Shutter Island?,Martin Scorsese,Movies,mistral,Martin Scorsese,0.696045,1,0,4,2
+194,Who directed The Wolf of Wall Street?,Martin Scorsese,Movies,mistral,Martin Scorsese,0.693268,1,0,7,2
+195,Who directed The Grand Budapest Hotel?,Wes Anderson,Movies,mistral,Wes Anderson,0.685537,1,0,6,2
+196,Which country hosted the 2020 Olympics?,Japan,Sports,mistral,Japan,0.664266,1,0,6,1
+197,Which country hosted the 2012 Olympics?,United Kingdom,Sports,mistral,London,0.806986,0,1,6,1
+198,Which country won Euro 2016?,Portugal,Sports,mistral,Portugal,0.598765,1,0,5,1
+199,Which country won Copa America 2021?,Argentina,Sports,mistral,Argentina,0.59434,1,0,6,1
+200,Which sport uses a helmet and stick?,Hockey,Sports,mistral,Field Hockey,0.57137,1,0,7,2
+201,Where was Google founded?,California,People,mistral,"Stanford University, California, USA",0.587992,1,0,4,4
+202,Where was Facebook founded?,Massachusetts,People,mistral,"Facebook was founded in Palo Alto, California.",0.852743,0,1,4,7
+203,Where was Amazon founded?,Washington,People,mistral,"Seattle, Washington, USA",0.652995,1,0,4,3
+204,Where was Tesla founded?,California,People,mistral,"Palo Alto, California",0.752035,1,0,4,3
+205,Where was Netflix founded?,California,People,mistral,"San Francisco, California, USA",0.637695,1,0,4,4
+206,Who invented the iPhone in ancient Rome?,None,Trick,mistral,No one invented the iPhone in ancient Rome. The iPhone was,0.853149,1,0,7,11
+207,What is the tallest mountain on Venus?,None,Trick,mistral,There are no mountains on Venus like on Earth. Instead,0.763306,1,0,7,10
+208,Who discovered Mars in 1500?,None,Trick,mistral,Mars was known to ancient astronomers long before 15,0.790853,1,0,5,9
+209,What is the capital of the Sun?,None,Trick,mistral,The Sun does not have a capital as it is not a,0.901855,1,0,7,12
+210,Who was the president of Earth in 1800?,None,Trick,mistral,There was no president of Earth in 1800,0.931132,1,0,8,8
+211,What company created Google in 1800?,None,Trick,mistral,The company Google was created in 1998 by,0.820129,0,1,6,8
+212,Who directed The Matrix in 1500?,None,Trick,mistral,The Matrix was directed by Lana and Lilly Wach,0.860636,1,0,6,9
+213,Who invented electricity on Mars?,None,Trick,mistral,Electricity does not exist on Mars. Mars is a planet,0.749105,1,0,5,10
+214,What year did humans live on Jupiter?,None,Trick,mistral,Humans have never lived on Jupiter. It is a,0.797831,0,1,7,9
+215,Who discovered Antarctica in 1200?,None,Trick,mistral,Antarctica was not discovered until the 19,0.867635,1,0,5,7
+216,What is the national sport of Atlantis?,None,Trick,mistral,"Atlantis does not exist, so it does not have",0.80896,1,0,7,9
+217,Who was the king of Mars?,None,Trick,mistral,"There is no king of Mars. Mars is a planet,",0.788147,1,0,6,10
+218,What is the currency of Jupiter?,None,Trick,mistral,Jupiter does not have a currency as it is a planet,0.89624,1,0,6,11
+219,Who wrote The Hobbit in ancient Egypt?,None,Trick,mistral,The Hobbit was written by J.R.R.,0.93457,0,1,7,6
+220,What is the population of Middle Earth?,None,Trick,mistral,Middle Earth does not have a specific population as it is a,0.791565,1,0,7,12
+221,Who founded Amazon in 1500?,None,Trick,mistral,"Amazon was not founded in 1500, it",0.886658,1,0,5,7
+222,What is the tallest building in Atlantis?,None,Trick,mistral,"The tallest building in Atlantis is fictional,",0.836283,1,0,7,7
+223,Who invented the internet in medieval times?,None,Trick,mistral,No one invented the internet in medieval times. The internet was,0.792908,1,0,7,11
+224,What is the capital of the internet?,None,Trick,mistral,There is no capital of the internet. The internet is a,0.882365,1,0,7,11
+225,Who was the CEO of Google in 1800?,None,Trick,mistral,There was no CEO of Google in 1800,0.916748,1,0,8,8
+226,Who played Iron Man in 1500?,None,Trick,mistral,"No one, Iron Man is a fictional character created in",0.855265,1,0,6,10
+227,What year did Avengers happen in real life?,None,Trick,mistral,2012 (in the Marvel Cinematic,0.838236,0,1,8,5
+228,Who discovered gravity on Mars?,None,Trick,mistral,No one has discovered gravity on Mars. Gravity is a,0.76123,1,0,5,10
+229,What sport is played professionally on the Moon?,None,Trick,mistral,There is no professional sport played on the Moon. The Moon,0.793722,1,0,8,11
+230,What is the official language of the Sun?,None,Trick,mistral,The Sun does not have an official language as it is not,0.85258,1,0,8,12
+231,Who directed Inception 1800?,None,Trick,mistral,Christopher Nolan,0.744324,1,0,4,2
+232,Who composed Star Wars music in 1500?,None,Trick,mistral,No one composed Star Wars music in 1500,0.879944,1,0,7,8
+233,What is the real name of Batman in real life?,None,Trick,mistral,Bruce Wayne,0.692678,0,1,10,2
+234,Who founded Apple in 1800?,None,Trick,mistral,Apple was not founded in 1800. It,0.922689,1,0,5,7
+235,What year was the iPhone released in 1800?,None,Trick,mistral,The iPhone was not released in 1800.,0.962809,1,0,8,7
+236,What is the currency of Mars?,None,Trick,mistral,There is no currency on Mars as it is not inhabited,0.804423,1,0,6,11
+237,Which country invented sushi in 1700 BC?,None,Trick,mistral,Japan,0.614482,0,0,7,1
+238,Who won the World Cup in 1500?,None,Trick,mistral,There was no World Cup in 1500.,0.858663,1,0,7,7
+239,What team did Messi play for in 1800?,None,Trick,mistral,Messi did not play for any team in 18,0.901937,1,0,8,9
+240,What is the tallest building on Jupiter?,None,Trick,mistral,Jupiter does not have buildings. It is a gas giant,0.835612,1,0,7,10
+241,Who directed Titanic on Mars?,None,Trick,mistral,"The movie Titanic was directed by James Cameron, not",0.802917,1,0,5,9
+242,What is the capital of Hogwarts School?,None,Trick,mistral,Hogwarts does not have a capital. It is,0.84318,1,0,7,8
+243,Who composed music for Harry Potter in 1200?,None,Trick,mistral,There is no Harry Potter in the year 12,0.722432,1,0,8,9
+244,Who founded Google in 1800?,None,Trick,mistral,Google was not founded in 1800. It,0.934733,1,0,5,7
+245,What sport uses dragons?,None,Trick,mistral,Dragon Boat Racing,0.774516,0,1,4,3
+246,Who is the CEO of Atlantis?,None,Trick,mistral,Michael Ungerer,0.610891,0,0,6,2
+247,Who wrote Harry Potter in ancient Rome?,None,Trick,mistral,Harry Potter was written by J.K. Rowling,0.929525,0,1,7,7
+248,What is the national animal of Wakanda?,None,Trick,mistral,The national animal of Wakanda is a panther.,0.768677,1,0,7,8
+249,Who played Spider-Man in 1500?,None,Trick,mistral,"No one, as Spider-Man was created in",0.731669,1,0,5,7
+250,What is the currency of Middle Earth?,None,Trick,mistral,There is no currency in Middle Earth. It is a fict,0.701162,1,0,7,11
+251,Who directed Avengers in 1800?,None,Trick,mistral,"Avengers was directed in 2012, not",0.860819,1,0,5,6
+252,Who founded Tesla in 1700?,None,Trick,mistral,Tesla was not founded in 1700.,0.85321,1,0,5,6
+253,What is the capital of Gotham City?,None,Trick,mistral,Gotham City does not have a capital. It is,0.849467,1,0,7,9
+254,Who discovered electricity in 1000?,None,Trick,mistral,No one discovered electricity in 1000. The,0.864075,1,0,5,7
+255,What year did the internet exist in 1500?,None,Trick,mistral,The internet did not exist in 1500.,0.944743,1,0,8,7
+1,What is the largest desert in the world?,Antarctica,Geography,phi3,The Sahara Desert,0.750478,0,1,8,3
+2,What is the largest hot desert?,Sahara,Geography,phi3,The Sahara Desert,0.735708,1,0,6,3
+3,What is the longest river?,Nile,Geography,phi3,The Nile River,0.69546,1,0,5,3
+4,What is the highest mountain?,Mount Everest,Geography,phi3,Mount Everest,0.747508,1,0,5,2
+5,What is the deepest ocean trench?,Mariana Trench,Geography,phi3,Mariana Trench,0.713252,1,0,6,2
+6,What is the largest island?,Greenland,Geography,phi3,Greenland,0.685913,1,0,5,1
+7,What is the smallest country?,Vatican City,Geography,phi3,Vatican City,0.773275,1,0,5,2
+8,What is the largest lake?,Caspian Sea,Geography,phi3,Lake Baikal,0.679952,0,1,5,2
+9,What is the highest waterfall?,Angel Falls,Geography,phi3,Angel Falls,0.669881,1,0,5,2
+10,What is the largest ocean?,Pacific Ocean,Geography,phi3,Pacific Ocean,0.709544,1,0,5,2
+11,What is the longest mountain range?,Andes,Geography,phi3,The Andes,0.695628,1,0,6,2
+12,What is the coldest continent?,Antarctica,Geography,phi3,Antarctica,0.742798,1,0,5,1
+13,What is the driest desert?,Atacama Desert,Geography,phi3,The Atacama Desert,0.77036,1,0,5,3
+14,What is the largest rainforest?,Amazon Rainforest,Geography,phi3,Amazon Rainforest,0.725382,1,0,5,2
+15,What is the deepest lake?,Lake Baikal,Geography,phi3,Lake Baikal,0.704651,1,0,5,2
+16,What is the largest bay?,Bay of Bengal,Geography,phi3,The Bay of Bengal,0.715607,1,0,5,4
+17,Which country has the longest coastline?,Canada,Geography,phi3,Canada,0.687393,1,0,6,1
+18,What is the largest country by area?,Russia,Geography,phi3,Russia,0.632812,1,0,7,1
+19,What is the most populous country?,China,Geography,phi3,China,0.715597,1,0,6,1
+20,What is the largest peninsula?,Arabian Peninsula,Geography,phi3,Arabian Peninsula,0.808441,1,0,5,2
+21,What is the tallest volcano?,Ojos del Salado,Geography,phi3,Mauna Kea,0.6763,0,1,5,2
+22,What is the largest coral reef?,Great Barrier Reef,Geography,phi3,The Great Barrier Reef,0.806122,1,0,6,4
+23,What is the northernmost capital?,Reykjavik,Geography,phi3,Reykjavik,0.697383,1,0,5,1
+24,What is the southernmost continent?,Antarctica,Geography,phi3,Antarctica,0.731639,1,0,5,1
+25,Which continent has the most countries?,Africa,Geography,phi3,Africa,0.708242,1,0,6,1
+26,What is the largest gulf?,Gulf of Mexico,Geography,phi3,Gulf of Mexico,0.742645,1,0,5,3
+27,What is the highest capital city?,La Paz,Geography,phi3,## Response:,0.467656,0,0,6,2
+28,What is the longest river in Europe?,Volga,Geography,phi3,The Volga River,0.666672,1,0,7,3
+29,What is the largest desert in Asia?,Gobi Desert,Geography,phi3,The Gobi Desert,0.736638,1,0,7,3
+30,What is the largest lake in Africa?,Lake Victoria,Geography,phi3,Lake Victoria,0.689326,1,0,7,2
+31,What is the largest country in Africa?,Algeria,Geography,phi3,Algeria,0.772736,1,0,7,1
+32,What is the highest peak in Africa?,Kilimanjaro,Geography,phi3,Mount Kilimanjaro,0.817841,1,0,7,2
+33,What is the largest island in the Mediterranean?,Sicily,Geography,phi3,Sicily,0.616481,1,0,8,1
+34,What is the longest river in South America?,Amazon,Geography,phi3,The Amazon River,0.620188,1,0,8,3
+35,What is the largest bay in the world?,Bay of Bengal,Geography,phi3,Hudson Bay,0.640121,0,0,8,2
+36,What is the deepest ocean?,Pacific Ocean,Geography,phi3,The Mariana Trench,0.746623,0,1,5,3
+37,What is the largest sea?,Philippine Sea,Geography,phi3,The Pacific Ocean,0.651001,0,1,5,3
+38,What is the highest plateau?,Tibetan Plateau,Geography,phi3,Tibetan Plateau,0.779551,1,0,5,2
+39,What is the largest archipelago?,Indonesia,Geography,phi3,Indonesia,0.62678,1,0,5,1
+40,What is the largest delta?,Ganges Delta,Geography,phi3,The Ganges-Brahmaputra Delta.,0.868062,0,1,5,3
+41,What is the fastest land animal?,Cheetah,Science,phi3,Cheetah,0.686371,1,0,6,1
+42,What is the fastest bird?,Peregrine Falcon,Science,phi3,Peregrine falcon,0.760569,1,0,5,2
+43,What is the largest mammal?,Blue Whale,Science,phi3,Blue whale,0.709432,1,0,5,2
+44,What is the smallest bone?,Stapes,Science,phi3,Stapes,0.714834,1,0,5,1
+45,What is the most abundant element?,Hydrogen,Science,phi3,Hydrogen,0.679682,1,0,6,1
+46,What is the hottest planet?,Venus,Science,phi3,Venus,0.682505,1,0,5,1
+47,What is the densest planet?,Earth,Science,phi3,Earth,0.654683,1,0,5,1
+48,What is the closest star to Earth?,Sun,Science,phi3,The Sun,0.657145,1,0,7,2
+49,What is the main gas in the sun?,Hydrogen,Science,phi3,Hydrogen,0.74174,1,0,8,1
+50,What is the center of an atom?,Nucleus,Science,phi3,Nucleus,0.695129,1,0,7,1
+51,What is the chemical symbol for gold?,Au,Science,phi3,Au,0.708923,1,0,7,1
+52,What is the chemical symbol for sodium?,Na,Science,phi3,Na,0.663869,1,0,7,1
+53,What is the atomic number of carbon?,6,Science,phi3,6,0.644984,1,0,7,1
+54,What is the speed of light?,299792458 m/s,Science,phi3,"Approximately 299,792 kilom",0.965861,0,1,6,3
+55,What is the boiling point of water?,100 C,Science,phi3,100 degrees Celsius,0.774302,0,1,7,3
+56,What is the freezing point of water?,0 C,Science,phi3,0 degrees Celsius,0.767853,0,1,7,3
+57,What is the pH of water?,7,Science,phi3,7,0.717682,1,0,6,1
+58,What is the largest organ?,Skin,Science,phi3,Skin,0.697205,1,0,5,1
+59,What is the strongest muscle?,Masseter,Science,phi3,The masseter muscle.,0.652679,1,0,5,3
+60,What is the smallest planet?,Mercury,Science,phi3,Mercury,0.716766,1,0,5,1
+61,What is the largest planet?,Jupiter,Science,phi3,Jupiter,0.756226,1,0,5,1
+62,What gas do humans breathe?,Oxygen,Science,phi3,Oxygen,0.623988,1,0,5,1
+63,What gas do plants absorb?,Carbon dioxide,Science,phi3,Carbon dioxide,0.783407,1,0,5,2
+64,What is the unit of force?,Newton,Science,phi3,Newton,0.644104,1,0,6,1
+65,What is the hardest natural substance?,Diamond,Science,phi3,Diamond,0.695129,1,0,6,1
+66,What is the closest planet to the sun?,Mercury,Science,phi3,Mercury,0.682729,1,0,8,1
+67,What is the largest bone?,Femur,Science,phi3,Femur,0.77181,1,0,5,1
+68,What organ pumps blood?,Heart,Science,phi3,Heart,0.653758,1,0,4,1
+69,What is the study of life?,Biology,Science,phi3,Biology.,0.600428,1,0,6,1
+70,What is the study of Earth?,Geology,Science,phi3,Geography,0.557414,0,0,6,1
+71,What is the study of stars?,Astronomy,Science,phi3,Astronomy.,0.579768,1,0,6,1
+72,What is the study of chemicals?,Chemistry,Science,phi3,Chemistry.,0.680908,1,0,6,1
+73,What is the study of matter?,Physics,Science,phi3,Chemistry.,0.578552,0,0,6,1
+74,What is the boiling point of nitrogen?,-196 C,Science,phi3,195.79°C,0.8231,0,1,7,1
+75,What is the freezing point of mercury?,-39 C,Science,phi3,38.83 degrees Celsius,0.95105,0,1,7,3
+76,What is the most common gas in air?,Nitrogen,Science,phi3,Nitrogen,0.758962,1,0,8,1
+77,What is the smallest unit of life?,Cell,Science,phi3,A cell,0.61027,1,0,7,2
+78,What is the speed of sound?,343 m/s,Science,phi3,Approximately 343 meters per second at room,0.874003,0,1,6,7
+79,What is the largest organ in humans?,Skin,Science,phi3,Skin,0.602036,1,0,7,1
+80,What is the main organ for breathing?,Lungs,Science,phi3,Lungs,0.698283,1,0,7,1
+81,Who invented the telephone?,Alexander Graham Bell,History,phi3,Alexander Graham Bell,0.641398,1,0,4,3
+82,Who invented the airplane?,Wright Brothers,History,phi3,The Wright brothers.,0.624888,1,0,4,3
+83,Who invented the light bulb?,Thomas Edison,History,phi3,Thomas Edison,0.645198,1,0,5,2
+84,Who discovered gravity?,Isaac Newton,History,phi3,Sir Isaac Newton,0.585642,1,0,3,3
+85,Who discovered penicillin?,Alexander Fleming,History,phi3,Alexander Fleming,0.715744,1,0,3,2
+86,Who was the first US president?,George Washington,History,phi3,George Washington,0.728566,1,0,6,2
+87,Who was the first man on the moon?,Neil Armstrong,History,phi3,Neil Armstrong,0.769379,1,0,8,2
+88,Who led the Soviet Union in WWII?,Joseph Stalin,History,phi3,Joseph Stalin,0.662303,1,0,7,2
+89,Who led Germany in WWII?,Adolf Hitler,History,phi3,Adolf Hitler,0.664958,1,0,5,2
+90,Who was the first emperor of Rome?,Augustus,History,phi3,Augustus,0.627609,1,0,7,1
+91,Who was the first emperor of China?,Qin Shi Huang,History,phi3,Qin Shi Huang,0.758621,1,0,7,3
+92,Who was the first king of England?,Athelstan,History,phi3,King Alfred the Great,0.630152,0,0,7,4
+93,What year did WWI start?,1914,History,phi3,1914,0.800822,1,0,5,1
+94,What year did WWI end?,1918,History,phi3,1918,0.792806,1,0,5,1
+95,What year did WWII end?,1945,History,phi3,1945,0.782145,1,0,5,1
+96,What year did Titanic sink?,1912,History,phi3,1912,0.781169,1,0,5,1
+97,Who was Napoleon?,French emperor,History,phi3,French military leader and emperor,0.712957,0,1,3,5
+98,Who was Julius Caesar?,Roman general,History,phi3,Roman military general and statesman,0.628077,0,0,4,5
+99,Who discovered America?,Christopher Columbus,History,phi3,Christopher Columbus,0.651337,1,0,3,2
+100,Who was the first woman in space?,Valentina Tereshkova,History,phi3,Valentina Tereshkova,0.844676,1,0,7,2
+101,Who was the first US vice president?,John Adams,History,phi3,John Adams,0.698476,1,0,7,2
+102,Who was the first emperor of Japan?,Jimmu,History,phi3,Emperor Jimmu,0.66718,1,0,7,2
+103,Who was the first president of India?,Rajendra Prasad,History,phi3,Dr. Rajendra Prasad,0.831553,1,0,7,3
+104,Who was the first king of France?,Clovis I,History,phi3,Clovis I,0.63178,1,0,7,2
+105,Who was the first emperor of India?,Ashoka,History,phi3,Chandragupta Maurya,0.836558,0,1,7,2
+106,Who was the first ruler of Russia?,Rurik,History,phi3,Ivan the Terrible,0.595851,0,0,7,3
+107,Who led the civil rights movement?,Martin Luther King Jr.,History,phi3,Martin Luther King Jr.,0.700582,1,0,6,4
+108,Who was British PM during WWII?,Winston Churchill,History,phi3,Winston Churchill,0.776194,1,0,6,2
+109,Who discovered electricity?,Benjamin Franklin,History,phi3,Benjamin Franklin,0.562586,1,0,3,2
+110,Who invented printing press?,Johannes Gutenberg,History,phi3,Johannes Gutenberg,0.677561,1,0,4,2
+111,What company created the iPhone?,Apple,Technology,phi3,Apple Inc.,0.675939,1,0,5,2
+112,What company created Windows?,Microsoft,Technology,phi3,Microsoft,0.641978,1,0,4,1
+113,What company owns YouTube?,Google,Technology,phi3,Google,0.642303,1,0,4,1
+114,What company created Android?,Google,Technology,phi3,Google,0.617096,1,0,4,1
+115,What company created AWS?,Amazon,Technology,phi3,Amazon Web Services (AWS) was created by Amazon.,0.862732,1,0,4,8
+116,What company created Tesla?,Tesla,Technology,phi3,"Tesla, Inc. was created by Martin Eber",0.799764,1,0,4,7
+117,What company owns Instagram?,Meta,Technology,phi3,"Facebook (Meta Platforms, Inc.)",0.76708,1,0,4,4
+118,What company created Netflix?,Netflix,Technology,phi3,Amazon,0.547201,0,0,4,1
+119,What company created Spotify?,Spotify,Technology,phi3,Spotify was created by Daniel Ek and Martin Lorent,0.873515,1,0,4,9
+120,What company created TikTok?,ByteDance,Technology,phi3,ByteDance,0.67572,1,0,4,1
+121,What does CPU stand for?,Central Processing Unit,Technology,phi3,Central Processing Unit,0.700979,1,0,5,3
+122,What does GPU stand for?,Graphics Processing Unit,Technology,phi3,Graphics Processing Unit,0.766652,1,0,5,3
+123,What does RAM stand for?,Random Access Memory,Technology,phi3,Random Access Memory,0.672251,1,0,5,3
+124,What does AI stand for?,Artificial Intelligence,Technology,phi3,Artificial Intelligence,0.7795,1,0,5,2
+125,What does HTTP stand for?,Hypertext Transfer Protocol,Technology,phi3,Hypertext Transfer Protocol,0.700562,1,0,5,3
+126,What is Python?,Programming language,Technology,phi3,"An interpreted, high-level programming language.",0.774323,1,0,3,5
+127,What is Java?,Programming language,Technology,phi3,Programming language,0.665619,1,0,3,2
+128,What is C++?,Programming language,Technology,phi3,A general-purpose programming language.,0.720901,1,0,3,4
+129,What is Linux?,Operating system,Technology,phi3,Unix-like open-source operating system.,0.761108,1,0,3,4
+130,What is SQL?,Query language,Technology,phi3,Structured Query Language,0.677216,1,0,3,3
+131,What company developed ChatGPT?,OpenAI,Technology,phi3,Microsoft,0.627563,0,0,4,1
+132,What company created PlayStation?,Sony,Technology,phi3,Sony,0.583211,1,0,4,1
+133,What company created Xbox?,Microsoft,Technology,phi3,Microsoft,0.588745,1,0,4,1
+134,What company created Switch?,Nintendo,Technology,phi3,Nintendo,0.601034,1,0,4,1
+135,What year was iPhone released?,2007,Technology,phi3,2007,0.795217,1,0,5,1
+136,What year was Google founded?,1998,Technology,phi3,1998,0.704712,1,0,5,1
+137,What year was Facebook founded?,2004,Technology,phi3,2004,0.711675,1,0,5,1
+138,What year was YouTube founded?,2005,Technology,phi3,2005,0.712224,1,0,5,1
+139,What year was Amazon founded?,1994,Technology,phi3,1994,0.720759,1,0,5,1
+140,What is JavaScript?,Programming language,Technology,phi3,A programming language for web development.,0.681264,1,0,3,6
+141,What is the second largest ocean?,Atlantic Ocean,Geography,phi3,Pacific Ocean,0.637787,0,0,6,2
+142,What is the smallest ocean?,Arctic Ocean,Geography,phi3,Arctic Ocean,0.717478,1,0,5,2
+143,What is the largest desert in North America?,Great Basin Desert,Geography,phi3,The Great Basin Desert,0.73113,1,0,8,4
+144,What is the longest river in Asia?,Yangtze,Geography,phi3,The Yangtze River,0.712728,1,0,7,3
+145,What is the tallest building in the world?,Burj Khalifa,Geography,phi3,Burj Khalifa,0.789134,1,0,8,2
+146,What is the capital city located on two continents?,Istanbul,Geography,phi3,Istanbul,0.751333,1,0,9,1
+147,What is the largest country in South America?,Brazil,Geography,phi3,Brazil,0.659337,1,0,8,1
+148,What is the smallest continent?,Australia,Geography,phi3,Australia,0.693258,1,0,5,1
+149,What is the largest city by population?,Tokyo,Geography,phi3,Tokyo,0.625977,1,0,7,1
+150,What is the largest inland sea?,Caspian Sea,Geography,phi3,The Caspian Sea,0.772578,1,0,6,3
+151,What is the fastest fish?,Sailfish,Science,phi3,The sailfish.,0.702006,1,0,5,2
+152,What is the largest reptile?,Saltwater Crocodile,Science,phi3,Saltwater crocodile,0.793335,1,0,5,2
+153,What is the smallest mammal?,Bumblebee Bat,Science,phi3,The Etruscan shrew.,0.763891,0,1,5,3
+154,What is the largest bird?,Ostrich,Science,phi3,Ostrich,0.688202,1,0,5,1
+155,What is the fastest marine animal?,Black Marlin,Science,phi3,The sailfish.,0.645889,0,0,6,2
+156,What is the most intelligent mammal?,Dolphin,Science,phi3,Humans,0.675588,0,1,6,1
+157,What is the largest land carnivore?,Polar Bear,Science,phi3,Polar bear,0.682129,1,0,6,2
+158,What is the longest living animal?,Greenland Shark,Science,phi3,Greenland shark,0.683533,1,0,6,2
+159,What is the strongest bone?,Femur,Science,phi3,Femur,0.706446,1,0,5,1
+160,What is the largest insect?,Goliath Beetle,Science,phi3,Atlas moth,0.521255,0,0,5,2
+161,Who invented the World Wide Web?,Tim Berners-Lee,History,phi3,Tim Berners-Lee,0.835114,1,0,6,2
+162,Who was the first president of South Africa?,Nelson Mandela,History,phi3,Nelson Mandela,0.637965,1,0,8,2
+163,Who led India to independence?,Mahatma Gandhi,History,phi3,Mahatma Gandhi,0.692139,1,0,5,2
+164,Who was the first emperor of Russia?,Peter the Great,History,phi3,Peter the Great,0.649083,1,0,7,3
+165,Who was the first female US vice president?,Kamala Harris,History,phi3,Kamala Harris,0.658829,1,0,8,2
+166,Who was the first US secretary of state?,Thomas Jefferson,History,phi3,Thomas Jefferson,0.692139,1,0,8,2
+167,Who was the first US treasury secretary?,Alexander Hamilton,History,phi3,Alexander Hamilton,0.688548,1,0,7,2
+168,Who was the first Chinese communist leader?,Mao Zedong,History,phi3,Mao Zedong,0.797277,1,0,7,2
+169,Who was the first African American president?,Barack Obama,History,phi3,Barack Obama,0.722692,1,0,7,2
+170,Who led the French Revolution?,Robespierre,History,phi3,Maximilien Robespierre,0.781514,1,0,5,2
+171,What company created Gmail?,Google,Technology,phi3,Google,0.676458,1,0,4,1
+172,What company created Chrome?,Google,Technology,phi3,Google,0.712891,1,0,4,1
+173,What company created Windows 10?,Microsoft,Technology,phi3,Microsoft,0.489446,1,0,5,1
+174,What company created Azure?,Microsoft,Technology,phi3,Microsoft,0.699707,1,0,4,1
+175,What company created Google Maps?,Google,Technology,phi3,Google,0.619853,1,0,5,1
+176,What company created PayPal?,PayPal,Technology,phi3,eBay,0.636281,0,0,4,1
+177,What company created LinkedIn?,LinkedIn,Technology,phi3,Microsoft,0.654841,0,1,4,1
+178,What company created Reddit?,Reddit,Technology,phi3,Reddit was created by Steve Huffman and,0.794952,1,0,4,7
+179,What company created Discord?,Discord,Technology,phi3,Discord was created by Discord Inc.,0.775635,1,0,4,6
+180,What company created Slack?,Slack,Technology,phi3,Salesforce,0.64212,0,0,4,1
+181,What year was Instagram released?,2010,Technology,phi3,2010,0.720428,1,0,5,1
+182,What year was Twitter launched?,2006,Technology,phi3,2006,0.70488,1,0,5,1
+183,What year was LinkedIn founded?,2003,Technology,phi3,2003,0.677826,1,0,5,1
+184,What year was Reddit founded?,2005,Technology,phi3,2005,0.71902,1,0,5,1
+185,What year was Discord launched?,2015,Technology,phi3,2015,0.77712,1,0,5,1
+186,What is the real name of Joker?,Arthur Fleck,Movies,phi3,Arthur Fleck,0.707367,1,0,7,2
+187,What is the real name of Deadpool?,Wade Wilson,Movies,phi3,Wade Wilson,0.757039,1,0,7,2
+188,What is the real name of Wolverine?,Logan,Movies,phi3,Logan,0.758423,1,0,7,1
+189,What is the real name of Doctor Strange?,Stephen Strange,Movies,phi3,Stephen Strange,0.740794,1,0,8,2
+190,What is the real name of Black Widow?,Natasha Romanoff,Movies,phi3,Natasha Romanoff,0.781952,1,0,8,2
+191,Who directed The Dark Knight?,Christopher Nolan,Movies,phi3,Christopher Nolan,0.655741,1,0,5,2
+192,Who directed The Revenant?,Alejandro Inarritu,Movies,phi3,Alejandro González Iñárritu,0.869115,0,1,4,3
+193,Who directed Shutter Island?,Martin Scorsese,Movies,phi3,Martin Scorsese,0.733134,1,0,4,2
+194,Who directed The Wolf of Wall Street?,Martin Scorsese,Movies,phi3,Martin Scorsese,0.752553,1,0,7,2
+195,Who directed The Grand Budapest Hotel?,Wes Anderson,Movies,phi3,Wes Anderson,0.620611,1,0,6,2
+196,Which country hosted the 2020 Olympics?,Japan,Sports,phi3,Japan,0.665192,1,0,6,1
+197,Which country hosted the 2012 Olympics?,United Kingdom,Sports,phi3,Great Britain,0.601898,0,0,6,2
+198,Which country won Euro 2016?,Portugal,Sports,phi3,France,0.705414,0,1,5,1
+199,Which country won Copa America 2021?,Argentina,Sports,phi3,Argentina,0.695089,1,0,6,1
+200,Which sport uses a helmet and stick?,Hockey,Sports,phi3,Ice hockey,0.605896,1,0,7,2
+201,Where was Google founded?,California,People,phi3,"Mountain View, California",0.69014,1,0,4,3
+202,Where was Facebook founded?,Massachusetts,People,phi3,"Menlo Park, California",0.612676,0,0,4,3
+203,Where was Amazon founded?,Washington,People,phi3,"Seattle, Washington",0.691925,1,0,4,2
+204,Where was Tesla founded?,California,People,phi3,"Palo Alto, California",0.658755,1,0,4,3
+205,Where was Netflix founded?,California,People,phi3,"Los Gatos, California",0.710602,1,0,4,3
+206,Who invented the iPhone in ancient Rome?,None,Trick,phi3,This is a trick question; the iPhone was invented by,0.729289,0,1,7,10
+207,What is the tallest mountain on Venus?,None,Trick,phi3,Maxwell Montes,0.766978,0,1,7,2
+208,Who discovered Mars in 1500?,None,Trick,phi3,Nicolaus Copernicus,0.676971,0,1,5,2
+209,What is the capital of the Sun?,None,Trick,phi3,The Sun does not have a capital.,0.724996,1,0,7,7
+210,Who was the president of Earth in 1800?,None,Trick,phi3,Thomas Jefferson,0.633687,0,0,8,2
+211,What company created Google in 1800?,None,Trick,phi3,No company created Google in 1800; it,0.787089,1,0,6,7
+212,Who directed The Matrix in 1500?,None,Trick,phi3,The Matrix was directed by the Wachowskis.,0.739054,0,1,6,7
+213,Who invented electricity on Mars?,None,Trick,phi3,No one has invented electricity on Mars.,0.781637,1,0,5,7
+214,What year did humans live on Jupiter?,None,Trick,phi3,Humans have not lived on Jupiter.,0.776591,1,0,7,6
+215,Who discovered Antarctica in 1200?,None,Trick,phi3,No one; Antarctica was not discovered in 1,0.769206,1,0,5,8
+216,What is the national sport of Atlantis?,None,Trick,phi3,Atlantean Quidditch,0.519277,0,0,7,2
+217,Who was the king of Mars?,None,Trick,phi3,Phobos,0.694946,0,1,6,1
+218,What is the currency of Jupiter?,None,Trick,phi3,Jupiter does not have a currency.,0.735057,1,0,6,6
+219,Who wrote The Hobbit in ancient Egypt?,None,Trick,phi3,The Hobbit was not written in ancient Egypt; it was,0.785817,1,0,7,10
+220,What is the population of Middle Earth?,None,Trick,phi3,"The population of Middle Earth varies across its regions, with",0.590546,0,0,7,10
+221,Who founded Amazon in 1500?,None,Trick,phi3,Jeff Bezos,0.636876,0,0,5,2
+222,What is the tallest building in Atlantis?,None,Trick,phi3,The Poseidon Tower,0.658518,0,1,7,3
+223,Who invented the internet in medieval times?,None,Trick,phi3,The internet was not invented in medieval times; it was,0.861593,1,0,7,10
+224,What is the capital of the internet?,None,Trick,phi3,"No definitive capital, but Silicon Valley is a major",0.583425,1,0,7,9
+225,Who was the CEO of Google in 1800?,None,Trick,phi3,Not applicable.,0.535482,1,0,8,2
+226,Who played Iron Man in 1500?,None,Trick,phi3,Not applicable.,0.525594,1,0,6,2
+227,What year did Avengers happen in real life?,None,Trick,phi3,2012,0.732839,0,1,8,1
+228,Who discovered gravity on Mars?,None,Trick,phi3,No one has discovered gravity on Mars; gravity exists on Mars,0.654154,1,0,5,11
+229,What sport is played professionally on the Moon?,None,Trick,phi3,No sport is played professionally on the Moon.,0.852743,1,0,8,8
+230,What is the official language of the Sun?,None,Trick,phi3,English,0.573786,0,0,8,1
+231,Who directed Inception 1800?,None,Trick,phi3,Christopher Nolan,0.697367,1,0,4,2
+232,Who composed Star Wars music in 1500?,None,Trick,phi3,John Williams,0.551458,0,0,7,2
+233,What is the real name of Batman in real life?,None,Trick,phi3,Bruce Wayne,0.746938,0,1,10,2
+234,Who founded Apple in 1800?,None,Trick,phi3,Steve Jobs,0.58195,0,0,5,2
+235,What year was the iPhone released in 1800?,None,Trick,phi3,The iPhone was not released in 1800.,0.844462,1,0,8,7
+236,What is the currency of Mars?,None,Trick,phi3,Mars does not have a currency.,0.644094,1,0,6,6
+237,Which country invented sushi in 1700 BC?,None,Trick,phi3,Japan,0.693217,0,1,7,1
+238,Who won the World Cup in 1500?,None,Trick,phi3,## Response:The World Cup in 1,0.441879,0,0,7,6
+239,What team did Messi play for in 1800?,None,Trick,phi3,## Response:,0.371373,0,0,8,2
+240,What is the tallest building on Jupiter?,None,Trick,phi3,Jupiter does not have a tall building.,0.669688,1,0,7,7
+241,Who directed Titanic on Mars?,None,Trick,phi3,James Cameron,0.677892,0,1,5,2
+242,What is the capital of Hogwarts School?,None,Trick,phi3,Hogwarts,0.734233,0,1,7,1
+243,Who composed music for Harry Potter in 1200?,None,Trick,phi3,John Williams,0.575134,0,0,8,2
+244,Who founded Google in 1800?,None,Trick,phi3,Larry Page and Sergey Brin,0.714923,0,1,5,5
+245,What sport uses dragons?,None,Trick,phi3,Dragon Boat Racing,0.585439,0,0,4,3
+246,Who is the CEO of Atlantis?,None,Trick,phi3,The CEO of Atlantis is John Smith.,0.76195,0,1,6,7
+247,Who wrote Harry Potter in ancient Rome?,None,Trick,phi3,This is a trick question; Harry Potter was written by,0.713562,0,1,7,10
+248,What is the national animal of Wakanda?,None,Trick,phi3,The Black Panther (Simba),0.54454,0,0,7,4
+249,Who played Spider-Man in 1500?,None,Trick,phi3,Not applicable.,0.577967,1,0,5,2
+250,What is the currency of Middle Earth?,None,Trick,phi3,The currency of Middle Earth is the Galactic Credit.,0.724503,0,1,7,9
+251,Who directed Avengers in 1800?,None,Trick,phi3,Not applicable.,0.616435,1,0,5,2
+252,Who founded Tesla in 1700?,None,Trick,phi3,Elon Musk,0.684115,0,1,5,2
+253,What is the capital of Gotham City?,None,Trick,phi3,The Joker's lair,0.612081,0,0,7,3
+254,Who discovered electricity in 1000?,None,Trick,phi3,Electricity was not discovered in 1000.,0.84786,1,0,5,6
+255,What year did the internet exist in 1500?,None,Trick,phi3,The internet did not exist in 1500.,0.929443,1,0,8,7
+1,What is the largest desert in the world?,Antarctica,Geography,tinyllama,The Sahara Desert is the largest desert in the world,0.848267,0,1,8,10
+2,What is the largest hot desert?,Sahara,Geography,tinyllama,The largest hot desert is the Sahara Desert in North,0.765727,1,0,6,10
+3,What is the longest river?,Nile,Geography,tinyllama,The longest river is the Amazon River.,0.655192,0,1,5,7
+4,What is the highest mountain?,Mount Everest,Geography,tinyllama,Mount Everest is the highest mountain in the world.,0.80304,1,0,5,9
+5,What is the deepest ocean trench?,Mariana Trench,Geography,tinyllama,The deepest ocean trench is the Mariana Trench,0.893717,1,0,6,8
+6,What is the largest island?,Greenland,Geography,tinyllama,The largest island is the Galapagos Islands.,0.666946,0,1,5,7
+7,What is the smallest country?,Vatican City,Geography,tinyllama,The smallest country is Nauru.,0.658335,0,1,5,5
+8,What is the largest lake?,Caspian Sea,Geography,tinyllama,Lake Tahoe is the largest lake in the United States,0.767222,0,1,5,10
+9,What is the highest waterfall?,Angel Falls,Geography,tinyllama,The highest waterfall is the Niagara Falls in,0.723694,0,1,5,8
+10,What is the largest ocean?,Pacific Ocean,Geography,tinyllama,The largest ocean is the Pacific Ocean.,0.741069,1,0,5,7
+11,What is the longest mountain range?,Andes,Geography,tinyllama,"The longest mountain range is the Himalayas, which",0.801575,0,1,6,8
+12,What is the coldest continent?,Antarctica,Geography,tinyllama,Antarctica is the coldest continent.,0.812693,1,0,5,5
+13,What is the driest desert?,Atacama Desert,Geography,tinyllama,The Sahara Desert is the driest desert in the,0.796895,0,1,5,9
+14,What is the largest rainforest?,Amazon Rainforest,Geography,tinyllama,The largest rainforest is the Amazon rainforest in,0.803813,1,0,5,8
+15,What is the deepest lake?,Lake Baikal,Geography,tinyllama,Lake Baikal in Siberia is the deepest lake,0.778788,1,0,5,8
+16,What is the largest bay?,Bay of Bengal,Geography,tinyllama,"The largest bay is the Bay of Fundy, located in",0.588196,0,0,5,10
+17,Which country has the longest coastline?,Canada,Geography,tinyllama,The United States has the longest coastline in the world.,0.765767,0,1,6,10
+18,What is the largest country by area?,Russia,Geography,tinyllama,Russia is the largest country by area.,0.718547,1,0,7,7
+19,What is the most populous country?,China,Geography,tinyllama,The United States is the most populous country.,0.731995,0,1,6,8
+20,What is the largest peninsula?,Arabian Peninsula,Geography,tinyllama,The largest peninsula is the Isthmus of Pan,0.737989,0,1,5,8
+21,What is the tallest volcano?,Ojos del Salado,Geography,tinyllama,Mount Fuji in Japan is the tallest volcano.,0.764028,0,1,5,8
+22,What is the largest coral reef?,Great Barrier Reef,Geography,tinyllama,The Great Barrier Reef is the largest coral re,0.875651,1,0,6,9
+23,What is the northernmost capital?,Reykjavik,Geography,tinyllama,"The northernmost capital is Riga, Latvia.",0.709625,0,1,5,6
+24,What is the southernmost continent?,Antarctica,Geography,tinyllama,Antarctica is the southernmost continent.,0.877002,1,0,5,5
+25,Which continent has the most countries?,Africa,Geography,tinyllama,Asia has the most countries.,0.644592,0,0,6,5
+26,What is the largest gulf?,Gulf of Mexico,Geography,tinyllama,The Gulf of Mexico is the largest gulf in the,0.848531,1,0,5,10
+27,What is the highest capital city?,La Paz,Geography,tinyllama,"The highest capital city is Tokyo, Japan.",0.693492,0,1,6,7
+28,What is the longest river in Europe?,Volga,Geography,tinyllama,The longest river in Europe is the Danube River.,0.778341,0,1,7,9
+29,What is the largest desert in Asia?,Gobi Desert,Geography,tinyllama,The largest desert in Asia is the Taklamakan Des,0.828634,0,1,7,9
+30,What is the largest lake in Africa?,Lake Victoria,Geography,tinyllama,Lake Malawi is the largest lake in Africa.,0.79243,0,1,7,8
+31,What is the largest country in Africa?,Algeria,Geography,tinyllama,The largest country in Africa is Nigeria.,0.766748,0,1,7,7
+32,What is the highest peak in Africa?,Kilimanjaro,Geography,tinyllama,Mount Kilimanjaro is the highest peak in Africa.,0.880859,1,0,7,8
+33,What is the largest island in the Mediterranean?,Sicily,Geography,tinyllama,The largest island in the Mediterranean is Sicily.,0.858317,1,0,8,8
+34,What is the longest river in South America?,Amazon,Geography,tinyllama,The longest river in South America is the Amazon River.,0.847148,1,0,8,10
+35,What is the largest bay in the world?,Bay of Bengal,Geography,tinyllama,The largest bay in the world is the Bay of Fundy,0.793132,0,1,8,11
+36,What is the deepest ocean?,Pacific Ocean,Geography,tinyllama,"The deepest ocean is the Mariana Trench, located",0.857259,0,1,5,8
+37,What is the largest sea?,Philippine Sea,Geography,tinyllama,The largest sea is the Pacific Ocean.,0.706014,0,1,5,7
+38,What is the highest plateau?,Tibetan Plateau,Geography,tinyllama,The highest plateau is Mount Everest.,0.703125,0,1,5,6
+39,What is the largest archipelago?,Indonesia,Geography,tinyllama,The largest archipelago is the Philippine Archip,0.791112,0,1,5,7
+40,What is the largest delta?,Ganges Delta,Geography,tinyllama,The largest delta is the Amazon River delta.,0.564565,0,0,5,8
+41,What is the fastest land animal?,Cheetah,Science,tinyllama,The fastest land animal is the cheetah.,0.76473,1,0,6,7
+42,What is the fastest bird?,Peregrine Falcon,Science,tinyllama,The fastest bird is the bald eagle.,0.681859,0,1,5,7
+43,What is the largest mammal?,Blue Whale,Science,tinyllama,"The largest mammal is the blue whale, which",0.802205,1,0,5,8
+44,What is the smallest bone?,Stapes,Science,tinyllama,The smallest bone is the mandibular condyle.,0.757614,0,1,5,7
+45,What is the most abundant element?,Hydrogen,Science,tinyllama,The most abundant element is oxygen.,0.75945,0,1,6,6
+46,What is the hottest planet?,Venus,Science,tinyllama,Jupiter is the hottest planet.,0.751628,0,1,5,5
+47,What is the densest planet?,Earth,Science,tinyllama,Mercury is the densest planet.,0.689494,0,1,5,5
+48,What is the closest star to Earth?,Sun,Science,tinyllama,The closest star to Earth is Proxima Centauri,0.85555,0,1,7,8
+49,What is the main gas in the sun?,Hydrogen,Science,tinyllama,The main gas in the sun is helium.,0.816406,0,1,8,8
+50,What is the center of an atom?,Nucleus,Science,tinyllama,The center of an atom is the point of greatest density.,0.635691,0,0,7,11
+51,What is the chemical symbol for gold?,Au,Science,tinyllama,The chemical symbol for gold is Au.,0.857395,1,0,7,7
+52,What is the chemical symbol for sodium?,Na,Science,tinyllama,Na is the chemical symbol for sodium.,0.800924,1,0,7,7
+53,What is the atomic number of carbon?,6,Science,tinyllama,The atomic number of carbon is 6.,0.866862,1,0,7,7
+54,What is the speed of light?,299792458 m/s,Science,tinyllama,"The speed of light is approximately 299,7",0.89091,0,1,6,7
+55,What is the boiling point of water?,100 C,Science,tinyllama,The boiling point of water is 100 degrees,0.897807,0,1,7,8
+56,What is the freezing point of water?,0 C,Science,tinyllama,The freezing point of water is 0°C (,0.836548,0,1,7,8
+57,What is the pH of water?,7,Science,tinyllama,Water has a pH of 7.,0.760274,1,0,6,6
+58,What is the largest organ?,Skin,Science,tinyllama,The largest organ is the brain.,0.673615,0,1,5,6
+59,What is the strongest muscle?,Masseter,Science,tinyllama,The strongest muscle is the bicep.,0.736521,0,1,5,6
+60,What is the smallest planet?,Mercury,Science,tinyllama,Mercury is the smallest planet.,0.71932,1,0,5,5
+61,What is the largest planet?,Jupiter,Science,tinyllama,Jupiter is the largest planet.,0.711934,1,0,5,5
+62,What gas do humans breathe?,Oxygen,Science,tinyllama,Humans breathe air.,0.613017,0,0,5,3
+63,What gas do plants absorb?,Carbon dioxide,Science,tinyllama,Plants absorb carbon dioxide from the atmosphere through,0.745758,1,0,5,8
+64,What is the unit of force?,Newton,Science,tinyllama,The unit of force is the Newton.,0.713542,1,0,6,7
+65,What is the hardest natural substance?,Diamond,Science,tinyllama,The hardest natural substance is diamond.,0.783254,1,0,6,6
+66,What is the closest planet to the sun?,Mercury,Science,tinyllama,Mercury is the closest planet to the sun.,0.795431,1,0,8,8
+67,What is the largest bone?,Femur,Science,tinyllama,The largest bone is the femur.,0.721029,1,0,5,6
+68,What organ pumps blood?,Heart,Science,tinyllama,The heart is the organ that pumps blood.,0.714539,1,0,4,8
+69,What is the study of life?,Biology,Science,tinyllama,The study of life is the study of living organisms.,0.706034,0,1,6,10
+70,What is the study of Earth?,Geology,Science,tinyllama,The study of Earth.,0.69516,0,1,6,4
+71,What is the study of stars?,Astronomy,Science,tinyllama,The study of stars is the study of the properties and behavior,0.62674,0,0,6,12
+72,What is the study of chemicals?,Chemistry,Science,tinyllama,"The study of chemicals is the study of the properties,",0.65745,0,1,6,10
+73,What is the study of matter?,Physics,Science,tinyllama,The study of matter is called _______.,0.645044,0,0,6,7
+74,What is the boiling point of nitrogen?,-196 C,Science,tinyllama,Nitrogen has a boiling point of 1,0.855042,0,1,7,7
+75,What is the freezing point of mercury?,-39 C,Science,tinyllama,The freezing point of mercury is 0°,0.842916,0,1,7,7
+76,What is the most common gas in air?,Nitrogen,Science,tinyllama,The most common gas in air is nitrogen.,0.83193,1,0,8,8
+77,What is the smallest unit of life?,Cell,Science,tinyllama,The smallest unit of life is a bacterium.,0.772024,0,1,7,8
+78,What is the speed of sound?,343 m/s,Science,tinyllama,The speed of sound is approximately 343 meters per,0.793193,0,1,6,9
+79,What is the largest organ in humans?,Skin,Science,tinyllama,The largest organ in humans is the liver.,0.784446,0,1,7,8
+80,What is the main organ for breathing?,Lungs,Science,tinyllama,The main organ for breathing is the lungs.,0.906576,1,0,7,8
+81,Who invented the telephone?,Alexander Graham Bell,History,tinyllama,Alexander Graham Bell.,0.524144,1,0,4,3
+82,Who invented the airplane?,Wright Brothers,History,tinyllama,The Wright Brothers invented the airplane.,0.680155,1,0,4,6
+83,Who invented the light bulb?,Thomas Edison,History,tinyllama,Thomas Edison.,0.497431,1,0,5,2
+84,Who discovered gravity?,Isaac Newton,History,tinyllama,Galileo Galilei,0.805461,0,1,3,2
+85,Who discovered penicillin?,Alexander Fleming,History,tinyllama,Alexander Fleming discovered penicillin.,0.746368,1,0,3,4
+86,Who was the first US president?,George Washington,History,tinyllama,George Washington was the first US president.,0.710856,1,0,6,7
+87,Who was the first man on the moon?,Neil Armstrong,History,tinyllama,"Neil Armstrong, of course!",0.528341,1,0,8,4
+88,Who led the Soviet Union in WWII?,Joseph Stalin,History,tinyllama,Joseph Stalin.,0.515238,1,0,7,2
+89,Who led Germany in WWII?,Adolf Hitler,History,tinyllama,Adolf Hitler.,0.408768,1,0,5,2
+90,Who was the first emperor of Rome?,Augustus,History,tinyllama,The first emperor of Rome was Romulus.,0.748413,0,1,7,7
+91,Who was the first emperor of China?,Qin Shi Huang,History,tinyllama,The first emperor of China was Qin Shi Hu,0.88033,0,1,7,9
+92,Who was the first king of England?,Athelstan,History,tinyllama,William the Conqueror.,0.676036,0,1,7,3
+93,What year did WWI start?,1914,History,tinyllama,WWI started in 1914.,0.78105,1,0,5,4
+94,What year did WWI end?,1918,History,tinyllama,"WWI ended on November 11, 19",0.843913,0,1,5,6
+95,What year did WWII end?,1945,History,tinyllama,1945.,0.725237,1,0,5,1
+96,What year did Titanic sink?,1912,History,tinyllama,"Titanic sank on April 15,",0.856812,0,1,5,5
+97,Who was Napoleon?,French emperor,History,tinyllama,Napoleon Bonaparte was a French military leader and politician who,0.690979,0,1,3,10
+98,Who was Julius Caesar?,Roman general,History,tinyllama,Julius Caesar was a Roman general and politician who served as,0.765828,1,0,4,11
+99,Who discovered America?,Christopher Columbus,History,tinyllama,Christopher Columbus,0.6141,1,0,3,2
+100,Who was the first woman in space?,Valentina Tereshkova,History,tinyllama,"Valentina Tereshkova, a Soviet cosmonaut",0.773285,1,0,7,5
+101,Who was the first US vice president?,John Adams,History,tinyllama,The first US vice president was John C. Calhoun,0.798706,0,1,7,9
+102,Who was the first emperor of Japan?,Jimmu,History,tinyllama,"Emperor Jimmu, who ruled from 710 to",0.612681,1,0,7,7
+103,Who was the first president of India?,Rajendra Prasad,History,tinyllama,The first president of India was Dr. Rajendra Pras,0.817973,0,1,7,9
+104,Who was the first king of France?,Clovis I,History,tinyllama,"Louis XIV, also known as Louis the Great, was the",0.671977,0,1,7,10
+105,Who was the first emperor of India?,Ashoka,History,tinyllama,The first emperor of India was Ashoka.,0.731435,1,0,7,7
+106,Who was the first ruler of Russia?,Rurik,History,tinyllama,The first ruler of Russia was Ivan the Terrible.,0.827738,0,1,7,9
+107,Who led the civil rights movement?,Martin Luther King Jr.,History,tinyllama,Martin Luther King Jr.,0.652893,1,0,6,4
+108,Who was British PM during WWII?,Winston Churchill,History,tinyllama,Winston Churchill.,0.72051,1,0,6,2
+109,Who discovered electricity?,Benjamin Franklin,History,tinyllama,Nikola Tesla,0.81897,0,1,3,2
+110,Who invented printing press?,Johannes Gutenberg,History,tinyllama,Johannes Gutenberg invented the printing press.,0.759074,1,0,4,6
+111,What company created the iPhone?,Apple,Technology,tinyllama,Apple Inc.,0.487498,1,0,5,2
+112,What company created Windows?,Microsoft,Technology,tinyllama,Microsoft Corporation.,0.48672,1,0,4,2
+113,What company owns YouTube?,Google,Technology,tinyllama,Google owns YouTube.,0.813639,1,0,4,3
+114,What company created Android?,Google,Technology,tinyllama,Google.,0.481995,1,0,4,1
+115,What company created AWS?,Amazon,Technology,tinyllama,Amazon Web Services (AWS) was created by Amazon.,0.752462,1,0,4,8
+116,What company created Tesla?,Tesla,Technology,tinyllama,Tesla is a company that creates electric cars.,0.583496,1,0,4,8
+117,What company owns Instagram?,Meta,Technology,tinyllama,Instagram is owned by Facebook.,0.695312,0,1,4,5
+118,What company created Netflix?,Netflix,Technology,tinyllama,Netflix was founded by Reed Hastings and,0.78717,1,0,4,7
+119,What company created Spotify?,Spotify,Technology,tinyllama,Spotify is a Swedish music streaming service.,0.646163,1,0,4,7
+120,What company created TikTok?,ByteDance,Technology,tinyllama,The company that created TikTok is ByteDance,0.798574,1,0,4,7
+121,What does CPU stand for?,Central Processing Unit,Technology,tinyllama,CPU stands for Central Processing Unit.,0.763855,1,0,5,6
+122,What does GPU stand for?,Graphics Processing Unit,Technology,tinyllama,Graphics Processing Unit.,0.662771,1,0,5,3
+123,What does RAM stand for?,Random Access Memory,Technology,tinyllama,RAM stands for Random Access Memory.,0.75356,1,0,5,6
+124,What does AI stand for?,Artificial Intelligence,Technology,tinyllama,Artificial Intelligence.,0.743561,1,0,5,2
+125,What does HTTP stand for?,Hypertext Transfer Protocol,Technology,tinyllama,Hypertext Transfer Protocol.,0.676615,1,0,5,3
+126,What is Python?,Programming language,Technology,tinyllama,"Python is a high-level, interpreted, interactive, object",0.744629,0,1,3,7
+127,What is Java?,Programming language,Technology,tinyllama,Java is a programming language developed by Sun Microsystems,0.845805,1,0,3,9
+128,What is C++?,Programming language,Technology,tinyllama,C++ is a programming language developed by Bjarne Str,0.832662,1,0,3,9
+129,What is Linux?,Operating system,Technology,tinyllama,Linux is a Unix-like operating system that is open source,0.668437,1,0,3,10
+130,What is SQL?,Query language,Technology,tinyllama,"SQL stands for Structured Query Language, a query language used",0.740906,1,0,3,10
+131,What company developed ChatGPT?,OpenAI,Technology,tinyllama,"OpenAI, a company based in San Francisco, California,",0.691686,1,0,4,8
+132,What company created PlayStation?,Sony,Technology,tinyllama,Sony Computer Entertainment.,0.564992,1,0,4,3
+133,What company created Xbox?,Microsoft,Technology,tinyllama,Microsoft Corporation.,0.360316,1,0,4,2
+134,What company created Switch?,Nintendo,Technology,tinyllama,Apple created Switch.,0.637828,0,0,4,3
+135,What year was iPhone released?,2007,Technology,tinyllama,iPhone was released in 2007.,0.856934,1,0,5,5
+136,What year was Google founded?,1998,Technology,tinyllama,Google was founded in 1998.,0.865634,1,0,5,5
+137,What year was Facebook founded?,2004,Technology,tinyllama,Facebook was founded in 2004.,0.861239,1,0,5,5
+138,What year was YouTube founded?,2005,Technology,tinyllama,YouTube was founded in 2005.,0.862172,1,0,5,5
+139,What year was Amazon founded?,1994,Technology,tinyllama,Amazon was founded in 1994.,0.870827,1,0,5,5
+140,What is JavaScript?,Programming language,Technology,tinyllama,JavaScript is a programming language used for creating interactive web applications.,0.629598,1,0,3,11
+141,What is the second largest ocean?,Atlantic Ocean,Geography,tinyllama,The second largest ocean is the Pacific Ocean.,0.790283,0,1,6,8
+142,What is the smallest ocean?,Arctic Ocean,Geography,tinyllama,The smallest ocean is the Arctic Ocean.,0.689779,1,0,5,7
+143,What is the largest desert in North America?,Great Basin Desert,Geography,tinyllama,The largest desert in North America is the Great Basin.,0.806539,0,1,8,10
+144,What is the longest river in Asia?,Yangtze,Geography,tinyllama,The longest river in Asia is the Yangtze River.,0.815776,1,0,7,9
+145,What is the tallest building in the world?,Burj Khalifa,Geography,tinyllama,"The Burj Khalifa in Dubai, UAE",0.851929,1,0,8,6
+146,What is the capital city located on two continents?,Istanbul,Geography,tinyllama,The capital city located on two continents is:,0.641876,0,0,9,8
+147,What is the largest country in South America?,Brazil,Geography,tinyllama,Argentina is the largest country in South America.,0.835669,0,1,8,8
+148,What is the smallest continent?,Australia,Geography,tinyllama,Antarctica is the smallest continent.,0.760335,0,1,5,5
+149,What is the largest city by population?,Tokyo,Geography,tinyllama,"The largest city by population is New York City, with a",0.737356,0,1,7,11
+150,What is the largest inland sea?,Caspian Sea,Geography,tinyllama,The largest inland sea is the Caspian Sea.,0.810425,1,0,6,8
+151,What is the fastest fish?,Sailfish,Science,tinyllama,The fastest fish is the salmon.,0.677526,0,1,5,6
+152,What is the largest reptile?,Saltwater Crocodile,Science,tinyllama,"The largest reptile is the Komodo dragon,",0.819651,0,1,5,7
+153,What is the smallest mammal?,Bumblebee Bat,Science,tinyllama,"The smallest mammal is the platypus, which",0.787104,0,1,5,7
+154,What is the largest bird?,Ostrich,Science,tinyllama,The largest bird is the ostrich.,0.68958,1,0,5,6
+155,What is the fastest marine animal?,Black Marlin,Science,tinyllama,"The fastest marine animal is the blue whale, which",0.778676,0,1,6,9
+156,What is the most intelligent mammal?,Dolphin,Science,tinyllama,The most intelligent mammal is the chimpanze,0.812347,0,1,6,7
+157,What is the largest land carnivore?,Polar Bear,Science,tinyllama,The largest land carnivore is the African lion,0.876546,0,1,6,8
+158,What is the longest living animal?,Greenland Shark,Science,tinyllama,"The longest living animal is the African elephant, which",0.742884,0,1,6,9
+159,What is the strongest bone?,Femur,Science,tinyllama,The strongest bone is the femur.,0.69754,1,0,5,6
+160,What is the largest insect?,Goliath Beetle,Science,tinyllama,"The largest insect is the Giant African Land Snail,",0.651433,0,1,5,9
+161,Who invented the World Wide Web?,Tim Berners-Lee,History,tinyllama,"Tim Berners-Lee, a British computer scientist",0.780192,1,0,6,6
+162,Who was the first president of South Africa?,Nelson Mandela,History,tinyllama,Nelson Mandela was the first president of South Africa.,0.851257,1,0,8,9
+163,Who led India to independence?,Mahatma Gandhi,History,tinyllama,Mahatma Gandhi led India to independence.,0.768148,1,0,5,6
+164,Who was the first emperor of Russia?,Peter the Great,History,tinyllama,The first emperor of Russia was Peter the Great.,0.832336,1,0,7,9
+165,Who was the first female US vice president?,Kamala Harris,History,tinyllama,Elizabeth Monroe was the first female US vice president.,0.728755,0,1,8,9
+166,Who was the first US secretary of state?,Thomas Jefferson,History,tinyllama,The first US secretary of state was John Quincy Adams,0.789001,0,1,8,10
+167,Who was the first US treasury secretary?,Alexander Hamilton,History,tinyllama,The first US treasury secretary was Alexander Hamilton.,0.778575,1,0,7,8
+168,Who was the first Chinese communist leader?,Mao Zedong,History,tinyllama,Mao Zedong was the first Chinese communist leader,0.885111,1,0,7,8
+169,Who was the first African American president?,Barack Obama,History,tinyllama,Barack Obama was the first African American president of the,0.809316,1,0,7,10
+170,Who led the French Revolution?,Robespierre,History,tinyllama,"The French Revolution was led by the National Assembly, which was",0.601669,0,0,5,11
+171,What company created Gmail?,Google,Technology,tinyllama,Google created Gmail.,0.727824,1,0,4,3
+172,What company created Chrome?,Google,Technology,tinyllama,Google created Chrome.,0.612891,1,0,4,3
+173,What company created Windows 10?,Microsoft,Technology,tinyllama,Microsoft created Windows 10.,0.802307,1,0,5,4
+174,What company created Azure?,Microsoft,Technology,tinyllama,Microsoft created Azure.,0.663379,1,0,4,3
+175,What company created Google Maps?,Google,Technology,tinyllama,Google Maps was created by a company called Google.,0.659379,1,0,5,9
+176,What company created PayPal?,PayPal,Technology,tinyllama,"PayPal was created by two former eBay employees,",0.644674,1,0,4,8
+177,What company created LinkedIn?,LinkedIn,Technology,tinyllama,LinkedIn is a professional networking website owned by Microsoft.,0.599345,1,0,4,9
+178,What company created Reddit?,Reddit,Technology,tinyllama,Reddit was created by Steve Huffman and Aaron,0.643575,1,0,4,8
+179,What company created Discord?,Discord,Technology,tinyllama,Discord is a messaging app that allows users to create,0.615997,1,0,4,10
+180,What company created Slack?,Slack,Technology,tinyllama,"Slack Technologies, Inc.",0.690308,1,0,4,3
+181,What year was Instagram released?,2010,Technology,tinyllama,Instagram was released in 2010.,0.89502,1,0,5,5
+182,What year was Twitter launched?,2006,Technology,tinyllama,Twitter was launched in 2006.,0.860174,1,0,5,5
+183,What year was LinkedIn founded?,2003,Technology,tinyllama,LinkedIn was founded in 2002.,0.886068,0,1,5,5
+184,What year was Reddit founded?,2005,Technology,tinyllama,Reddit was founded in 2005.,0.896525,1,0,5,5
+185,What year was Discord launched?,2015,Technology,tinyllama,Discord was launched in 2015.,0.831706,1,0,5,5
+186,What is the real name of Joker?,Arthur Fleck,Movies,tinyllama,Joker is the real name of the character played by Jo,0.666382,0,1,7,11
+187,What is the real name of Deadpool?,Wade Wilson,Movies,tinyllama,Deadpool is a fictional character created by writer and artist,0.654449,0,1,7,10
+188,What is the real name of Wolverine?,Logan,Movies,tinyllama,Wolverine is a fictional character created by Marvel Comics,0.717428,0,1,7,9
+189,What is the real name of Doctor Strange?,Stephen Strange,Movies,tinyllama,The real name of Doctor Strange is Stephen Strange.,0.853516,1,0,8,9
+190,What is the real name of Black Widow?,Natasha Romanoff,Movies,tinyllama,Black Widow is a fictional character in the Marvel,0.707001,0,1,8,9
+191,Who directed The Dark Knight?,Christopher Nolan,Movies,tinyllama,Christopher Nolan directed The Dark Knight.,0.781087,1,0,5,6
+192,Who directed The Revenant?,Alejandro Inarritu,Movies,tinyllama,The Revenant was directed by Alejandro G.,0.867574,0,1,4,7
+193,Who directed Shutter Island?,Martin Scorsese,Movies,tinyllama,Martin Scorsese directed Shutter Island.,0.832865,1,0,4,5
+194,Who directed The Wolf of Wall Street?,Martin Scorsese,Movies,tinyllama,Martin Scorsese directed The Wolf of Wall Street.,0.906331,1,0,7,8
+195,Who directed The Grand Budapest Hotel?,Wes Anderson,Movies,tinyllama,The Grand Budapest Hotel was directed by Wes Anderson.,0.821472,1,0,6,9
+196,Which country hosted the 2020 Olympics?,Japan,Sports,tinyllama,Japan.,0.519623,1,0,6,1
+197,Which country hosted the 2012 Olympics?,United Kingdom,Sports,tinyllama,"The 2012 Olympics were hosted by London,",0.733765,0,1,6,7
+198,Which country won Euro 2016?,Portugal,Sports,tinyllama,France won Euro 2016.,0.835791,0,1,5,4
+199,Which country won Copa America 2021?,Argentina,Sports,tinyllama,Argentina won the Copa America 2021.,0.813802,1,0,6,6
+200,Which sport uses a helmet and stick?,Hockey,Sports,tinyllama,Hockey uses a helmet and stick.,0.642619,1,0,7,6
+201,Where was Google founded?,California,People,tinyllama,Google was founded in 1998 by Larry Page,0.824178,0,1,4,8
+202,Where was Facebook founded?,Massachusetts,People,tinyllama,Facebook was founded in 2004 by Mark Z,0.830648,0,1,4,8
+203,Where was Amazon founded?,Washington,People,tinyllama,"Amazon was founded in 1994 in Seattle,",0.857137,0,1,4,7
+204,Where was Tesla founded?,California,People,tinyllama,Tesla was founded in 1890 in,0.830526,0,1,4,6
+205,Where was Netflix founded?,California,People,tinyllama,Netflix was founded in 1997 in,0.918254,0,1,4,6
+206,Who invented the iPhone in ancient Rome?,None,Trick,tinyllama,"The iPhone was invented by Steve Jobs, who was",0.564097,0,0,7,9
+207,What is the tallest mountain on Venus?,None,Trick,tinyllama,"The tallest mountain on Venus is Mount Olympus,",0.769124,0,1,7,8
+208,Who discovered Mars in 1500?,None,Trick,tinyllama,Mars was discovered by the Italian astronomer Galileo Gal,0.657817,1,0,5,9
+209,What is the capital of the Sun?,None,Trick,tinyllama,The capital of the Sun is the planet Venus.,0.70843,0,1,7,9
+210,Who was the president of Earth in 1800?,None,Trick,tinyllama,The president of Earth in 1800 was Thomas,0.815114,0,1,8,8
+211,What company created Google in 1800?,None,Trick,tinyllama,Google was founded in 1998 by Larry Page,0.78066,0,1,6,8
+212,Who directed The Matrix in 1500?,None,Trick,tinyllama,"The Matrix was directed by the Wachowski brothers, L",0.581655,0,0,6,9
+213,Who invented electricity on Mars?,None,Trick,tinyllama,The first person to ever use electricity on Mars was the,0.502426,0,0,5,11
+214,What year did humans live on Jupiter?,None,Trick,tinyllama,Humans lived on Jupiter for 100 million,0.571259,0,0,7,7
+215,Who discovered Antarctica in 1200?,None,Trick,tinyllama,The first European to discover Antarctica was Ferdinand Magellan,0.674672,1,0,5,9
+216,What is the national sport of Atlantis?,None,Trick,tinyllama,The national sport of Atlantis is soccer.,0.822027,1,0,7,7
+217,Who was the king of Mars?,None,Trick,tinyllama,"Mars was ruled by the goddess of war, Marsia",0.406845,0,0,6,9
+218,What is the currency of Jupiter?,None,Trick,tinyllama,The currency of Jupiter is the US Dollar.,0.791117,0,1,6,8
+219,Who wrote The Hobbit in ancient Egypt?,None,Trick,tinyllama,The Hobbit was written by J.R.R.,0.770803,0,1,7,6
+220,What is the population of Middle Earth?,None,Trick,tinyllama,The population of Middle Earth is unknown.,0.724379,1,0,7,7
+221,Who founded Amazon in 1500?,None,Trick,tinyllama,Jeff Bezos founded Amazon in 1994.,0.842102,0,1,5,6
+222,What is the tallest building in Atlantis?,None,Trick,tinyllama,The tallest building in Atlantis is the Atlant,0.822871,1,0,7,8
+223,Who invented the internet in medieval times?,None,Trick,tinyllama,The internet was invented by a medieval monk named G,0.484299,1,0,7,10
+224,What is the capital of the internet?,None,Trick,tinyllama,"The capital of the internet is Washington, D.C.",0.797953,0,1,7,8
+225,Who was the CEO of Google in 1800?,None,Trick,tinyllama,Thomas Edison was the CEO of Google in 1,0.804586,0,1,8,9
+226,Who played Iron Man in 1500?,None,Trick,tinyllama,Iron Man was played by Robert Downey Jr.,0.656977,0,1,6,8
+227,What year did Avengers happen in real life?,None,Trick,tinyllama,Avengers happened in real life in 2012,0.842407,0,1,8,7
+228,Who discovered gravity on Mars?,None,Trick,tinyllama,The first person to discover gravity on Mars was the Mars Ex,0.564489,0,0,5,12
+229,What sport is played professionally on the Moon?,None,Trick,tinyllama,Basketball is played professionally on the Moon.,0.71077,1,0,8,7
+230,What is the official language of the Sun?,None,Trick,tinyllama,The official language of the Sun is Sun.,0.758692,0,1,8,8
+231,Who directed Inception 1800?,None,Trick,tinyllama,Inception 1800 was directed by Christopher N,0.860616,0,1,4,7
+232,Who composed Star Wars music in 1500?,None,Trick,tinyllama,George Lucas composed the music for Star Wars in 15,0.71519,0,1,7,10
+233,What is the real name of Batman in real life?,None,Trick,tinyllama,The real name of Batman in real life is Bruce Wayne,0.834198,1,0,10,11
+234,Who founded Apple in 1800?,None,Trick,tinyllama,Thomas Edison founded the company in 1874,0.685252,0,1,5,7
+235,What year was the iPhone released in 1800?,None,Trick,tinyllama,The iPhone was released in 2007.,0.880493,0,1,8,6
+236,What is the currency of Mars?,None,Trick,tinyllama,The currency of Mars is the Martian dollar.,0.705668,0,1,6,8
+237,Which country invented sushi in 1700 BC?,None,Trick,tinyllama,Japan.,0.404526,0,0,7,1
+238,Who won the World Cup in 1500?,None,Trick,tinyllama,The World Cup in 1500 was won by,0.787821,0,1,7,8
+239,What team did Messi play for in 1800?,None,Trick,tinyllama,Messi played for Barcelona in 1800.,0.832092,1,0,8,6
+240,What is the tallest building on Jupiter?,None,Trick,tinyllama,The tallest building on Jupiter is the Great Red Sp,0.778503,0,1,7,10
+241,Who directed Titanic on Mars?,None,Trick,tinyllama,The film was directed by James Cameron.,0.621023,0,0,5,7
+242,What is the capital of Hogwarts School?,None,Trick,tinyllama,The capital of Hogwarts School is Hogwarts.,0.850718,0,1,7,7
+243,Who composed music for Harry Potter in 1200?,None,Trick,tinyllama,The composer of music for Harry Potter in 12,0.690511,0,1,8,9
+244,Who founded Google in 1800?,None,Trick,tinyllama,"Thomas Edison, who invented the light bulb.",0.615595,0,0,5,7
+245,What sport uses dragons?,None,Trick,tinyllama,Dragon Boat Racing is a sport that uses dragons.,0.651372,0,1,4,9
+246,Who is the CEO of Atlantis?,None,Trick,tinyllama,The CEO of Atlantis is Dr. John H,0.671951,0,1,6,8
+247,Who wrote Harry Potter in ancient Rome?,None,Trick,tinyllama,J.K. Rowling wrote Harry Potter in ancient,0.85203,1,0,7,7
+248,What is the national animal of Wakanda?,None,Trick,tinyllama,The national animal of Wakanda is the Black Panther,0.888234,1,0,7,9
+249,Who played Spider-Man in 1500?,None,Trick,tinyllama,Spider-Man.,0.438059,0,0,5,1
+250,What is the currency of Middle Earth?,None,Trick,tinyllama,The currency of Middle Earth is the One Ring.,0.728369,0,1,7,9
+251,Who directed Avengers in 1800?,None,Trick,tinyllama,The film was directed by Joss Whedon.,0.658229,0,1,5,7
+252,Who founded Tesla in 1700?,None,Trick,tinyllama,Nikola Tesla founded Tesla in 1,0.843669,0,1,5,6
+253,What is the capital of Gotham City?,None,Trick,tinyllama,The capital of Gotham City is Gotham City.,0.777456,0,1,7,8
+254,Who discovered electricity in 1000?,None,Trick,tinyllama,The first person to discover electricity was Galileo Gal,0.657227,0,1,5,9
+255,What year did the internet exist in 1500?,None,Trick,tinyllama,The internet existed in 1500.,0.86701,0,1,8,5

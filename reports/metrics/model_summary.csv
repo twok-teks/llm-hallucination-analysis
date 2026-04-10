@@ -1,0 +1,5 @@
+model_name,total,correct,incorrect,accuracy,hallucination_rate,avg_confidence,avg_correct_confidence,avg_incorrect_confidence
+llama3,255,180,75,0.7059,0.1529,0.6745,0.6842,0.6514
+mistral,255,212,43,0.8314,0.1529,0.7792,0.7761,0.7946
+phi3,255,191,64,0.749,0.1373,0.6981,0.7069,0.6716
+tinyllama,255,121,134,0.4745,0.4471,0.7409,0.7414,0.7404
