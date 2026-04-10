@@ -1,0 +1,256 @@
+question,ground_truth_answer,category,model_answer,confidence,is_correct
+What is the largest desert in the world?,Antarctica,Geography,Sahara Desert.,0.735840,0
+What is the largest hot desert?,Sahara,Geography,Sahara.,0.758138,1
+What is the longest river?,Nile,Geography,The Nile River.,0.730632,1
+What is the highest mountain?,Mount Everest,Geography,"Mount Everest, located in the Himalayas, is the highest",0.782878,1
+What is the deepest ocean trench?,Mariana Trench,Geography,Mariana Trench.,0.705892,1
+What is the largest island?,Greenland,Geography,Greenland.,0.669759,1
+What is the smallest country?,Vatican City,Geography,Vatican City.,0.700602,1
+What is the largest lake?,Caspian Sea,Geography,Caspian Sea.,0.726237,1
+What is the highest waterfall?,Angel Falls,Geography,"Victoria Falls, located in Zambia/Zimbabwe, Africa, has",0.626465,0
+What is the largest ocean?,Pacific Ocean,Geography,Pacific Ocean.,0.743978,1
+What is the longest mountain range?,Andes,Geography,The Himalayan mountain range is the longest mountain range in the,0.796387,0
+What is the coldest continent?,Antarctica,Geography,Antarctica.,0.762044,1
+What is the driest desert?,Atacama Desert,Geography,Sahara Desert.,0.738281,0
+What is the largest rainforest?,Amazon Rainforest,Geography,The Amazon rainforest is the largest rainforest in the world,0.841309,1
+What is the deepest lake?,Lake Baikal,Geography,"Lake Baikal, located in southern Siberia, Russia,",0.826335,1
+What is the largest bay?,Bay of Bengal,Geography,The Gulf of Mexico is the largest bay in the United States,0.680664,0
+Which country has the longest coastline?,Canada,Geography,Canada.,0.371826,1
+What is the largest country by area?,Russia,Geography,Russia.,0.796712,1
+What is the most populous country?,China,Geography,China.,0.758464,1
+What is the largest peninsula?,Arabian Peninsula,Geography,Asia.,0.589518,0
+What is the tallest volcano?,Ojos del Salado,Geography,"Mauna Kea, located in Hawaii, is the tallest",0.779622,0
+What is the largest coral reef?,Great Barrier Reef,Geography,"The Great Barrier Reef, located off the coast of Australia,",0.806641,1
+What is the northernmost capital?,Reykjavik,Geography,Reykjavik.,0.794352,1
+What is the southernmost continent?,Antarctica,Geography,Africa.,0.556478,0
+Which continent has the most countries?,Africa,Geography,Asia.,0.662598,0
+What is the largest gulf?,Gulf of Mexico,Geography,The Gulf of Mexico is the largest gulf in the world,0.775391,1
+What is the highest capital city?,La Paz,Geography,Beijing.,0.685221,0
+What is the longest river in Europe?,Volga,Geography,The Volga River.,0.729818,1
+What is the largest desert in Asia?,Gobi Desert,Geography,Gobi Desert.,0.797201,1
+What is the largest lake in Africa?,Lake Victoria,Geography,Lake Victoria.,0.813802,1
+What is the largest country in Africa?,Algeria,Geography,Nigeria.,0.746908,0
+What is the highest peak in Africa?,Kilimanjaro,Geography,Mount Kilimanjaro.,0.753988,1
+What is the largest island in the Mediterranean?,Sicily,Geography,Sicily.,0.666911,1
+What is the longest river in South America?,Amazon,Geography,The Amazon River.,0.767415,1
+What is the largest bay in the world?,Bay of Bengal,Geography,The Gulf of Alaska is the largest bay in the world.,0.730957,0
+What is the deepest ocean?,Pacific Ocean,Geography,"The deepest ocean is the Pacific Ocean, with a maximum depth",0.764974,1
+What is the largest sea?,Philippine Sea,Geography,Pacific Ocean.,0.699137,0
+What is the highest plateau?,Tibetan Plateau,Geography,"The highest plateau is the Tibetan Plateau, which is located",0.679036,1
+What is the largest archipelago?,Indonesia,Geography,Indonesia.,0.619629,1
+What is the largest delta?,Ganges Delta,Geography,"The Amazon River Delta, located in Brazil, is the largest",0.729329,0
+What is the fastest land animal?,Cheetah,Science,The cheetah.,0.756348,1
+What is the fastest bird?,Peregrine Falcon,Science,Peregrine Falcon.,0.701823,1
+What is the largest mammal?,Blue Whale,Science,Blue whale.,0.771322,1
+What is the smallest bone?,Stapes,Science,The smallest bone is the stapes bone in the human ear,0.721191,1
+What is the most abundant element?,Hydrogen,Science,Oxygen (O).,0.696696,0
+What is the hottest planet?,Venus,Science,Venus.,0.636475,1
+What is the densest planet?,Earth,Science,Jupiter.,0.539876,0
+What is the closest star to Earth?,Sun,Science,Proxima Centauri.,0.790690,0
+What is the main gas in the sun?,Hydrogen,Science,Helium.,0.751383,0
+What is the center of an atom?,Nucleus,Science,The nucleus.,0.630208,1
+What is the chemical symbol for gold?,Au,Science,Au,0.790690,1
+What is the chemical symbol for sodium?,Na,Science,Na,0.775879,1
+What is the atomic number of carbon?,6,Science,6,0.808105,1
+What is the speed of light?,299792458 m/s,Science,"186,282 miles per second.",0.668294,0
+What is the boiling point of water?,100 C,Science,212 degrees Fahrenheit or 100 degrees Celsius.,0.755697,0
+What is the freezing point of water?,0 C,Science,0 degrees Celsius or 32 degrees Fahrenheit.,0.778646,0
+What is the pH of water?,7,Science,7.0,0.682454,1
+What is the largest organ?,Skin,Science,Skin.,0.747640,1
+What is the strongest muscle?,Masseter,Science,The biceps brachii.,0.718424,0
+What is the smallest planet?,Mercury,Science,Mercury.,0.484863,1
+What is the largest planet?,Jupiter,Science,Jupiter.,0.775798,1
+What gas do humans breathe?,Oxygen,Science,Oxygen.,0.796224,1
+What gas do plants absorb?,Carbon dioxide,Science,Carbon dioxide (CO2).,0.703613,1
+What is the unit of force?,Newton,Science,Newton.,0.646322,1
+What is the hardest natural substance?,Diamond,Science,Diamond.,0.764974,1
+What is the closest planet to the sun?,Mercury,Science,Mercury.,0.805583,1
+What is the largest bone?,Femur,Science,"The femur, or thigh bone, is the largest bone",0.718750,1
+What organ pumps blood?,Heart,Science,Heart.,0.780273,1
+What is the study of life?,Biology,Science,Biology.,0.804036,1
+What is the study of Earth?,Geology,Science,Geology.,0.838379,1
+What is the study of stars?,Astronomy,Science,Astronomy.,0.787598,1
+What is the study of chemicals?,Chemistry,Science,Chemistry.,0.815755,1
+What is the study of matter?,Physics,Science,Physics.,0.506673,1
+What is the boiling point of nitrogen?,-196 C,Science,77.2°C (171.8°F) at,0.582682,0
+What is the freezing point of mercury?,-39 C,Science,356.73°C (674.11°F).,0.481934,0
+What is the most common gas in air?,Nitrogen,Science,Nitrogen (N2).,0.641602,1
+What is the smallest unit of life?,Cell,Science,Bacteria.,0.450439,0
+What is the speed of sound?,343 m/s,Science,343 meters per second.,0.707031,0
+What is the largest organ in humans?,Skin,Science,Skin.,0.771240,1
+What is the main organ for breathing?,Lungs,Science,Lungs.,0.761637,1
+Who invented the telephone?,Alexander Graham Bell,History,Alexander Graham Bell.,0.764079,1
+Who invented the airplane?,Wright Brothers,History,"The Wright brothers, Orville and Wilbur Wright.",0.751302,1
+Who invented the light bulb?,Thomas Edison,History,Thomas Edison.,0.800293,1
+Who discovered gravity?,Isaac Newton,History,Sir Isaac Newton.,0.709473,1
+Who discovered penicillin?,Alexander Fleming,History,Alexander Fleming.,0.592936,1
+Who was the first US president?,George Washington,History,George Washington.,0.803141,1
+Who was the first man on the moon?,Neil Armstrong,History,Neil Armstrong.,0.670573,1
+Who led the Soviet Union in WWII?,Joseph Stalin,History,Joseph Stalin.,0.607910,1
+Who led Germany in WWII?,Adolf Hitler,History,Adolf Hitler.,0.793783,1
+Who was the first emperor of Rome?,Augustus,History,Augustus Caesar.,0.674723,1
+Who was the first emperor of China?,Qin Shi Huang,History,Qin Shi Huang.,0.731283,1
+Who was the first king of England?,Athelstan,History,"The first king of England was Athelstan, who ruled",0.719157,1
+What year did WWI start?,1914,History,1914.,0.487996,1
+What year did WWI end?,1918,History,1918.,0.684245,1
+What year did WWII end?,1945,History,1945.,0.798828,1
+What year did Titanic sink?,1912,History,1912.,0.711995,1
+Who was Napoleon?,French emperor,History,Napoleon Bonaparte was a French military leader and statesman,0.782715,0
+Who was Julius Caesar?,Roman general,History,Julius Caesar was a Roman general and statesman who rose to,0.828125,1
+Who discovered America?,Christopher Columbus,History,Christopher Columbus.,0.549967,1
+Who was the first woman in space?,Valentina Tereshkova,History,"Valentina Tereshkova, a Soviet cosmonaut,",0.875163,1
+Who was the first US vice president?,John Adams,History,John Adams.,0.721842,1
+Who was the first emperor of Japan?,Jimmu,History,Emperor Jimmu (also known as Jimmu-no-Mik,0.612630,1
+Who was the first president of India?,Rajendra Prasad,History,Jawaharlal Nehru.,0.825358,0
+Who was the first king of France?,Clovis I,History,Clovis I.,0.722900,1
+Who was the first emperor of India?,Ashoka,History,Ashoka the Great.,0.721517,1
+Who was the first ruler of Russia?,Rurik,History,Peter the Great.,0.635986,0
+Who led the civil rights movement?,Martin Luther King Jr.,History,Martin Luther King Jr.,0.665039,1
+Who was British PM during WWII?,Winston Churchill,History,Winston Churchill.,0.574626,1
+Who discovered electricity?,Benjamin Franklin,History,Benjamin Franklin.,0.747559,1
+Who invented printing press?,Johannes Gutenberg,History,Johannes Gutenberg.,0.742920,1
+What company created the iPhone?,Apple,Technology,Apple Inc.,0.790039,1
+What company created Windows?,Microsoft,Technology,Microsoft.,0.794840,1
+What company owns YouTube?,Google,Technology,Google Inc.,0.458740,1
+What company created Android?,Google,Technology,Google.,0.491211,1
+What company created AWS?,Amazon,Technology,Amazon Web Services (AWS),0.587728,1
+What company created Tesla?,Tesla,Technology,"Tesla, Inc.",0.498372,1
+What company owns Instagram?,Meta,Technology,"Meta Platforms, Inc. (previously known as Facebook,",0.810221,1
+What company created Netflix?,Netflix,Technology,Netflix was founded by Reed Hastings and Marc Randolph in 199,0.827962,1
+What company created Spotify?,Spotify,Technology,Spotify was created by Daniel Ek and Martin Lorentzon.,0.872070,1
+What company created TikTok?,ByteDance,Technology,ByteDance.,0.733317,1
+What does CPU stand for?,Central Processing Unit,Technology,Central Processing Unit.,0.705811,1
+What does GPU stand for?,Graphics Processing Unit,Technology,Graphics Processing Unit.,0.676514,1
+What does RAM stand for?,Random Access Memory,Technology,Random Access Memory.,0.711182,1
+What does AI stand for?,Artificial Intelligence,Technology,Artificial Intelligence.,0.790283,1
+What does HTTP stand for?,Hypertext Transfer Protocol,Technology,HyperText Transfer Protocol.,0.599609,1
+What is Python?,Programming language,Technology,"A high-level, interpreted, and object-oriented programming language.",0.660807,1
+What is Java?,Programming language,Technology,Java is a programming language and a popular open-source development environment,0.521322,1
+What is C++?,Programming language,Technology,"A high-level, object-oriented programming language.",0.688232,1
+What is Linux?,Operating system,Technology,An open-source operating system.,0.541016,1
+What is SQL?,Query language,Technology,Structured Query Language.,0.779785,1
+What company developed ChatGPT?,OpenAI,Technology,"LLaMA, developed by Meta.",0.594401,0
+What company created PlayStation?,Sony,Technology,Sony.,0.756510,1
+What company created Xbox?,Microsoft,Technology,Microsoft.,0.812012,1
+What company created Switch?,Nintendo,Technology,Nortel Networks.,0.485514,0
+What year was iPhone released?,2007,Technology,2007,0.623617,1
+What year was Google founded?,1998,Technology,1998.,0.812337,1
+What year was Facebook founded?,2004,Technology,2004.,0.804362,1
+What year was YouTube founded?,2005,Technology,2005.,0.651123,1
+What year was Amazon founded?,1994,Technology,1994.,0.622843,1
+What is JavaScript?,Programming language,Technology,"JavaScript is a high-level, dynamic, and interpreted programming language",0.720052,1
+What is the second largest ocean?,Atlantic Ocean,Geography,Pacific Ocean.,0.743978,0
+What is the smallest ocean?,Arctic Ocean,Geography,The Pacific Ocean.,0.672038,0
+What is the largest desert in North America?,Great Basin Desert,Geography,The largest desert in North America is the Mojave Desert.,0.827799,0
+What is the longest river in Asia?,Yangtze,Geography,The Yangtze River.,0.732503,1
+What is the tallest building in the world?,Burj Khalifa,Geography,"Burj Khalifa, located in Dubai, United Arab Emirates",0.857585,1
+What is the capital city located on two continents?,Istanbul,Geography,Berlin.,0.562663,0
+What is the largest country in South America?,Brazil,Geography,Brazil.,0.797363,1
+What is the smallest continent?,Australia,Geography,Africa.,0.733236,0
+What is the largest city by population?,Tokyo,Geography,New York City.,0.638021,0
+What is the largest inland sea?,Caspian Sea,Geography,Caspian Sea.,0.740479,1
+What is the fastest fish?,Sailfish,Science,"The sailfish is the fastest fish, reaching speeds of up",0.736491,1
+What is the largest reptile?,Saltwater Crocodile,Science,Saltwater crocodile.,0.741699,1
+What is the smallest mammal?,Bumblebee Bat,Science,The smallest mammal is the Etruscan shrew,0.840983,0
+What is the largest bird?,Ostrich,Science,The ostrich.,0.770182,1
+What is the fastest marine animal?,Black Marlin,Science,Sailfish.,0.768066,0
+What is the most intelligent mammal?,Dolphin,Science,The chimpanzee.,0.542074,0
+What is the largest land carnivore?,Polar Bear,Science,Lion.,0.790853,0
+What is the longest living animal?,Greenland Shark,Science,"Turritopsis dohrnii, also known as the",0.923177,0
+What is the strongest bone?,Femur,Science,"The strongest bone in the human body is the femur,",0.780762,1
+What is the largest insect?,Goliath Beetle,Science,The largest insect is the Goliath beetle.,0.694824,1
+Who invented the World Wide Web?,Tim Berners-Lee,History,Tim Berners-Lee.,0.731771,1
+Who was the first president of South Africa?,Nelson Mandela,History,Nelson Mandela.,0.412516,1
+Who led India to independence?,Mahatma Gandhi,History,Mahatma Gandhi.,0.821615,1
+Who was the first emperor of Russia?,Peter the Great,History,Peter the Great.,0.690999,1
+Who was the first female US vice president?,Kamala Harris,History,Kamala Harris.,0.737386,1
+Who was the first US secretary of state?,Thomas Jefferson,History,Thomas Jefferson.,0.786133,1
+Who was the first US treasury secretary?,Alexander Hamilton,History,Alexander Hamilton.,0.728678,1
+Who was the first Chinese communist leader?,Mao Zedong,History,Mao Zedong.,0.699707,1
+Who was the first African American president?,Barack Obama,History,Barack Obama.,0.800293,1
+Who led the French Revolution?,Robespierre,History,Maximilien Robespierre.,0.720378,1
+What company created Gmail?,Google,Technology,Google.,0.779622,1
+What company created Chrome?,Google,Technology,Google.,0.512329,1
+What company created Windows 10?,Microsoft,Technology,Microsoft.,0.792969,1
+What company created Azure?,Microsoft,Technology,Microsoft.,0.802816,1
+What company created Google Maps?,Google,Technology,Google Maps was created by Google Inc.,0.628689,1
+What company created PayPal?,PayPal,Technology,PayPal was created by Peter Thiel and Max Levchin.,0.841797,1
+What company created LinkedIn?,LinkedIn,Technology,Microsoft.,0.731852,0
+What company created Reddit?,Reddit,Technology,Reddit was created by Steve Huffman and Alexis Ohanian.,0.773112,1
+What company created Discord?,Discord,Technology,Discord was created by Jason Citron.,0.618571,1
+What company created Slack?,Slack,Technology,Slack Technologies.,0.749349,1
+What year was Instagram released?,2010,Technology,2010.,0.817708,1
+What year was Twitter launched?,2006,Technology,2006.,0.677246,1
+What year was LinkedIn founded?,2003,Technology,2002.,0.819141,0
+What year was Reddit founded?,2005,Technology,2005.,0.817578,1
+What year was Discord launched?,2015,Technology,2000.,0.538249,0
+What is the real name of Joker?,Arthur Fleck,Movies,Arthur Fleck.,0.472616,1
+What is the real name of Deadpool?,Wade Wilson,Movies,Wade Wilson.,0.604980,1
+What is the real name of Wolverine?,Logan,Movies,James Howlett.,0.569010,0
+What is the real name of Doctor Strange?,Stephen Strange,Movies,Stephen Strange.,0.501383,1
+What is the real name of Black Widow?,Natasha Romanoff,Movies,Natasha Romanoff.,0.673828,1
+Who directed The Dark Knight?,Christopher Nolan,Movies,Christopher Nolan.,0.642253,1
+Who directed The Revenant?,Alejandro Inarritu,Movies,Alejandro G. Iñárritu.,0.808024,0
+Who directed Shutter Island?,Martin Scorsese,Movies,Martin Scorsese.,0.715820,1
+Who directed The Wolf of Wall Street?,Martin Scorsese,Movies,Martin Scorsese.,0.859049,1
+Who directed The Grand Budapest Hotel?,Wes Anderson,Movies,Wes Anderson,0.732015,1
+Which country hosted the 2020 Olympics?,Japan,Sports,Japan.,0.574788,1
+Which country hosted the 2012 Olympics?,United Kingdom,Sports,United States.,0.592367,0
+Which country won Euro 2016?,Portugal,Sports,France.,0.586426,0
+Which country won Copa America 2021?,Argentina,Sports,Brazil.,0.484375,0
+Which sport uses a helmet and stick?,Hockey,Sports,Ice Hockey.,0.804525,1
+Where was Google founded?,California,People,"Mountain View, California, USA.",0.685059,1
+Where was Facebook founded?,Massachusetts,People,"Menlo Park, California.",0.800502,0
+Where was Amazon founded?,Washington,People,The Amazon River.,0.456258,0
+Where was Tesla founded?,California,People,"New York City, USA.",0.512974,0
+Where was Netflix founded?,California,People,"Los Angeles, California, USA.",0.651449,1
+Who invented the iPhone in ancient Rome?,None,Trick,"None, the iPhone was invented by Steve Jobs and Steve W",0.649414,1
+What is the tallest mountain on Venus?,None,Trick,"Maat Mons, with a height of approximately 5,",0.689453,0
+Who discovered Mars in 1500?,None,Trick,"None, Mars was discovered by Galileo Galilei in",0.652669,1
+What is the capital of the Sun?,None,Trick,"None. The Sun is a star, not a country.",0.662272,1
+Who was the president of Earth in 1800?,None,Trick,Napoleon Bonaparte.,0.525228,1
+What company created Google in 1800?,None,Trick,"None, Google was not created in 1800. Google",0.723958,1
+Who directed The Matrix in 1500?,None,Trick,"None, the film was actually directed by the Wachows",0.608643,1
+Who invented electricity on Mars?,None,Trick,"None, electricity is a natural phenomenon that occurs on Earth,",0.534749,1
+What year did humans live on Jupiter?,None,Trick,None. Humans have never lived on Jupiter. Jupiter is a,0.677409,1
+Who discovered Antarctica in 1200?,None,Trick,The Vikings.,0.497965,0
+What is the national sport of Atlantis?,None,Trick,"None, Atlantis was a mythological place, so it doesn",0.477865,1
+Who was the king of Mars?,None,Trick,Tharsis.,0.544271,0
+What is the currency of Jupiter?,None,Trick,Hydrogen.,0.626709,0
+Who wrote The Hobbit in ancient Egypt?,None,Trick,"None, as J.R.R. Tolkien was not born until",0.600911,1
+What is the population of Middle Earth?,None,Trick,Approximately 140 million.,0.530029,0
+Who founded Amazon in 1500?,None,Trick,"The founder of Amazon is not known, but it was founded",0.473796,0
+What is the tallest building in Atlantis?,None,Trick,"The Great Pyramid of Giza, which is located in Egypt",0.569255,0
+Who invented the internet in medieval times?,None,Trick,"None, the internet was not invented in medieval times. The",0.559692,1
+What is the capital of the internet?,None,Trick,None. The internet is a global network of interconnected computers and,0.636963,1
+Who was the CEO of Google in 1800?,None,Trick,"None, Google was founded in 1998.",0.634684,1
+Who played Iron Man in 1500?,None,Trick,Robert Downey Jr.,0.644368,0
+What year did Avengers happen in real life?,None,Trick,2012.,0.512533,0
+Who discovered gravity on Mars?,None,Trick,"None, gravity on Mars is a result of the planet's",0.595866,1
+What sport is played professionally on the Moon?,None,Trick,Lunar Horseshoes.,0.566935,1
+What is the official language of the Sun?,None,Trick,"None, as the Sun is a star and does not have",0.673584,1
+Who directed Inception 1800?,None,Trick,Christopher Nolan.,0.675293,0
+Who composed Star Wars music in 1500?,None,Trick,John Williams.,0.654297,0
+What is the real name of Batman in real life?,None,Trick,Bruce Wayne.,0.516032,0
+Who founded Apple in 1800?,None,Trick,None of the above. Apple was founded in 1976,0.750163,1
+What year was the iPhone released in 1800?,None,Trick,2007.,0.538737,0
+What is the currency of Mars?,None,Trick,Mars dollar.,0.481934,0
+Which country invented sushi in 1700 BC?,None,Trick,Japan.,0.547526,0
+Who won the World Cup in 1500?,None,Trick,None of the above. The World Cup is an international soccer,0.494222,1
+What team did Messi play for in 1800?,None,Trick,"None, as he was born in 1987 and therefore",0.535807,1
+What is the tallest building on Jupiter?,None,Trick,"The tallest building on Jupiter is the Great Red Spot, which",0.697917,0
+Who directed Titanic on Mars?,None,Trick,"None, the film was shot on Earth.",0.504395,1
+What is the capital of Hogwarts School?,None,Trick,"Hogwarts School is located in Scotland, UK. The capital of",0.524984,0
+Who composed music for Harry Potter in 1200?,None,Trick,John Williams.,0.514404,0
+Who founded Google in 1800?,None,Trick,None of the above. Google was founded in 1998,0.767741,1
+What sport uses dragons?,None,Trick,Dragon Boating.,0.710205,0
+Who is the CEO of Atlantis?,None,Trick,"None, Atlantis is a mythological place described by Plato as",0.534261,1
+Who wrote Harry Potter in ancient Rome?,None,Trick,J.K. Rowling.,0.523438,0
+What is the national animal of Wakanda?,None,Trick,The Black Panther.,0.709066,0
+Who played Spider-Man in 1500?,None,Trick,"None, as there is no record of a Spider-Man in",0.552816,1
+What is the currency of Middle Earth?,None,Trick,Silver.,0.736165,0
+Who directed Avengers in 1800?,None,Trick,"None, the film was released in 2012.",0.497721,1
+Who founded Tesla in 1700?,None,Trick,"None, Nikola Tesla was an inventor and engineer, but he",0.441569,1
+What is the capital of Gotham City?,None,Trick,"Gotham City is not a real city, so it does not",0.607422,1
+Who discovered electricity in 1000?,None,Trick,Benjamin Franklin,0.676595,0
+What year did the internet exist in 1500?,None,Trick,1500.,0.643066,0

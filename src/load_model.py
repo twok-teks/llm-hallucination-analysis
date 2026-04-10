@@ -1,30 +1,27 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
-# MODEL_NAME = "meta-llama/Llama-3.2-1B-Instruct"
-MODEL_NAME = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+MODEL_NAME = "meta-llama/Llama-3.2-1B-Instruct"
 
-def main():
-    print("Loading Tokenizer...")
+
+def load_model():
+    print("Loading tokenizer...")
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 
-    print("Loading Model...")
-    model = AutoModelForCausalLM.from_pretrained(MODEL_NAME, output_hidden_states=True)
+    print("Loading model...")
+    model = AutoModelForCausalLM.from_pretrained(MODEL_NAME)
     model.eval()
 
-    prompt = "The capital of France is"
-    inputs = tokenizer(prompt, return_tensors="pt")
+    if tokenizer.pad_token is None:
+        tokenizer.pad_token = tokenizer.eos_token
 
-    print("Running forward pass...")
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    model.to(device)
 
-    with torch.no_grad():
-        outputs = model(**inputs)
+    print(f"Model loaded on: {device}")
+    return tokenizer, model, device
 
-    print("Success!")
-    print(f"Input IDs shape: {inputs['input_ids'].shape}")
-    print(f"Logits shape: {outputs.logits.shape}")
-    print(f"Number of hidden states tensors: {len(outputs.hidden_states)}")
-    print(f"Last hidden states shape: {outputs.hidden_states[-1].shape}")
 
 if __name__ == "__main__":
-    main()
+    tokenizer, model, device = load_model()
+    print("Tokenizer and model loaded successfully.")
