@@ -33,7 +33,8 @@ def looks_like_rejection(text: str) -> bool:
         "not applicable",
         "not applicable.",
         "not",
-        "no"
+        "no",
+        "unknown"
     ]
 
     return any(phrase in text for phrase in rejection_phrases)

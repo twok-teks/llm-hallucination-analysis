@@ -5,7 +5,7 @@ MODEL_REGISTRY = {
     "tinyllama": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
     "phi3": "microsoft/Phi-3-mini-4k-instruct",
     "mistral": "mistralai/Mistral-7B-Instruct-v0.3",
-    "llama3": "meta-llama/Llama-3.2-1B-Instruct",
+    "llama3": "meta-llama/Llama-3.1-8B-Instruct",
 }
 
 

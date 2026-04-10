@@ -1,18 +1,18 @@
 {
   "logistic_regression": {
-    "accuracy": 0.7990196078431373,
-    "precision": 0.5833333333333334,
-    "recall": 0.3111111111111111,
-    "f1": 0.4057971014492754,
-    "roc_auc": 0.7576519916142558,
-    "classification_report": "              precision    recall  f1-score   support\n\n           0       0.83      0.94      0.88       159\n           1       0.58      0.31      0.41        45\n\n    accuracy                           0.80       204\n   macro avg       0.71      0.62      0.64       204\nweighted avg       0.77      0.80      0.77       204\n"
+    "accuracy": 0.7696078431372549,
+    "precision": 0.4090909090909091,
+    "recall": 0.20930232558139536,
+    "f1": 0.27692307692307694,
+    "roc_auc": 0.7217969088545427,
+    "classification_report": "              precision    recall  f1-score   support\n\n           0       0.81      0.92      0.86       161\n           1       0.41      0.21      0.28        43\n\n    accuracy                           0.77       204\n   macro avg       0.61      0.56      0.57       204\nweighted avg       0.73      0.77      0.74       204\n"
   },
   "random_forest": {
-    "accuracy": 0.8137254901960784,
-    "precision": 0.6206896551724138,
-    "recall": 0.4,
-    "f1": 0.4864864864864865,
-    "roc_auc": 0.7918238993710692,
-    "classification_report": "              precision    recall  f1-score   support\n\n           0       0.85      0.93      0.89       159\n           1       0.62      0.40      0.49        45\n\n    accuracy                           0.81       204\n   macro avg       0.73      0.67      0.69       204\nweighted avg       0.80      0.81      0.80       204\n"
+    "accuracy": 0.8186274509803921,
+    "precision": 0.59375,
+    "recall": 0.4418604651162791,
+    "f1": 0.5066666666666667,
+    "roc_auc": 0.8248591651018344,
+    "classification_report": "              precision    recall  f1-score   support\n\n           0       0.86      0.92      0.89       161\n           1       0.59      0.44      0.51        43\n\n    accuracy                           0.82       204\n   macro avg       0.73      0.68      0.70       204\nweighted avg       0.80      0.82      0.81       204\n"
   }
 }
