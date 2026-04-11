@@ -10,7 +10,7 @@ from load_model import load_model
 
 PROMPTS_PATH = Path("prompts/factual_prompts.csv")
 RAW_OUTPUT_DIR = Path("reports/raw")
-MAX_NEW_TOKENS = 12
+MAX_NEW_TOKENS = 48
 
 
 def load_questions(csv_path: Path):
@@ -23,20 +23,57 @@ def load_questions(csv_path: Path):
         )
         reader = csv.DictReader(filtered_lines)
 
+        required_cols = {
+            "question_id",
+            "question",
+            "ground_truth_answer",
+            "category",
+        }
+        missing = required_cols - set(reader.fieldnames or [])
+        if missing:
+            raise ValueError(
+                f"Missing required columns in prompt file {csv_path}: {sorted(missing)}"
+            )
+
         for idx, row in enumerate(reader, start=1):
+            question_validity = row.get("question_validity", "").strip().lower()
+            if not question_validity:
+                gt = (row.get("ground_truth_answer", "") or "").strip().lower()
+                category = (row.get("category", "") or "").strip().lower()
+
+                if gt == "none":
+                    question_validity = "invalid_premise"
+                elif category == "trap":
+                    question_validity = "invalid_premise"
+                elif category == "adversarial":
+                    question_validity = "unanswerable_exact"
+                else:
+                    question_validity = "valid"
+
             rows.append({
                 "question_id": row.get("question_id", str(idx)).strip(),
                 "question": row["question"].strip(),
-                "answer": row["answer"].strip(),
-                "category": row["category"].strip(),
+                "ground_truth_answer": row["ground_truth_answer"].strip(),
+                "category": row["category"].strip().lower(),
+                "question_validity": question_validity,
             })
 
     return rows
 
 
-def build_prompt(question: str) -> str:
+def build_prompt(question: str, category: str, question_validity: str) -> str:
+    # Keep prompts consistent across categories, but avoid forcing refusal wording.
+    # We want to observe the model's natural behavior.
+    if question_validity in {"invalid_premise", "unanswerable_exact"}:
+        instruction = (
+            "Answer the following question briefly and directly. "
+            "If the premise is false, fictional, impossible, or unknowable, say so clearly."
+        )
+    else:
+        instruction = "Answer the following question briefly and directly."
+
     return (
-        "Answer the following factual question in a short phrase.\n"
+        f"{instruction}\n"
         f"Question: {question}\n"
         "Answer:"
     )
@@ -57,7 +94,7 @@ def clean_model_answer(text: str) -> str:
             text = text[len(prefix):].strip()
 
     text = re.sub(r"^[\s:,-]+", "", text)
-    text = re.sub(r"[\s]+", " ", text).strip()
+    text = re.sub(r"\s+", " ", text).strip()
     return text
 
 
@@ -144,10 +181,11 @@ def main():
     for idx, row in enumerate(rows, start=1):
         question_id = row["question_id"]
         question = row["question"]
-        ground_truth = row["answer"]
+        ground_truth = row["ground_truth_answer"]
         category = row["category"]
+        question_validity = row["question_validity"]
 
-        prompt = build_prompt(question)
+        prompt = build_prompt(question, category, question_validity)
         model_answer, full_sequence, input_len = generate_answer(
             tokenizer, model, device, prompt
         )
@@ -158,15 +196,18 @@ def main():
             "question": question,
             "ground_truth_answer": ground_truth,
             "category": category,
+            "question_validity": question_validity,
             "model_name": args.model,
             "model_answer": model_answer,
             "confidence": f"{confidence:.6f}",
         })
 
         print(f"[{idx}/{len(rows)}] {question}")
-        print(f"  Ground truth: {ground_truth}")
-        print(f"  Model answer: {model_answer}")
-        print(f"  Confidence:   {confidence:.6f}")
+        print(f"  Category:         {category}")
+        print(f"  Question validity:{question_validity}")
+        print(f"  Ground truth:     {ground_truth}")
+        print(f"  Model answer:     {model_answer}")
+        print(f"  Confidence:       {confidence:.6f}")
         print()
 
     with output_path.open("w", encoding="utf-8", newline="") as f:
@@ -175,6 +216,7 @@ def main():
             "question",
             "ground_truth_answer",
             "category",
+            "question_validity",
             "model_name",
             "model_answer",
             "confidence",

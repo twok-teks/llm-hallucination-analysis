@@ -14,6 +14,7 @@ PER_MODEL_DIR = Path("reports/plots/per_model")
 
 def save_heatmap(df, value_col, title, filename):
     pivot = df.pivot(index="model_name", columns="category", values=value_col)
+
     plt.figure(figsize=(10, 6))
     plt.imshow(pivot.values, aspect="auto")
     plt.colorbar(label=value_col.replace("_", " ").title())
@@ -36,11 +37,11 @@ def save_per_model_histograms(df):
 
     for model_name, group in df.groupby("model_name"):
         correct_conf = group[group["is_correct"] == 1]["confidence"]
-        incorrect_conf = group[group["is_correct"] == 0]["confidence"]
+        halluc_conf = group[group["hallucination"] == 1]["confidence"]
 
         plt.figure(figsize=(8, 5))
         plt.hist(correct_conf, bins=20, alpha=0.7, label="Correct")
-        plt.hist(incorrect_conf, bins=20, alpha=0.7, label="Incorrect")
+        plt.hist(halluc_conf, bins=20, alpha=0.7, label="Hallucinated")
         plt.xlabel("Confidence")
         plt.ylabel("Frequency")
         plt.title(f"Confidence Distribution: {model_name}")
@@ -98,10 +99,21 @@ def save_model_bars(model_summary):
     plt.savefig(OUTPUT_DIR / "hallucination_rate_by_model.png")
     plt.close()
 
+    if "refusal_rate" in model_summary.columns:
+        plt.figure(figsize=(8, 5))
+        plt.bar(model_summary["model_name"], model_summary["refusal_rate"])
+        plt.xlabel("Model")
+        plt.ylabel("Refusal Rate")
+        plt.title("Refusal Rate by Model")
+        plt.xticks(rotation=45, ha="right")
+        plt.tight_layout()
+        plt.savefig(OUTPUT_DIR / "refusal_rate_by_model.png")
+        plt.close()
+
 
 def save_calibration_plot(df, bins=10):
     df = df.copy()
-    df["conf_bin"] = pd.cut(df["confidence"], bins=bins)
+    df["conf_bin"] = pd.cut(df["confidence"], bins=bins, include_lowest=True)
 
     bucket_summary = df.groupby("conf_bin", observed=False).agg(
         avg_confidence=("confidence", "mean"),
@@ -110,11 +122,16 @@ def save_calibration_plot(df, bins=10):
     ).dropna()
 
     plt.figure(figsize=(7, 5))
-    plt.plot(bucket_summary["avg_confidence"], bucket_summary["accuracy"], marker="o", label="Observed")
+    plt.plot(
+        bucket_summary["avg_confidence"],
+        bucket_summary["accuracy"],
+        marker="o",
+        label="Observed"
+    )
     plt.plot([0, 1], [0, 1], linestyle="--", label="Perfect Calibration")
     plt.xlabel("Average Confidence")
     plt.ylabel("Actual Accuracy")
-    plt.title("Calibration-Style Plot")
+    plt.title("Calibration Plot")
     plt.legend()
     plt.tight_layout()
     plt.savefig(OUTPUT_DIR / "calibration_plot.png")
@@ -125,8 +142,15 @@ def main():
     if not INPUT_PATH.exists():
         print(f"Missing file: {INPUT_PATH}")
         return
+    if not MODEL_SUMMARY_PATH.exists():
+        print(f"Missing file: {MODEL_SUMMARY_PATH}")
+        return
+    if not CATEGORY_SUMMARY_PATH.exists():
+        print(f"Missing file: {CATEGORY_SUMMARY_PATH}")
+        return
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
+    os.makedirs(PER_MODEL_DIR, exist_ok=True)
 
     df = pd.read_csv(INPUT_PATH)
     model_summary = pd.read_csv(MODEL_SUMMARY_PATH)
@@ -149,6 +173,14 @@ def main():
         title="Hallucination Rate Heatmap: Model × Category",
         filename="hallucination_heatmap_model_by_category.png",
     )
+
+    if "refusal_rate" in category_summary.columns:
+        save_heatmap(
+            category_summary,
+            value_col="refusal_rate",
+            title="Refusal Rate Heatmap: Model × Category",
+            filename="refusal_heatmap_model_by_category.png",
+        )
 
     save_model_bars(model_summary)
     save_confidence_boxplot(df)

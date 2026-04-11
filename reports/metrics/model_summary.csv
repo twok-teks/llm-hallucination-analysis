@@ -1,5 +1,5 @@
-model_name,total,correct,incorrect,accuracy,hallucination_rate,avg_confidence,avg_correct_confidence,avg_incorrect_confidence
-llama3,255,206,49,0.8078,0.098,0.639,0.6374,0.6459
-mistral,255,212,43,0.8314,0.1529,0.7792,0.7761,0.7946
-phi3,255,191,64,0.749,0.1373,0.6981,0.7069,0.6716
-tinyllama,255,121,134,0.4745,0.4471,0.7409,0.7414,0.7404
+model_name,total,correct,incorrect,accuracy,hallucination_rate,refusal_rate,avg_confidence,avg_correct_confidence,avg_incorrect_confidence,avg_hallucinated_confidence
+llama3,223,214,9,0.9596,0.0269,0.6682,0.7537,0.7534,0.7601,0.7763
+mistral,223,211,12,0.9462,0.0448,0.6188,0.8273,0.8256,0.8562,0.8523
+phi3,223,207,16,0.9283,0.0717,0.5202,0.7628,0.7619,0.7749,0.7749
+tinyllama,223,124,99,0.5561,0.4036,0.3139,0.7584,0.7875,0.7219,0.7207

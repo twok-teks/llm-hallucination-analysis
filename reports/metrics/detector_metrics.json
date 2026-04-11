@@ -1,18 +1,22 @@
 {
   "logistic_regression": {
-    "accuracy": 0.7696078431372549,
-    "precision": 0.4090909090909091,
-    "recall": 0.20930232558139536,
-    "f1": 0.27692307692307694,
-    "roc_auc": 0.7217969088545427,
-    "classification_report": "              precision    recall  f1-score   support\n\n           0       0.81      0.92      0.86       161\n           1       0.41      0.21      0.28        43\n\n    accuracy                           0.77       204\n   macro avg       0.61      0.56      0.57       204\nweighted avg       0.73      0.77      0.74       204\n"
+    "threshold_used": 0.4,
+    "accuracy": 0.8715083798882681,
+    "precision": 0.5121951219512195,
+    "recall": 0.875,
+    "f1": 0.6461538461538462,
+    "roc_auc": 0.9588709677419354,
+    "average_precision": 0.8545060365476945,
+    "classification_report": "              precision    recall  f1-score   support\n\n           0       0.98      0.87      0.92       155\n           1       0.51      0.88      0.65        24\n\n    accuracy                           0.87       179\n   macro avg       0.75      0.87      0.78       179\nweighted avg       0.92      0.87      0.88       179\n"
   },
   "random_forest": {
-    "accuracy": 0.8186274509803921,
-    "precision": 0.59375,
-    "recall": 0.4418604651162791,
-    "f1": 0.5066666666666667,
-    "roc_auc": 0.8248591651018344,
-    "classification_report": "              precision    recall  f1-score   support\n\n           0       0.86      0.92      0.89       161\n           1       0.59      0.44      0.51        43\n\n    accuracy                           0.82       204\n   macro avg       0.73      0.68      0.70       204\nweighted avg       0.80      0.82      0.81       204\n"
+    "threshold_used": 0.4,
+    "accuracy": 0.9329608938547486,
+    "precision": 0.7,
+    "recall": 0.875,
+    "f1": 0.7777777777777778,
+    "roc_auc": 0.9583333333333333,
+    "average_precision": 0.873978324878069,
+    "classification_report": "              precision    recall  f1-score   support\n\n           0       0.98      0.94      0.96       155\n           1       0.70      0.88      0.78        24\n\n    accuracy                           0.93       179\n   macro avg       0.84      0.91      0.87       179\nweighted avg       0.94      0.93      0.94       179\n"
   }
 }

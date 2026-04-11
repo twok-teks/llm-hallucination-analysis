@@ -7,3 +7,4 @@ pandas
 jupyter
 huggingface_hub
 huggingface
+scikit-learn

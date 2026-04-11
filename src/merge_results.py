@@ -21,10 +21,27 @@ def main():
     for file_path in files:
         with file_path.open("r", encoding="utf-8", newline="") as f:
             reader = csv.DictReader(f)
+
             if fieldnames is None:
                 fieldnames = reader.fieldnames
+            elif reader.fieldnames != fieldnames:
+                print(f"Schema mismatch in file: {file_path}")
+                print(f"Expected: {fieldnames}")
+                print(f"Found:    {reader.fieldnames}")
+                return
+
             for row in reader:
                 all_rows.append(row)
+
+    def sort_key(row):
+        qid = row.get("question_id", "")
+        try:
+            qid_num = int(qid)
+        except ValueError:
+            qid_num = 10**9
+        return (qid_num, row.get("model_name", ""), row.get("category", ""))
+
+    all_rows.sort(key=sort_key)
 
     with OUTPUT_PATH.open("w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)

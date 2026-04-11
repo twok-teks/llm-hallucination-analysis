@@ -36,21 +36,34 @@ def load_model(model_key: str):
     tokenizer = AutoTokenizer.from_pretrained(model_name)
 
     print(f"Loading model for: {model_name}")
-    model = AutoModelForCausalLM.from_pretrained(
-        model_name,
-        dtype=dtype,
-    )
+
+    if device == "cuda":
+        model = AutoModelForCausalLM.from_pretrained(
+            model_name,
+            torch_dtype=dtype,
+            device_map="auto",
+        )
+    else:
+        model = AutoModelForCausalLM.from_pretrained(
+            model_name,
+            torch_dtype=dtype,
+        )
+        model.to(device)
+
     model.eval()
 
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
-
-    model.to(device)
 
     print(f"Model loaded on: {device}")
     return tokenizer, model, device, model_name
 
 
 if __name__ == "__main__":
+    print("torch.cuda.is_available():", torch.cuda.is_available())
+    print("torch.version.cuda:", torch.version.cuda)
+    if torch.cuda.is_available():
+        print("GPU:", torch.cuda.get_device_name(0))
+
     for key, value in MODEL_REGISTRY.items():
         print(f"{key} -> {value}")

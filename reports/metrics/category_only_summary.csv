@@ -1,0 +1,5 @@
+category,total,correct,accuracy,hallucination_rate,refusal_rate
+adversarial,204,164,0.8039,0.1961,0.8039
+easy,236,227,0.9619,0.0339,0.2246
+hard,232,183,0.7888,0.1552,0.319
+trap,220,182,0.8273,0.1727,0.8273
