@@ -226,3 +226,43 @@ LLMs don’t just make mistakes —
 they make *confident* mistakes  
 
 Detecting them is the first step toward **trustworthy AI**
+
+
+---
+
+## 🧪 Completed Improvements & Final Pipeline
+
+### ✅ Improved Labeling Logic
+- Hallucination = incorrect + NOT refusal  
+- Distinguishes safe uncertainty vs fabricated answers  
+
+### ✅ Dataset Upgrade
+- Balanced prompt categories  
+- Added `question_validity` and `refusal`  
+- Clean ground truth alignment  
+
+### ✅ Feature Engineering
+- refusal  
+- length_ratio  
+- confidence × answer_length  
+- low_confidence_flag  
+
+### 🤖 Final Detector Performance
+- Accuracy: 93.3%  
+- Recall: 87.5%  
+- Precision: 70%  
+- ROC AUC: 0.96  
+
+### 📊 Confusion Matrix
+TN: 146 | FP: 9  
+FN: 3   | TP: 21  
+
+### 📈 Key Findings
+- Models are confident when wrong  
+- Refusal is strongest anti-hallucination signal  
+- Smaller models hallucinate more  
+
+### ⚡ Infrastructure Improvement
+- Enabled GPU (CUDA 12.8)  
+- Used float16 + device_map auto  
+- Improved runtime performance  
