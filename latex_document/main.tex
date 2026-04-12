@@ -499,7 +499,13 @@ This report presented a two-part research project on hallucination in modern LLM
 
 Part II trained a response-level hallucination detector on the collected dataset. A Random Forest classifier achieved strong held-out performance, showing that hallucinated outputs are behaviorally and structurally distinguishable from correct or safely refused outputs. The most important signal was refusal behavior, suggesting that one of the clearest markers of safer model behavior is the ability to say, in effect, ``I do not know,'' ``this premise is false,'' or ``this cannot be answered as asked.''
 
-The central contribution of the project is therefore methodological and educational: it demonstrates how hallucination can be measured, how labeling strategy changes the interpretation of model behavior, and how even a lightweight benchmark can support a useful second-stage detector. The central caution is equally important: because advanced LLMs may look reliable on simple prompts while still hallucinating in specialized settings, trustworthy deployment ultimately requires stronger grounding, richer benchmarks, and domain-aware verification.
+The central contribution of the project is therefore methodological and educational: it demonstrates how hallucination can be measured, how labeling strategy changes the interpretation of model behavior, and how even a lightweight benchmark can support a useful second-stage detector. The central caution is equally important: because advanced LLMs may look reliable on simple prompts while still hallucinating in specialized settings, trustworthy deployment ultimately requires stronger grounding, richer
+benchmarks, and domain-aware verification.
+
+\section{Source Code}
+
+The full implementation, dataset, and experimental pipeline are publicly available at
+\href{https://github.com/twok-teks/llm-hallucination-analysis}{GitHub Repo}.
 
 \newpage
 \bibliographystyle{plain}
